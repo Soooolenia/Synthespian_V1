@@ -3,17 +3,38 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{C589E253-FFE4-4CA7-987E-0572896E4476}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Test_SoundFX" ID="{40E05FCE-3510-42FD-AC36-CCCF0BE50FD1}">
+				<Folder Name="SoundDesign" ID="{534F03E9-9127-4C20-A273-C3007CE8BC3F}" ShortID="854590298">
 					<ChildrenList>
-						<Action Name="" ID="{D185FD62-5C7A-490C-A912-792A315101AB}" ShortID="186653742">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Scifi, Energy, Force Field, Pulsing, Distorted Bass SND73792-10_L" ID="{9C5DC239-A708-4BEE-9FE0-478BE9CE0E40}" WorkUnitID="{CF0D19ED-69A1-4017-A93E-446E233AD479}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
+						<Event Name="Play_ReliqDestroy" ID="{5F136101-B985-4483-B565-2B1F34883130}"/>
+						<Event Name="Play_ReliqPain" ID="{6B1ADE50-A1D7-4163-A392-7CC651FAD3DD}"/>
+						<Folder Name="Player" ID="{62591F72-B69F-4676-9E44-6A03E0799E8E}" ShortID="383746785">
+							<ChildrenList>
+								<Event Name="Play_FootSteps" ID="{49522B15-ED90-45E7-929C-051E1D4BB67A}"/>
+								<Event Name="Play_PTakeDamage" ID="{9F624A6C-CC41-46C8-8F98-9121567499AB}"/>
+								<Event Name="Play_PGrunt" ID="{B4FE0EBB-827A-4D10-9D34-A0E56D494226}"/>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Relic" ID="{41C81D5D-221A-4CDB-BA69-6253353D0F84}" ShortID="903136659">
+							<ChildrenList>
+								<Event Name="Play_KnifePutDown" ID="{275B11B6-4438-45E2-A73F-04803DC55C86}"/>
+								<Event Name="Play_KnifePickup" ID="{E81EDC3A-3882-4A81-9CA1-87AE18544834}"/>
+								<Event Name="Play_KnifeAtAltar" ID="{574C6780-ADE5-4E0B-8A2A-A44E137EB60B}"/>
+								<Event Name="Play_MAtAltar" ID="{EA5ACC54-F53A-4860-8094-E401A87AE1B5}"/>
+								<Event Name="Play_MPutDown" ID="{75D182B8-26A9-4065-8730-F3F968AF3FF7}"/>
+								<Event Name="Play_MPickUp" ID="{C3806CCD-696D-4E64-957E-5397CBFCB3B7}"/>
+								<Event Name="Play_StatuePutDown" ID="{DF08A688-66AF-4B60-83C4-EE5B74B4B29A}"/>
+								<Event Name="Play_StatueAtAltar" ID="{83DDF768-6DEE-4BBF-8D0A-E4E6645D6935}"/>
+								<Event Name="Play_StatuePickUp" ID="{F9AE2B92-9BD6-41D5-A0B3-07DB54D3EC70}"/>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Amb" ID="{62165047-DEA3-4140-9F7C-15F19E328078}" ShortID="1042766154">
+							<ChildrenList>
+								<Event Name="Play_AmbInside" ID="{09A0B9E6-398B-4220-8DFC-BC870F0F04B9}"/>
+								<Event Name="Play_AmbOutside" ID="{E7643413-0FD7-4E79-9EF6-15B931A1EA73}"/>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
-				</Event>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
