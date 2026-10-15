@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{92AE9BF0-4719-49C4-8252-CEA8D975E51B}" SchemaVersion="123">
 	<SoundBanks>
-		<WorkUnit Name="Default Work Unit" ID="{92AE9BF0-4719-49C4-8252-CEA8D975E51B}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{92AE9BF0-4719-49C4-8252-CEA8D975E51B}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Soundbank1015" ID="{3DEBBE8F-D685-4DCE-AF74-AF17BC2DDEEF}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Stop_RelicCall" ID="{CCCA799D-8EB4-4068-9B54-E7377A280E7E}" WorkUnitID="{C589E253-FFE4-4CA7-987E-0572896E4476}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Amb" ID="{62165047-DEA3-4140-9F7C-15F19E328078}" WorkUnitID="{C589E253-FFE4-4CA7-987E-0572896E4476}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_ReliqCall" ID="{6B1ADE50-A1D7-4163-A392-7CC651FAD3DD}" WorkUnitID="{C589E253-FFE4-4CA7-987E-0572896E4476}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_ReliqDestroy" ID="{5F136101-B985-4483-B565-2B1F34883130}" WorkUnitID="{C589E253-FFE4-4CA7-987E-0572896E4476}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player" ID="{62591F72-B69F-4676-9E44-6A03E0799E8E}" WorkUnitID="{C589E253-FFE4-4CA7-987E-0572896E4476}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Relic" ID="{41C81D5D-221A-4CDB-BA69-6253353D0F84}" WorkUnitID="{C589E253-FFE4-4CA7-987E-0572896E4476}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundBanks>
 </WwiseDocument>

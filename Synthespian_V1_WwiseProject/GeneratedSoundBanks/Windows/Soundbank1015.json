@@ -1,0 +1,300 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "608338605",
+    "Type": "User",
+    "GUID": "{3DEBBE8F-D685-4DCE-AF74-AF17BC2DDEEF}",
+    "Language": "SFX",
+    "Hash": "{01400051-1CA2-0E9A-8015-0B151F57F6CF}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Soundbank1015",
+    "ShortName": "Soundbank1015",
+    "Path": "Soundbank1015.bnk",
+    "Media": [
+     {
+      "Id": "196636934",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Knife pick up 1.wav",
+      "CachePath": "91/{9152BFA3-E146-14F9-70E5-ADACBBEFC56A}.wem"
+     },
+     {
+      "Id": "251337789",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "mon pick up 1.wav",
+      "CachePath": "80/{8043BDE6-5A12-79C9-D541-8C84FFEE2D1A}.wem"
+     },
+     {
+      "Id": "492891621",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "knife put down 1.wav",
+      "CachePath": "29/{294AD89A-72BD-D275-9C98-CCFCA3B1FF9F}.wem"
+     },
+     {
+      "Id": "575917334",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Relic Destroy 1.wav",
+      "CachePath": "64/{647EE66E-4623-D510-307A-692A5182307D}.wem"
+     },
+     {
+      "Id": "591244442",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "mon put down 1.wav",
+      "CachePath": "D2/{D22BCF24-955B-F37A-3FF8-6A4AFA9B0B11}.wem"
+     },
+     {
+      "Id": "664990670",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Relic Call 1.wav",
+      "CachePath": "FF/{FF8EE2A2-FF5E-3393-127A-EF8290F3508E}.wem"
+     },
+     {
+      "Id": "737785330",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "kinfe at altar 1.wav",
+      "CachePath": "12/{124A1044-3AB5-25AB-A8BD-AAEE0F551C8F}.wem"
+     },
+     {
+      "Id": "869380893",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Statue pick up 1.wav",
+      "CachePath": "53/{5335A447-4A43-F6A8-6A26-86C5C4B02E78}.wem"
+     },
+     {
+      "Id": "1018953906",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Statue put down 1.wav",
+      "CachePath": "C9/{C90750E2-5AD6-28B9-C9B1-392035501B55}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2683668686",
+      "Name": "Play_AmbInside",
+      "ObjectPath": "\\Events\\Default Work Unit\\SoundDesign\\Amb\\Play_AmbInside",
+      "GUID": "{09A0B9E6-398B-4220-8DFC-BC870F0F04B9}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "390494123",
+      "Name": "Play_AmbOutside",
+      "ObjectPath": "\\Events\\Default Work Unit\\SoundDesign\\Amb\\Play_AmbOutside",
+      "GUID": "{E7643413-0FD7-4E79-9EF6-15B931A1EA73}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "3854155799",
+      "Name": "Play_FootSteps",
+      "ObjectPath": "\\Events\\Default Work Unit\\SoundDesign\\Player\\Play_FootSteps",
+      "GUID": "{49522B15-ED90-45E7-929C-051E1D4BB67A}",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "4014971946",
+      "Name": "Play_KnifeAtAltar",
+      "ObjectPath": "\\Events\\Default Work Unit\\SoundDesign\\Relic\\Play_KnifeAtAltar",
+      "GUID": "{574C6780-ADE5-4E0B-8A2A-A44E137EB60B}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.48715505",
+      "DurationMax": "0.48715505",
+      "MediaRefs": [
+       {
+        "Id": "737785330"
+       }
+      ]
+     },
+     {
+      "Id": "2191790517",
+      "Name": "Play_KnifePickup",
+      "ObjectPath": "\\Events\\Default Work Unit\\SoundDesign\\Relic\\Play_KnifePickup",
+      "GUID": "{E81EDC3A-3882-4A81-9CA1-87AE18544834}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.7994328",
+      "DurationMax": "0.7994328",
+      "MediaRefs": [
+       {
+        "Id": "196636934"
+       }
+      ]
+     },
+     {
+      "Id": "318945040",
+      "Name": "Play_KnifePutDown",
+      "ObjectPath": "\\Events\\Default Work Unit\\SoundDesign\\Relic\\Play_KnifePutDown",
+      "GUID": "{275B11B6-4438-45E2-A73F-04803DC55C86}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.4107926",
+      "DurationMax": "0.4107926",
+      "MediaRefs": [
+       {
+        "Id": "492891621"
+       }
+      ]
+     },
+     {
+      "Id": "3444492808",
+      "Name": "Play_MAtAltar",
+      "ObjectPath": "\\Events\\Default Work Unit\\SoundDesign\\Relic\\Play_MAtAltar",
+      "GUID": "{EA5ACC54-F53A-4860-8094-E401A87AE1B5}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "3938901427",
+      "Name": "Play_MPickUp",
+      "ObjectPath": "\\Events\\Default Work Unit\\SoundDesign\\Relic\\Play_MPickUp",
+      "GUID": "{C3806CCD-696D-4E64-957E-5397CBFCB3B7}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.8036403",
+      "DurationMax": "0.8036403",
+      "MediaRefs": [
+       {
+        "Id": "251337789"
+       }
+      ]
+     },
+     {
+      "Id": "3684449182",
+      "Name": "Play_MPutDown",
+      "ObjectPath": "\\Events\\Default Work Unit\\SoundDesign\\Relic\\Play_MPutDown",
+      "GUID": "{75D182B8-26A9-4065-8730-F3F968AF3FF7}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.49087903",
+      "DurationMax": "0.49087903",
+      "MediaRefs": [
+       {
+        "Id": "591244442"
+       }
+      ]
+     },
+     {
+      "Id": "634516732",
+      "Name": "Play_PGrunt",
+      "ObjectPath": "\\Events\\Default Work Unit\\SoundDesign\\Player\\Play_PGrunt",
+      "GUID": "{B4FE0EBB-827A-4D10-9D34-A0E56D494226}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "753680188",
+      "Name": "Play_PTakeDamage",
+      "ObjectPath": "\\Events\\Default Work Unit\\SoundDesign\\Player\\Play_PTakeDamage",
+      "GUID": "{9F624A6C-CC41-46C8-8F98-9121567499AB}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "153873477",
+      "Name": "Play_ReliqCall",
+      "ObjectPath": "\\Events\\Default Work Unit\\SoundDesign\\Play_ReliqCall",
+      "GUID": "{6B1ADE50-A1D7-4163-A392-7CC651FAD3DD}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "664990670"
+       }
+      ]
+     },
+     {
+      "Id": "2460397445",
+      "Name": "Play_ReliqDestroy",
+      "ObjectPath": "\\Events\\Default Work Unit\\SoundDesign\\Play_ReliqDestroy",
+      "GUID": "{5F136101-B985-4483-B565-2B1F34883130}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.95457405",
+      "DurationMax": "0.95457405",
+      "MediaRefs": [
+       {
+        "Id": "575917334"
+       }
+      ]
+     },
+     {
+      "Id": "1056324539",
+      "Name": "Play_StatueAtAltar",
+      "ObjectPath": "\\Events\\Default Work Unit\\SoundDesign\\Relic\\Play_StatueAtAltar",
+      "GUID": "{83DDF768-6DEE-4BBF-8D0A-E4E6645D6935}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "1842008522",
+      "Name": "Play_StatuePickUp",
+      "ObjectPath": "\\Events\\Default Work Unit\\SoundDesign\\Relic\\Play_StatuePickUp",
+      "GUID": "{F9AE2B92-9BD6-41D5-A0B3-07DB54D3EC70}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.26858634",
+      "DurationMax": "0.26858634",
+      "MediaRefs": [
+       {
+        "Id": "869380893"
+       }
+      ]
+     },
+     {
+      "Id": "4176136713",
+      "Name": "Play_StatuePutDown",
+      "ObjectPath": "\\Events\\Default Work Unit\\SoundDesign\\Relic\\Play_StatuePutDown",
+      "GUID": "{DF08A688-66AF-4B60-83C4-EE5B74B4B29A}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.53105026",
+      "DurationMax": "0.53105026",
+      "MediaRefs": [
+       {
+        "Id": "1018953906"
+       }
+      ]
+     },
+     {
+      "Id": "716444185",
+      "Name": "Stop_RelicCall",
+      "ObjectPath": "\\Events\\Default Work Unit\\SoundDesign\\Stop_RelicCall",
+      "GUID": "{CCCA799D-8EB4-4068-9B54-E7377A280E7E}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{EEB766D1-BF97-00CB-F73C-8D781D693EB0}"
+ }
+}
