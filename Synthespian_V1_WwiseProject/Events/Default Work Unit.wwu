@@ -1,6 +1,142 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{C589E253-FFE4-4CA7-987E-0572896E4476}" SchemaVersion="123">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{C589E253-FFE4-4CA7-987E-0572896E4476}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{C589E253-FFE4-4CA7-987E-0572896E4476}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="SoundDesign" ID="{534F03E9-9127-4C20-A273-C3007CE8BC3F}" ShortID="854590298">
+					<ChildrenList>
+						<Event Name="Play_ReliqDestroy" ID="{5F136101-B985-4483-B565-2B1F34883130}">
+							<ChildrenList>
+								<Action Name="" ID="{70FD0719-5B0B-4D5E-8404-7E0F7C77B153}" ShortID="881804616">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Relic Destroy 1" ID="{F2F07240-C0E3-4CA0-82A4-F00966C75107}" WorkUnitID="{CF0D19ED-69A1-4017-A93E-446E233AD479}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_ReliqCall" ID="{6B1ADE50-A1D7-4163-A392-7CC651FAD3DD}">
+							<ChildrenList>
+								<Action Name="" ID="{46557AE7-63AF-4E08-968D-7144924B84DB}" ShortID="701075705">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Relic Call 1" ID="{84183A02-DC3F-4309-91DE-BA80DF731487}" WorkUnitID="{CF0D19ED-69A1-4017-A93E-446E233AD479}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Folder Name="Player" ID="{62591F72-B69F-4676-9E44-6A03E0799E8E}" ShortID="383746785">
+							<ChildrenList>
+								<Event Name="Play_FootSteps" ID="{49522B15-ED90-45E7-929C-051E1D4BB67A}">
+									<ChildrenList>
+										<Action Name="" ID="{ABFE57D2-71F6-494B-A84F-95565BFFE30F}" ShortID="10295749">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Player_FootSteps" ID="{74925136-525A-4F12-88C4-190ADE50D1BE}" WorkUnitID="{CF0D19ED-69A1-4017-A93E-446E233AD479}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_PTakeDamage" ID="{9F624A6C-CC41-46C8-8F98-9121567499AB}"/>
+								<Event Name="Play_PGrunt" ID="{B4FE0EBB-827A-4D10-9D34-A0E56D494226}"/>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Relic" ID="{41C81D5D-221A-4CDB-BA69-6253353D0F84}" ShortID="903136659">
+							<ChildrenList>
+								<Event Name="Play_KnifePutDown" ID="{275B11B6-4438-45E2-A73F-04803DC55C86}">
+									<ChildrenList>
+										<Action Name="" ID="{ED80212F-5642-43C6-BCB1-E317AC4C7B2A}" ShortID="857367136">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="knife put down 1" ID="{BF744EED-2ECF-4F5C-97AB-338FFCCE01FA}" WorkUnitID="{CF0D19ED-69A1-4017-A93E-446E233AD479}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_KnifePickup" ID="{E81EDC3A-3882-4A81-9CA1-87AE18544834}">
+									<ChildrenList>
+										<Action Name="" ID="{63B07F26-5688-4554-925A-671D3C438016}" ShortID="673434765">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Knife pick up 1" ID="{0B51C232-49F0-438B-9436-B8A93C3126E7}" WorkUnitID="{CF0D19ED-69A1-4017-A93E-446E233AD479}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_KnifeAtAltar" ID="{574C6780-ADE5-4E0B-8A2A-A44E137EB60B}">
+									<ChildrenList>
+										<Action Name="" ID="{1755FB92-D71C-401C-B000-197C3BC6C779}" ShortID="686100315">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="kinfe at altar 1" ID="{7F094CCF-A070-44EE-9B58-3E217C69F076}" WorkUnitID="{CF0D19ED-69A1-4017-A93E-446E233AD479}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_MAtAltar" ID="{EA5ACC54-F53A-4860-8094-E401A87AE1B5}"/>
+								<Event Name="Play_MPutDown" ID="{75D182B8-26A9-4065-8730-F3F968AF3FF7}">
+									<ChildrenList>
+										<Action Name="" ID="{0769FFEE-E829-4BFD-A63F-9CD2171DE23A}" ShortID="456055118">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="mon put down 1" ID="{36E1481B-7DA4-4F24-A6CC-F366E3D28EFE}" WorkUnitID="{CF0D19ED-69A1-4017-A93E-446E233AD479}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_MPickUp" ID="{C3806CCD-696D-4E64-957E-5397CBFCB3B7}">
+									<ChildrenList>
+										<Action Name="" ID="{AF206ECB-EA2C-48F3-85A9-B3516CC13198}" ShortID="779773927">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="mon pick up 1" ID="{1134111E-A04D-4AD6-8115-22FF6CF3A757}" WorkUnitID="{CF0D19ED-69A1-4017-A93E-446E233AD479}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_StatuePutDown" ID="{DF08A688-66AF-4B60-83C4-EE5B74B4B29A}">
+									<ChildrenList>
+										<Action Name="" ID="{E6528DF2-CCB7-4998-870B-A0FC840943C0}" ShortID="253904158">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Statue put down 1" ID="{2CFCA595-C039-4EF1-BF86-FF3C095B5682}" WorkUnitID="{CF0D19ED-69A1-4017-A93E-446E233AD479}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_StatueAtAltar" ID="{83DDF768-6DEE-4BBF-8D0A-E4E6645D6935}"/>
+								<Event Name="Play_StatuePickUp" ID="{F9AE2B92-9BD6-41D5-A0B3-07DB54D3EC70}">
+									<ChildrenList>
+										<Action Name="" ID="{80B8D0E7-BD59-4888-82F8-D871AF26F6CD}" ShortID="989914414">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Statue pick up 1" ID="{65607E79-D327-4D3E-BE9E-E3B9FFFD8728}" WorkUnitID="{CF0D19ED-69A1-4017-A93E-446E233AD479}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Amb" ID="{62165047-DEA3-4140-9F7C-15F19E328078}" ShortID="1042766154">
+							<ChildrenList>
+								<Event Name="Play_AmbInside" ID="{09A0B9E6-398B-4220-8DFC-BC870F0F04B9}"/>
+								<Event Name="Play_AmbOutside" ID="{E7643413-0FD7-4E79-9EF6-15B931A1EA73}"/>
+							</ChildrenList>
+						</Folder>
+						<Event Name="Stop_RelicCall" ID="{CCCA799D-8EB4-4068-9B54-E7377A280E7E}"/>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>
