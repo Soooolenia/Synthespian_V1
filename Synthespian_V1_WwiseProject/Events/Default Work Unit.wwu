@@ -42,6 +42,35 @@
 								</Event>
 								<Event Name="Play_PTakeDamage" ID="{9F624A6C-CC41-46C8-8F98-9121567499AB}"/>
 								<Event Name="Play_PGrunt" ID="{B4FE0EBB-827A-4D10-9D34-A0E56D494226}"/>
+								<Event Name="Play_Flashlight_On" ID="{71F6D4A8-6AB5-4DC9-8359-8096DD59B2CD}">
+									<ChildrenList>
+										<Action Name="" ID="{B9A25649-CB12-4667-9BCD-BFC11BAC5268}" ShortID="374868612">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Flashlight_On_1" ID="{918E4921-6239-4D73-978E-F8BB8BD5F06E}" WorkUnitID="{CF0D19ED-69A1-4017-A93E-446E233AD479}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Flashlight_Off" ID="{D030F93B-8ECD-4822-B831-76AD16188E20}">
+									<ChildrenList>
+										<Action Name="" ID="{CB6C6E3C-8DB8-4564-9CFF-0065F2897335}" ShortID="497918737">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Flashlight_Off_1" ID="{3B9351AE-12A4-40B0-8B5F-1A020E31D5AD}" WorkUnitID="{CF0D19ED-69A1-4017-A93E-446E233AD479}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{F8290929-AEBA-4407-A068-3CCEFE88EE1C}" ShortID="341213766">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Flashlight_Off_2" ID="{0D43F5F6-685B-4D81-AD58-8838DF9680C6}" WorkUnitID="{CF0D19ED-69A1-4017-A93E-446E233AD479}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Relic" ID="{41C81D5D-221A-4CDB-BA69-6253353D0F84}" ShortID="903136659">
@@ -129,11 +158,45 @@
 						</Folder>
 						<Folder Name="Amb" ID="{62165047-DEA3-4140-9F7C-15F19E328078}" ShortID="1042766154">
 							<ChildrenList>
-								<Event Name="Play_AmbInside" ID="{09A0B9E6-398B-4220-8DFC-BC870F0F04B9}"/>
-								<Event Name="Play_AmbOutside" ID="{E7643413-0FD7-4E79-9EF6-15B931A1EA73}"/>
+								<Event Name="Play_Amb" ID="{DEC3336D-43D6-435F-BBAF-6CDA3F198264}">
+									<ChildrenList>
+										<Action Name="" ID="{49A565F9-441A-4006-BFCA-96ED0C2EA62D}" ShortID="580342096">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Amb" ID="{957E3079-EB94-4385-8386-732A3BC41FE4}" WorkUnitID="{CF0D19ED-69A1-4017-A93E-446E233AD479}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 						<Event Name="Stop_RelicCall" ID="{CCCA799D-8EB4-4068-9B54-E7377A280E7E}"/>
+						<Event Name="Play_Tomb" ID="{5A4018C1-6613-4331-93EF-A03E154274E1}">
+							<ChildrenList>
+								<Action Name="" ID="{AB5222C8-A8DC-41E7-BB44-C429C031F9DE}" ShortID="1033963081">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Tomb_Open_1" ID="{F9FF1087-EC69-44C6-AA06-D4465121DDD1}" WorkUnitID="{CF0D19ED-69A1-4017-A93E-446E233AD479}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Tomb" ID="{F6C9CAFF-2166-4C25-9763-A621FB3A79A7}">
+							<ChildrenList>
+								<Action Name="" ID="{08A88EA1-A7ED-408E-A5DA-B6B19BE48458}" ShortID="454356088">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Tomb_Close_1" ID="{94EF5949-38FD-4EFE-9FA9-CB1C3246FFA2}" WorkUnitID="{CF0D19ED-69A1-4017-A93E-446E233AD479}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
