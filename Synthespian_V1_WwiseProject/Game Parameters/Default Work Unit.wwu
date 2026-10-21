@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{1041443F-1865-4B76-B558-F013F3F8931A}" SchemaVersion="123">
 	<GameParameters>
-		<WorkUnit Name="Default Work Unit" ID="{1041443F-1865-4B76-B558-F013F3F8931A}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{1041443F-1865-4B76-B558-F013F3F8931A}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="RoomTone" ID="{F7F84308-F9F8-431A-ACC4-A8460D82DFB9}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Reverb" ID="{A2D72DBB-4C72-44BA-B822-2CB1AC6B3185}">
+					<PropertyList>
+						<Property Name="BindToBuiltInParam" Type="int16" Value="1"/>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
 	</GameParameters>
 </WwiseDocument>
