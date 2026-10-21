@@ -10,11 +10,19 @@
     "Type": "User",
     "GUID": "{3DEBBE8F-D685-4DCE-AF74-AF17BC2DDEEF}",
     "Language": "SFX",
-    "Hash": "{01400051-1CA2-0E9A-8015-0B151F57F6CF}",
+    "Hash": "{DDAAA888-3248-FDD2-A4AF-440FA8C86CAC}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Soundbank1015",
     "ShortName": "Soundbank1015",
     "Path": "Soundbank1015.bnk",
     "Media": [
+     {
+      "Id": "186829756",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Flashlight_Off_1.wav",
+      "CachePath": "D7/{D75AA082-C0A9-1E92-857D-10AF01E04EE6}.wem"
+     },
      {
       "Id": "196636934",
       "Language": "SFX",
@@ -30,6 +38,14 @@
       "Location": "Memory",
       "ShortName": "mon pick up 1.wav",
       "CachePath": "80/{8043BDE6-5A12-79C9-D541-8C84FFEE2D1A}.wem"
+     },
+     {
+      "Id": "430889580",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Flashlight_Off_2.wav",
+      "CachePath": "30/{305B614D-7654-32B9-9813-8E5BDFC408B4}.wem"
      },
      {
       "Id": "492891621",
@@ -54,6 +70,14 @@
       "Location": "Memory",
       "ShortName": "mon put down 1.wav",
       "CachePath": "D2/{D22BCF24-955B-F37A-3FF8-6A4AFA9B0B11}.wem"
+     },
+     {
+      "Id": "627828696",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Flashlight_On_1.wav",
+      "CachePath": "E4/{E4AC562C-89C6-5D00-3FA4-FAC8CEC501E4}.wem"
      },
      {
       "Id": "664990670",
@@ -90,24 +114,44 @@
     ],
     "Events": [
      {
-      "Id": "2683668686",
-      "Name": "Play_AmbInside",
-      "ObjectPath": "\\Events\\Default Work Unit\\SoundDesign\\Amb\\Play_AmbInside",
-      "GUID": "{09A0B9E6-398B-4220-8DFC-BC870F0F04B9}",
-      "MaxAttenuation": "0",
+      "Id": "2959533290",
+      "Name": "Play_Amb",
+      "ObjectPath": "\\Events\\Default Work Unit\\SoundDesign\\Amb\\Play_Amb",
+      "GUID": "{DEC3336D-43D6-435F-BBAF-6CDA3F198264}",
       "DurationType": "OneShot",
       "DurationMin": "0",
       "DurationMax": "0"
      },
      {
-      "Id": "390494123",
-      "Name": "Play_AmbOutside",
-      "ObjectPath": "\\Events\\Default Work Unit\\SoundDesign\\Amb\\Play_AmbOutside",
-      "GUID": "{E7643413-0FD7-4E79-9EF6-15B931A1EA73}",
-      "MaxAttenuation": "0",
+      "Id": "4262288462",
+      "Name": "Play_Flashlight_Off",
+      "ObjectPath": "\\Events\\Default Work Unit\\SoundDesign\\Player\\Play_Flashlight_Off",
+      "GUID": "{D030F93B-8ECD-4822-B831-76AD16188E20}",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "0.47620833",
+      "DurationMax": "0.47620833",
+      "MediaRefs": [
+       {
+        "Id": "186829756"
+       },
+       {
+        "Id": "430889580"
+       }
+      ]
+     },
+     {
+      "Id": "3471928368",
+      "Name": "Play_Flashlight_On",
+      "ObjectPath": "\\Events\\Default Work Unit\\SoundDesign\\Player\\Play_Flashlight_On",
+      "GUID": "{71F6D4A8-6AB5-4DC9-8359-8096DD59B2CD}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.26666668",
+      "DurationMax": "0.26666668",
+      "MediaRefs": [
+       {
+        "Id": "627828696"
+       }
+      ]
      },
      {
       "Id": "3854155799",
@@ -295,6 +339,6 @@
     ]
    }
   ],
-  "FileHash": "{B6BCB5D1-98DA-F4FE-63CD-A761D57667E7}"
+  "FileHash": "{E547A4BA-2A41-AC78-F866-A45AC0F7EA50}"
  }
 }
