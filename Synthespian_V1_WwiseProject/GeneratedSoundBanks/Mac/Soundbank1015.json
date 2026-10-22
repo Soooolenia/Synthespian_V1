@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{3DEBBE8F-D685-4DCE-AF74-AF17BC2DDEEF}",
     "Language": "SFX",
-    "Hash": "{DDAAA888-3248-FDD2-A4AF-440FA8C86CAC}",
+    "Hash": "{A7846306-012F-3AF4-0A45-45C28B19B861}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Soundbank1015",
     "ShortName": "Soundbank1015",
     "Path": "Soundbank1015.bnk",
@@ -267,6 +267,7 @@
       "Name": "Play_ReliqCall",
       "ObjectPath": "\\Events\\Default Work Unit\\SoundDesign\\Play_ReliqCall",
       "GUID": "{6B1ADE50-A1D7-4163-A392-7CC651FAD3DD}",
+      "MaxAttenuation": "800",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -339,6 +340,6 @@
     ]
    }
   ],
-  "FileHash": "{E547A4BA-2A41-AC78-F866-A45AC0F7EA50}"
+  "FileHash": "{F6C78A39-3302-AEC0-79FB-318C7F73982F}"
  }
 }
