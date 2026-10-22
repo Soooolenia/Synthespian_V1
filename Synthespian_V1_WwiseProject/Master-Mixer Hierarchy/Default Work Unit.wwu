@@ -10,6 +10,7 @@
 						</Reference>
 					</ReferenceList>
 				</Bus>
+				<WorkUnit Name="Signe" ID="{C19DAB9A-AAF6-4BED-B4CE-8F34702FF81B}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Busses>
