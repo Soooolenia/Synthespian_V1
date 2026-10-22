@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{75975FD3-7738-4CD1-8D56-F25D7D8F0F82}" SchemaVersion="123">
 	<States>
-		<WorkUnit Name="Default Work Unit" ID="{75975FD3-7738-4CD1-8D56-F25D7D8F0F82}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{75975FD3-7738-4CD1-8D56-F25D7D8F0F82}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="AmbController" ID="{3D4BF6A5-8B2A-4A16-A301-449C8B0F7477}">
+					<ChildrenList>
+						<State Name="Interior" ID="{630DAAF2-2665-48E5-AD45-2468F89B9A08}"/>
+						<State Name="Exterior" ID="{48A1750B-D873-479E-84FC-1719A4DB67D9}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</States>
 </WwiseDocument>

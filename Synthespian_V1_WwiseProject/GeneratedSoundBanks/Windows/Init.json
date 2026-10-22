@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{C4C274D9-0178-FB2C-1FE8-8E89E5C143E6}",
+    "Hash": "{DE4708EA-4E92-12FD-140F-2575E7C4DAEF}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -56,6 +56,28 @@
       "GUID": "{F7F84308-F9F8-431A-ACC4-A8460D82DFB9}"
      }
     ],
+    "StateGroups": [
+     {
+      "Id": "1717793131",
+      "Name": "AmbController",
+      "ObjectPath": "\\States\\Default Work Unit\\AmbController",
+      "GUID": "{3D4BF6A5-8B2A-4A16-A301-449C8B0F7477}",
+      "States": [
+       {
+        "Id": "1132214669",
+        "Name": "Interior",
+        "ObjectPath": "\\States\\Default Work Unit\\AmbController\\Interior",
+        "GUID": "{630DAAF2-2665-48E5-AD45-2468F89B9A08}"
+       },
+       {
+        "Id": "2213992659",
+        "Name": "Exterior",
+        "ObjectPath": "\\States\\Default Work Unit\\AmbController\\Exterior",
+        "GUID": "{48A1750B-D873-479E-84FC-1719A4DB67D9}"
+       }
+      ]
+     }
+    ],
     "SwitchGroups": [
      {
       "Id": "3964766495",
@@ -80,6 +102,6 @@
     ]
    }
   ],
-  "FileHash": "{3C84E535-7AB1-BD35-554B-178B81F7CD2D}"
+  "FileHash": "{FF267BA2-4286-9224-26A4-3BCCCC5E6951}"
  }
 }

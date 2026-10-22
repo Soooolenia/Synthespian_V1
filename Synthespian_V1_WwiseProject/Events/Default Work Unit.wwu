@@ -160,10 +160,27 @@
 							<ChildrenList>
 								<Event Name="Play_Amb" ID="{DEC3336D-43D6-435F-BBAF-6CDA3F198264}">
 									<ChildrenList>
-										<Action Name="" ID="{49A565F9-441A-4006-BFCA-96ED0C2EA62D}" ShortID="580342096">
+										<Action Name="" ID="{32FE9062-0F73-4425-AE42-93A1387D26B1}" ShortID="407113915">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="22"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Amb" ID="{957E3079-EB94-4385-8386-732A3BC41FE4}" WorkUnitID="{CF0D19ED-69A1-4017-A93E-446E233AD479}"/>
+													<ObjectRef Name="Interior" ID="{630DAAF2-2665-48E5-AD45-2468F89B9A08}" WorkUnitID="{75975FD3-7738-4CD1-8D56-F25D7D8F0F82}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{565DF5F2-2D52-4559-9627-1A5FE89C9FD8}" ShortID="253319242">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Inside_Amb" ID="{29519805-2CB6-43AF-9D6C-62DD9CBC4DA1}" WorkUnitID="{CF0D19ED-69A1-4017-A93E-446E233AD479}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{302F9A59-34A2-4B13-BA99-41AE280515F0}" ShortID="115579563">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Outside_Amb" ID="{28A30B2B-21FE-4C22-8F58-90E2D7510C0A}" WorkUnitID="{CF0D19ED-69A1-4017-A93E-446E233AD479}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>

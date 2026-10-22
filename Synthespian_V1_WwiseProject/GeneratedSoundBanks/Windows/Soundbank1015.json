@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{3DEBBE8F-D685-4DCE-AF74-AF17BC2DDEEF}",
     "Language": "SFX",
-    "Hash": "{7F0D9E7A-57C8-719A-AEBC-83F0BF79E870}",
+    "Hash": "{EF5D9CE3-294C-C107-82BD-3262828D6D1C}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Soundbank1015",
     "ShortName": "Soundbank1015",
     "Path": "Soundbank1015.bnk",
@@ -30,6 +30,22 @@
       "Location": "Memory",
       "ShortName": "FootSteps_Dirt10.wav",
       "CachePath": "84/{841D512C-CCB6-7F91-4DC4-2E755981A6C6}.wem"
+     },
+     {
+      "Id": "4001277",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Rain, General, Rainfall, Heavy, Rooftop, Exterior SND151461 1-03.wav",
+      "CachePath": "C3/{C34F056C-7E7B-A58D-43BA-B0D839323DB5}.wem"
+     },
+     {
+      "Id": "16480298",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Amb_Inside_1.wav",
+      "CachePath": "32/{3255441B-9D82-6389-2820-3EB95439ACDE}.wem"
      },
      {
       "Id": "19454026",
@@ -184,6 +200,14 @@
       "CachePath": "80/{8043BDE6-5A12-79C9-D541-8C84FFEE2D1A}.wem"
      },
      {
+      "Id": "280006406",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Wind, Tonal, Wind, Howls, In Wires, In Field SND145240 1-02.wav",
+      "CachePath": "7F/{7FDA3D61-9DD2-9F9C-1FF5-C34A28AD9024}.wem"
+     },
+     {
       "Id": "368252573",
       "Language": "SFX",
       "Streaming": "false",
@@ -302,6 +326,14 @@
       "Location": "Memory",
       "ShortName": "FootSteps_Dirt5.wav",
       "CachePath": "1E/{1ECBAA8B-F0D0-B4F6-9A14-8F93F3EE0798}.wem"
+     },
+     {
+      "Id": "515033338",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Amb_Outside_1.wav",
+      "CachePath": "25/{25900F5F-CFBB-126C-6752-D55E398CB361}.wem"
      },
      {
       "Id": "546310248",
@@ -566,9 +598,30 @@
       "Name": "Play_Amb",
       "ObjectPath": "\\Events\\Default Work Unit\\SoundDesign\\Amb\\Play_Amb",
       "GUID": "{DEC3336D-43D6-435F-BBAF-6CDA3F198264}",
-      "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "4001277"
+       },
+       {
+        "Id": "16480298"
+       },
+       {
+        "Id": "280006406"
+       },
+       {
+        "Id": "515033338"
+       }
+      ],
+      "ActionSetState": [
+       {
+        "GroupId": "1717793131",
+        "Id": "1132214669",
+        "Name": "Interior",
+        "ObjectPath": "\\States\\Default Work Unit\\AmbController\\Interior",
+        "GUID": "{630DAAF2-2665-48E5-AD45-2468F89B9A08}"
+       }
+      ]
      },
      {
       "Id": "4262288462",
@@ -977,6 +1030,28 @@
       "DurationMax": "0"
      }
     ],
+    "StateGroups": [
+     {
+      "Id": "1717793131",
+      "Name": "AmbController",
+      "ObjectPath": "\\States\\Default Work Unit\\AmbController",
+      "GUID": "{3D4BF6A5-8B2A-4A16-A301-449C8B0F7477}",
+      "States": [
+       {
+        "Id": "1132214669",
+        "Name": "Interior",
+        "ObjectPath": "\\States\\Default Work Unit\\AmbController\\Interior",
+        "GUID": "{630DAAF2-2665-48E5-AD45-2468F89B9A08}"
+       },
+       {
+        "Id": "2213992659",
+        "Name": "Exterior",
+        "ObjectPath": "\\States\\Default Work Unit\\AmbController\\Exterior",
+        "GUID": "{48A1750B-D873-479E-84FC-1719A4DB67D9}"
+       }
+      ]
+     }
+    ],
     "SwitchGroups": [
      {
       "Id": "3964766495",
@@ -1001,6 +1076,6 @@
     ]
    }
   ],
-  "FileHash": "{EB32F9F2-22B1-8277-9771-F38707552D15}"
+  "FileHash": "{575DF666-6D73-6403-F050-D9CECC9BF33B}"
  }
 }
