@@ -55,9 +55,31 @@
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\RoomTone",
       "GUID": "{F7F84308-F9F8-431A-ACC4-A8460D82DFB9}"
      }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "3964766495",
+      "Name": "Floor_Material",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Floor_Material",
+      "GUID": "{03D2319F-20CA-4731-89C9-745B0FB2B18F}",
+      "Switches": [
+       {
+        "Id": "687380132",
+        "Name": "Soil",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Floor_Material\\Soil",
+        "GUID": "{244A00B7-0E09-4738-8AD7-9EDE657C3113}"
+       },
+       {
+        "Id": "782826392",
+        "Name": "Default",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Floor_Material\\Default",
+        "GUID": "{577969DF-1FCB-482B-A3E5-D2E3D4183FE6}"
+       }
+      ]
+     }
     ]
    }
   ],
-  "FileHash": "{88A4641E-1C15-66C7-C733-FFFDBF27C8AF}"
+  "FileHash": "{10DA3B39-BBEF-32D3-5CAB-4283BD018E3E}"
  }
 }
