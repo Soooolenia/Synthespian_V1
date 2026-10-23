@@ -171,28 +171,35 @@
 						</Event>
 						<Folder Name="DX" ID="{98158288-9E27-445C-A510-F3FA7642AC55}" ShortID="186177368">
 							<ChildrenList>
-								<Event Name="Play_KatClue_1" ID="{A4652942-D84F-423B-BF20-B54AF9E43238}">
+								<Folder Name="Kat" ID="{CE1A3A61-C945-43F6-B76C-1C3967AB2493}" ShortID="857981098">
 									<ChildrenList>
-										<Action Name="" ID="{FF1B6963-9398-46AA-9843-8764B1C40A0D}" ShortID="74591707">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="Katherine - Clue1" ID="{552D3498-175C-4EC2-8980-4691B165E0DB}" WorkUnitID="{293FA52A-1892-4B71-AF01-87A9E7397E61}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
+										<Event Name="Play_KatClue_1" ID="{A4652942-D84F-423B-BF20-B54AF9E43238}">
+											<ChildrenList>
+												<Action Name="" ID="{7CABD60E-5862-42E9-8312-77281270B037}" ShortID="383989014">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Kat_Clue1" ID="{62C8F6ED-8CE4-4451-B050-55C0D62BC3B5}" WorkUnitID="{293FA52A-1892-4B71-AF01-87A9E7397E61}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Play_KatClue_2" ID="{2BF1062E-2D2D-4978-AA84-82A6E93A711F}">
+											<ChildrenList>
+												<Action Name="" ID="{48D5BD3B-2BD4-404D-963C-6E2AA0C71168}" ShortID="640866245">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Kat_Clue2" ID="{1753D799-6836-4530-B7A6-C1C99893613A}" WorkUnitID="{293FA52A-1892-4B71-AF01-87A9E7397E61}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
 									</ChildrenList>
-								</Event>
-								<Event Name="Play_KatClue_2" ID="{2BF1062E-2D2D-4978-AA84-82A6E93A711F}">
-									<ChildrenList>
-										<Action Name="" ID="{580673AB-7A46-48C8-8F11-F414415C5699}" ShortID="842291361">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="Katherine - Clue2" ID="{04FA753F-F1F5-4F37-9B7D-B9C6DD43051E}" WorkUnitID="{293FA52A-1892-4B71-AF01-87A9E7397E61}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
+								</Folder>
+								<Folder Name="Lucy" ID="{E6A6447C-15B0-4838-9F3B-20D4F7671082}" ShortID="194665567"/>
+								<Folder Name="God" ID="{86B97505-0B1E-4D0F-A859-D52C7FA049F6}" ShortID="997269639"/>
+								<Folder Name="Issac" ID="{425DA8E8-18BF-487B-93FF-4F9963763F52}" ShortID="541311744"/>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>
