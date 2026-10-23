@@ -5,17 +5,7 @@
 			<ChildrenList>
 				<Folder Name="SoundDesign" ID="{534F03E9-9127-4C20-A273-C3007CE8BC3F}" ShortID="854590298">
 					<ChildrenList>
-						<Event Name="Play_ReliqDestroy" ID="{5F136101-B985-4483-B565-2B1F34883130}">
-							<ChildrenList>
-								<Action Name="" ID="{70FD0719-5B0B-4D5E-8404-7E0F7C77B153}" ShortID="881804616">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Relic Destroy 1" ID="{F2F07240-C0E3-4CA0-82A4-F00966C75107}" WorkUnitID="{899E3A15-29DB-465F-BB75-42C972128BD6}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
+						<Event Name="Play_ReliqDestroy" ID="{5F136101-B985-4483-B565-2B1F34883130}"/>
 						<Event Name="Play_ReliqCall" ID="{6B1ADE50-A1D7-4163-A392-7CC651FAD3DD}">
 							<ChildrenList>
 								<Action Name="" ID="{46557AE7-63AF-4E08-968D-7144924B84DB}" ShortID="701075705">
@@ -62,13 +52,6 @@
 												</Reference>
 											</ReferenceList>
 										</Action>
-										<Action Name="" ID="{F8290929-AEBA-4407-A068-3CCEFE88EE1C}" ShortID="341213766">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="Flashlight_Off_2" ID="{0D43F5F6-685B-4D81-AD58-8838DF9680C6}" WorkUnitID="{899E3A15-29DB-465F-BB75-42C972128BD6}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
 									</ChildrenList>
 								</Event>
 							</ChildrenList>
@@ -97,17 +80,7 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="Play_KnifeAtAltar" ID="{574C6780-ADE5-4E0B-8A2A-A44E137EB60B}">
-									<ChildrenList>
-										<Action Name="" ID="{1755FB92-D71C-401C-B000-197C3BC6C779}" ShortID="686100315">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="kinfe at altar 1" ID="{7F094CCF-A070-44EE-9B58-3E217C69F076}" WorkUnitID="{899E3A15-29DB-465F-BB75-42C972128BD6}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
+								<Event Name="Play_KnifeAtAltar" ID="{574C6780-ADE5-4E0B-8A2A-A44E137EB60B}"/>
 								<Event Name="Play_MAtAltar" ID="{EA5ACC54-F53A-4860-8094-E401A87AE1B5}"/>
 								<Event Name="Play_MPutDown" ID="{75D182B8-26A9-4065-8730-F3F968AF3FF7}">
 									<ChildrenList>
@@ -171,7 +144,6 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
-						<Event Name="Stop_RelicCall" ID="{CCCA799D-8EB4-4068-9B54-E7377A280E7E}"/>
 						<Event Name="Play_Tomb" ID="{5A4018C1-6613-4331-93EF-A03E154274E1}">
 							<ChildrenList>
 								<Action Name="" ID="{AB5222C8-A8DC-41E7-BB44-C429C031F9DE}" ShortID="1033963081">

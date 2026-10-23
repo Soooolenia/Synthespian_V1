@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{293FA52A-1892-4B71-AF01-87A9E7397E61}" SchemaVersion="123" RootDocumentID="{CF0D19ED-69A1-4017-A93E-446E233AD479}" ParentDocumentID="{CF0D19ED-69A1-4017-A93E-446E233AD479}">
+	<AudioObjects>
+		<WorkUnit Name="DX_Signe" ID="{293FA52A-1892-4B71-AF01-87A9E7397E61}" OwnerID="{CF0D19ED-69A1-4017-A93E-446E233AD479}" PersistMode="Nested"/>
+	</AudioObjects>
+</WwiseDocument>

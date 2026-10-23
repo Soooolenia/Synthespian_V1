@@ -4,6 +4,7 @@
 		<WorkUnit Name="Default Work Unit" ID="{CF0D19ED-69A1-4017-A93E-446E233AD479}" PersistMode="Standalone">
 			<ChildrenList>
 				<WorkUnit Name="Signe" ID="{899E3A15-29DB-465F-BB75-42C972128BD6}" PersistMode="Reference"/>
+				<WorkUnit Name="DX_Signe" ID="{293FA52A-1892-4B71-AF01-87A9E7397E61}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
