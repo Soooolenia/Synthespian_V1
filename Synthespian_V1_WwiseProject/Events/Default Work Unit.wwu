@@ -171,7 +171,17 @@
 						</Event>
 						<Folder Name="DX" ID="{98158288-9E27-445C-A510-F3FA7642AC55}" ShortID="186177368">
 							<ChildrenList>
-								<Event Name="Play_KatClue_1" ID="{A4652942-D84F-423B-BF20-B54AF9E43238}"/>
+								<Event Name="Play_KatClue_1" ID="{A4652942-D84F-423B-BF20-B54AF9E43238}">
+									<ChildrenList>
+										<Action Name="" ID="{FF1B6963-9398-46AA-9843-8764B1C40A0D}" ShortID="74591707">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Katherine - Clue1" ID="{552D3498-175C-4EC2-8980-4691B165E0DB}" WorkUnitID="{293FA52A-1892-4B71-AF01-87A9E7397E61}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 								<Event Name="Play_KatClue_2" ID="{2BF1062E-2D2D-4978-AA84-82A6E93A711F}">
 									<ChildrenList>
 										<Action Name="" ID="{580673AB-7A46-48C8-8F11-F414415C5699}" ShortID="842291361">
