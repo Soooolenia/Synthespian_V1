@@ -624,6 +624,7 @@
 										<Property Name="FrequencyBand3" Type="Real32" Value="20000"/>
 										<Property Name="OnOffBand1" Type="bool" Value="False"/>
 										<Property Name="OnOffBand2" Type="bool" Value="False"/>
+										<Property Name="OutputLevel" Type="Real32" Value="3"/>
 									</PropertyList>
 								</Effect>
 							</ChildrenList>

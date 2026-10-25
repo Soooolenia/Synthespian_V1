@@ -34,10 +34,10 @@
 								<Event Name="Play_PGrunt" ID="{B4FE0EBB-827A-4D10-9D34-A0E56D494226}"/>
 								<Event Name="Play_Flashlight_On" ID="{71F6D4A8-6AB5-4DC9-8359-8096DD59B2CD}">
 									<ChildrenList>
-										<Action Name="" ID="{B9A25649-CB12-4667-9BCD-BFC11BAC5268}" ShortID="374868612">
+										<Action Name="" ID="{173F569B-FEFD-4439-B17C-DE4148F6B944}" ShortID="1057736715">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Flashlight_On_1" ID="{918E4921-6239-4D73-978E-F8BB8BD5F06E}" WorkUnitID="{899E3A15-29DB-465F-BB75-42C972128BD6}"/>
+													<ObjectRef Name="Flash_On_1" ID="{DF21A7D0-969C-49E0-B055-D204F60DAFE5}" WorkUnitID="{899E3A15-29DB-465F-BB75-42C972128BD6}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -45,10 +45,17 @@
 								</Event>
 								<Event Name="Play_Flashlight_Off" ID="{D030F93B-8ECD-4822-B831-76AD16188E20}">
 									<ChildrenList>
-										<Action Name="" ID="{CB6C6E3C-8DB8-4564-9CFF-0065F2897335}" ShortID="497918737">
+										<Action Name="" ID="{B65075B7-34AA-4D58-8BCA-6516DFFE42F9}" ShortID="541523927">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Flashlight_Off_1" ID="{3B9351AE-12A4-40B0-8B5F-1A020E31D5AD}" WorkUnitID="{899E3A15-29DB-465F-BB75-42C972128BD6}"/>
+													<ObjectRef Name="Flash_Off_2" ID="{CC47258E-0D79-439A-8576-67C80D831BCB}" WorkUnitID="{899E3A15-29DB-465F-BB75-42C972128BD6}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{2BEC48FE-4B6E-4324-BE52-3088C9984BB8}" ShortID="42015990">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Flash_Off_1" ID="{C466825C-C8CF-43F3-8BD3-46096DEB29C9}" WorkUnitID="{899E3A15-29DB-465F-BB75-42C972128BD6}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
