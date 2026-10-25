@@ -198,7 +198,11 @@
 									</ChildrenList>
 								</Folder>
 								<Folder Name="Lucy" ID="{E6A6447C-15B0-4838-9F3B-20D4F7671082}" ShortID="194665567"/>
-								<Folder Name="God" ID="{86B97505-0B1E-4D0F-A859-D52C7FA049F6}" ShortID="997269639"/>
+								<Folder Name="God" ID="{86B97505-0B1E-4D0F-A859-D52C7FA049F6}" ShortID="997269639">
+									<ChildrenList>
+										<Event Name="GOD_1" ID="{3EAFDC8E-6912-4980-9F96-2FA67C27A952}"/>
+									</ChildrenList>
+								</Folder>
 								<Folder Name="Issac" ID="{425DA8E8-18BF-487B-93FF-4F9963763F52}" ShortID="541311744"/>
 							</ChildrenList>
 						</Folder>
