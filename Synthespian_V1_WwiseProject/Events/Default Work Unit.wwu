@@ -61,6 +61,17 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+								<Event Name="Player_Die" ID="{0EFAF587-4C72-44C4-8848-075BF44CCC45}">
+									<ChildrenList>
+										<Action Name="" ID="{66198B73-5FBA-412E-9419-48901554F6FD}" ShortID="889338545">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Player_Dies_1" ID="{7482502C-0BEB-4630-9595-EC0E71C87B98}" WorkUnitID="{899E3A15-29DB-465F-BB75-42C972128BD6}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Relic" ID="{41C81D5D-221A-4CDB-BA69-6253353D0F84}" ShortID="903136659">
@@ -87,8 +98,28 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="Play_KnifeAtAltar" ID="{574C6780-ADE5-4E0B-8A2A-A44E137EB60B}"/>
-								<Event Name="Play_MAtAltar" ID="{EA5ACC54-F53A-4860-8094-E401A87AE1B5}"/>
+								<Event Name="Play_KnifeAtAltar" ID="{574C6780-ADE5-4E0B-8A2A-A44E137EB60B}">
+									<ChildrenList>
+										<Action Name="" ID="{F965CA61-8607-4F5C-AC28-E5585A18B709}" ShortID="34412301">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Knife_Altar_1" ID="{33BDAB0E-93AB-4606-9F12-BB425AE5A865}" WorkUnitID="{899E3A15-29DB-465F-BB75-42C972128BD6}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_MAtAltar" ID="{EA5ACC54-F53A-4860-8094-E401A87AE1B5}">
+									<ChildrenList>
+										<Action Name="" ID="{AFB70F66-E177-404E-9A9D-FE3B2FEB973D}" ShortID="1027471643">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Mon_Altar_1" ID="{DF95E8B9-E659-4CAA-AA3F-8AD6A0142A35}" WorkUnitID="{899E3A15-29DB-465F-BB75-42C972128BD6}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 								<Event Name="Play_MPutDown" ID="{75D182B8-26A9-4065-8730-F3F968AF3FF7}">
 									<ChildrenList>
 										<Action Name="" ID="{0769FFEE-E829-4BFD-A63F-9CD2171DE23A}" ShortID="456055118">
@@ -122,7 +153,17 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="Play_StatueAtAltar" ID="{83DDF768-6DEE-4BBF-8D0A-E4E6645D6935}"/>
+								<Event Name="Play_StatueAtAltar" ID="{83DDF768-6DEE-4BBF-8D0A-E4E6645D6935}">
+									<ChildrenList>
+										<Action Name="" ID="{8FCF1EB6-7BE5-46F7-8B8B-35A67FF85B9C}" ShortID="690397539">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Statue_Altar_1" ID="{85AA46F0-6510-4D88-8C03-E2C7C432C1B2}" WorkUnitID="{899E3A15-29DB-465F-BB75-42C972128BD6}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 								<Event Name="Play_StatuePickUp" ID="{F9AE2B92-9BD6-41D5-A0B3-07DB54D3EC70}">
 									<ChildrenList>
 										<Action Name="" ID="{80B8D0E7-BD59-4888-82F8-D871AF26F6CD}" ShortID="989914414">
@@ -477,6 +518,46 @@
 										</Event>
 									</ChildrenList>
 								</Folder>
+							</ChildrenList>
+						</Folder>
+						<Event Name="Altat_On" ID="{A8506179-B46C-4B14-B7D8-A659291AE113}">
+							<ChildrenList>
+								<Action Name="" ID="{E3ED9C0B-8BB9-4BD0-8569-1CCB19C613BF}" ShortID="402995807">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ALtar_OnAndLoop_1" ID="{AECEB1E1-53DA-44CC-B430-F90774622F45}" WorkUnitID="{899E3A15-29DB-465F-BB75-42C972128BD6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Altar_Off" ID="{8DF15A3F-1A0B-4403-9F96-B49945C08D3D}">
+							<ChildrenList>
+								<Action Name="" ID="{71242893-129D-4B98-9771-5E3074100BB6}" ShortID="720850060">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Altar_Off_1" ID="{3E2FCAC4-B0AB-470F-95CB-A52E95FA35D7}" WorkUnitID="{899E3A15-29DB-465F-BB75-42C972128BD6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Folder Name="UI" ID="{BBDE7FF5-129C-4FFB-A7F0-2EA25A077FE3}" ShortID="408354195">
+							<ChildrenList>
+								<Event Name="UI" ID="{9D002283-186B-4EB3-A824-B7DFF05F7C26}">
+									<ChildrenList>
+										<Action Name="" ID="{4FAA98D5-758C-443B-BEC1-ABA1B9B7E79B}" ShortID="423479009">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="UI" ID="{48BCA545-9BAA-4913-B8A2-AF99E2F674AC}" WorkUnitID="{899E3A15-29DB-465F-BB75-42C972128BD6}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>
