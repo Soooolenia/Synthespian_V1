@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{DE4708EA-4E92-12FD-140F-2575E7C4DAEF}",
+    "Hash": "{FC683996-5A91-DE41-59C2-EF038B7EC931}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -42,20 +42,6 @@
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
      }
     ],
-    "GameParameters": [
-     {
-      "Id": "348963605",
-      "Name": "Reverb",
-      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Reverb",
-      "GUID": "{A2D72DBB-4C72-44BA-B822-2CB1AC6B3185}"
-     },
-     {
-      "Id": "2291679880",
-      "Name": "RoomTone",
-      "ObjectPath": "\\Game Parameters\\Default Work Unit\\RoomTone",
-      "GUID": "{F7F84308-F9F8-431A-ACC4-A8460D82DFB9}"
-     }
-    ],
     "StateGroups": [
      {
       "Id": "1717793131",
@@ -63,6 +49,12 @@
       "ObjectPath": "\\States\\Default Work Unit\\AmbController",
       "GUID": "{3D4BF6A5-8B2A-4A16-A301-449C8B0F7477}",
       "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\AmbController\\None",
+        "GUID": "{8BF33830-03EF-40FF-8885-AA6659D09426}"
+       },
        {
         "Id": "1132214669",
         "Name": "Interior",
@@ -102,6 +94,6 @@
     ]
    }
   ],
-  "FileHash": "{FF267BA2-4286-9224-26A4-3BCCCC5E6951}"
+  "FileHash": "{4C393B7E-945B-1163-9E38-5B5E924EE15A}"
  }
 }

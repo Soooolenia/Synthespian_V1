@@ -2,6 +2,7 @@ State Group	ID	Name			Wwise Object Path	Notes
 	1717793131	AmbController			\Default Work Unit\AmbController	
 
 State	ID	Name	State Group			Notes
+	748895195	None	AmbController			
 	1132214669	Interior	AmbController			
 	2213992659	Exterior	AmbController			
 
