@@ -221,28 +221,6 @@
 							<ChildrenList>
 								<Folder Name="Kat" ID="{CE1A3A61-C945-43F6-B76C-1C3967AB2493}" ShortID="857981098">
 									<ChildrenList>
-										<Event Name="Play_KatClue_1" ID="{A4652942-D84F-423B-BF20-B54AF9E43238}">
-											<ChildrenList>
-												<Action Name="" ID="{7F5B4687-4E61-440B-B6C1-BBC17701038D}" ShortID="7797009">
-													<ReferenceList>
-														<Reference Name="Target">
-															<ObjectRef Name="Kat_Clue1" ID="{E2DD6A2A-9F6C-4A18-8FE9-D8D9AB0084BF}" WorkUnitID="{293FA52A-1892-4B71-AF01-87A9E7397E61}"/>
-														</Reference>
-													</ReferenceList>
-												</Action>
-											</ChildrenList>
-										</Event>
-										<Event Name="Play_KatClue_2" ID="{2BF1062E-2D2D-4978-AA84-82A6E93A711F}">
-											<ChildrenList>
-												<Action Name="" ID="{AC8492D0-1636-44E9-9C8B-D88496BF71E2}" ShortID="466898407">
-													<ReferenceList>
-														<Reference Name="Target">
-															<ObjectRef Name="Kat_Clue2" ID="{D3C2740D-7D11-44F0-AACD-2F88265575B5}" WorkUnitID="{293FA52A-1892-4B71-AF01-87A9E7397E61}"/>
-														</Reference>
-													</ReferenceList>
-												</Action>
-											</ChildrenList>
-										</Event>
 										<Event Name="KAT_3" ID="{0120FDE9-B179-46ED-AB40-69B70A42BC76}">
 											<ChildrenList>
 												<Action Name="" ID="{1CC7101F-5E74-4792-B81B-086355896EEC}" ShortID="707885347">
@@ -300,7 +278,6 @@
 										</Event>
 									</ChildrenList>
 								</Folder>
-								<Folder Name="Lucy" ID="{E6A6447C-15B0-4838-9F3B-20D4F7671082}" ShortID="194665567"/>
 								<Folder Name="God" ID="{86B97505-0B1E-4D0F-A859-D52C7FA049F6}" ShortID="997269639">
 									<ChildrenList>
 										<Event Name="GOD_1" ID="{3EAFDC8E-6912-4980-9F96-2FA67C27A952}">
@@ -511,6 +488,43 @@
 													<ReferenceList>
 														<Reference Name="Target">
 															<ObjectRef Name="ISSAC_4" ID="{8102B849-B27B-4413-9D8C-882840D2210C}" WorkUnitID="{293FA52A-1892-4B71-AF01-87A9E7397E61}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Clues" ID="{91B76911-365B-454B-986D-C8DDC52B8534}" ShortID="381132331">
+									<ChildrenList>
+										<Event Name="First_Clue" ID="{31F25133-FC1C-431B-8542-13199CD73E3A}">
+											<ChildrenList>
+												<Action Name="" ID="{7C933480-783A-4B64-99A9-9FB6D01311C1}" ShortID="481238390">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="1_Clue" ID="{3AC25A57-2CE0-4307-AF8E-B321FE519524}" WorkUnitID="{293FA52A-1892-4B71-AF01-87A9E7397E61}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Second_Clue" ID="{18BDFF3C-7D30-43C6-988E-7E1B32D8C0FF}">
+											<ChildrenList>
+												<Action Name="" ID="{A1B9673A-DFD9-4F6F-B5E8-32EEADECB0B3}" ShortID="1071048876">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="2_Clue" ID="{4C06FA8B-4908-474A-8890-D57E4CE0CC6A}" WorkUnitID="{293FA52A-1892-4B71-AF01-87A9E7397E61}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Third_Clue" ID="{148DF004-D82B-4055-AC46-B18341FB16A6}">
+											<ChildrenList>
+												<Action Name="" ID="{260EE6C4-B21C-41D8-8C5C-F1435DABE8FE}" ShortID="425409129">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="3_Clue" ID="{2F8FF30C-481D-452E-B1A4-680B17874540}" WorkUnitID="{293FA52A-1892-4B71-AF01-87A9E7397E61}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>

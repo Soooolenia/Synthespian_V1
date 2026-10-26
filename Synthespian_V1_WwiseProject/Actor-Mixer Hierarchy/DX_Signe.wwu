@@ -190,80 +190,6 @@
 								<ActiveSource Name="KAT_7" ID="{D8500AC1-7599-47F7-A5C6-AC8C874A3448}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="Kat_Clue1" ID="{E2DD6A2A-9F6C-4A18-8FE9-D8D9AB0084BF}" ShortID="763830299">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{16A2F2ED-AD44-4D34-A0A7-340402A57956}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EF86D08-F13E-4ADA-9721-72C4A98A9A9D}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Kat_Clue1" ID="{D1194525-F9D6-4018-8196-4DA255B2CC17}">
-									<Language>SFX</Language>
-									<AudioFile>Kat_Clue1.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="314591591"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ObjectLists>
-								<ObjectList Name="Effects">
-									<Reference>
-										<Local>
-											<EffectSlot Name="" ID="{F600D224-D6DC-4902-8F18-CF5C479431BE}" ShortID="162920264">
-												<ReferenceList>
-													<Reference Name="Effect" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
-														<ObjectRef Name="Low_Pass_20KHz" ID="{830124FB-B9D5-4AE8-846E-E94A74652666}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
-													</Reference>
-												</ReferenceList>
-											</EffectSlot>
-										</Local>
-									</Reference>
-								</ObjectList>
-							</ObjectLists>
-							<ActiveSourceList>
-								<ActiveSource Name="Kat_Clue1" ID="{D1194525-F9D6-4018-8196-4DA255B2CC17}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Kat_Clue2" ID="{D3C2740D-7D11-44F0-AACD-2F88265575B5}" ShortID="993622098">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{16A2F2ED-AD44-4D34-A0A7-340402A57956}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EF86D08-F13E-4ADA-9721-72C4A98A9A9D}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Kat_Clue2" ID="{A4D383C1-6E3E-4D36-A33C-97324546D004}">
-									<Language>SFX</Language>
-									<AudioFile>Kat_Clue2.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="781934662"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ObjectLists>
-								<ObjectList Name="Effects">
-									<Reference>
-										<Local>
-											<EffectSlot Name="" ID="{9C89069E-8401-4344-B749-CFD0A936E0CB}" ShortID="47905663">
-												<ReferenceList>
-													<Reference Name="Effect" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
-														<ObjectRef Name="Low_Pass_20KHz" ID="{830124FB-B9D5-4AE8-846E-E94A74652666}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
-													</Reference>
-												</ReferenceList>
-											</EffectSlot>
-										</Local>
-									</Reference>
-								</ObjectList>
-							</ObjectLists>
-							<ActiveSourceList>
-								<ActiveSource Name="Kat_Clue2" ID="{A4D383C1-6E3E-4D36-A33C-97324546D004}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="God" ID="{4F45D78B-441D-47CB-B941-A0EBAE23D187}" ShortID="407204798">
@@ -825,7 +751,6 @@
 						</Sound>
 					</ChildrenList>
 				</Folder>
-				<Folder Name="Lucy" ID="{CABAB268-3BE3-4FFC-8AC6-8B2880DBB771}" ShortID="9056627"/>
 				<Folder Name="Issac" ID="{7C4AC66C-639B-4C7E-BA8D-AF5488C8C811}" ShortID="511632051">
 					<ChildrenList>
 						<Sound Name="ISSAC_1" ID="{1E337198-B6B3-4761-9742-B1511ABB7535}" ShortID="218833545">
@@ -914,6 +839,76 @@
 							</ChildrenList>
 							<ActiveSourceList>
 								<ActiveSource Name="ISSAC_4" ID="{527B8326-4157-40AB-9671-00866CFCB385}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Clues" ID="{9E9E50EA-3EEE-4F7F-BDF7-AFD88B90260F}" ShortID="187724232">
+					<ChildrenList>
+						<Sound Name="1_Clue" ID="{3AC25A57-2CE0-4307-AF8E-B321FE519524}" ShortID="962676442">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{16A2F2ED-AD44-4D34-A0A7-340402A57956}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EF86D08-F13E-4ADA-9721-72C4A98A9A9D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="1_Clue" ID="{3FB48A38-4C35-405B-A12D-9DB7C06C48A7}">
+									<Language>SFX</Language>
+									<AudioFile>1_Clue.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="7200642"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="1_Clue" ID="{3FB48A38-4C35-405B-A12D-9DB7C06C48A7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="2_Clue" ID="{4C06FA8B-4908-474A-8890-D57E4CE0CC6A}" ShortID="343250191">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{16A2F2ED-AD44-4D34-A0A7-340402A57956}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EF86D08-F13E-4ADA-9721-72C4A98A9A9D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="2_Clue" ID="{8E2CE989-F221-48A2-8158-B841392F427D}">
+									<Language>SFX</Language>
+									<AudioFile>2_Clue.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="238767162"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="2_Clue" ID="{8E2CE989-F221-48A2-8158-B841392F427D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="3_Clue" ID="{2F8FF30C-481D-452E-B1A4-680B17874540}" ShortID="450788574">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{16A2F2ED-AD44-4D34-A0A7-340402A57956}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EF86D08-F13E-4ADA-9721-72C4A98A9A9D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="3_Clue" ID="{6C27640A-E3B8-464A-B269-88C40961233D}">
+									<Language>SFX</Language>
+									<AudioFile>3_Clue.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="531616973"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="3_Clue" ID="{6C27640A-E3B8-464A-B269-88C40961233D}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
