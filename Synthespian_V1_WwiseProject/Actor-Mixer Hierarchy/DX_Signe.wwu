@@ -1,0 +1,919 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{293FA52A-1892-4B71-AF01-87A9E7397E61}" SchemaVersion="123" RootDocumentID="{CF0D19ED-69A1-4017-A93E-446E233AD479}" ParentDocumentID="{CF0D19ED-69A1-4017-A93E-446E233AD479}">
+	<AudioObjects>
+		<WorkUnit Name="DX_Signe" ID="{293FA52A-1892-4B71-AF01-87A9E7397E61}" OwnerID="{CF0D19ED-69A1-4017-A93E-446E233AD479}" PersistMode="Nested">
+			<ChildrenList>
+				<Folder Name="Kat" ID="{2C22B346-9F20-4092-BFF1-09103BF896C4}" ShortID="773090148">
+					<ChildrenList>
+						<Sound Name="KAT_3" ID="{6FACFEFE-7CE9-4CE5-A0E8-BDB5EAE66917}" ShortID="583603120">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{16A2F2ED-AD44-4D34-A0A7-340402A57956}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EF86D08-F13E-4ADA-9721-72C4A98A9A9D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="KAT_3" ID="{57C25564-2ED1-4128-A905-B848D39AD4D4}">
+									<Language>SFX</Language>
+									<AudioFile>KAT_3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="367140296"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{B47DDA70-2F2C-45AB-BDEE-F9C0D89258FD}" ShortID="551106852">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+														<ObjectRef Name="Low_Pass_20KHz" ID="{830124FB-B9D5-4AE8-846E-E94A74652666}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+							<ActiveSourceList>
+								<ActiveSource Name="KAT_3" ID="{57C25564-2ED1-4128-A905-B848D39AD4D4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="KAT_4" ID="{1FA95032-30C6-4237-9DCA-9C3FA3093426}" ShortID="713234905">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{16A2F2ED-AD44-4D34-A0A7-340402A57956}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EF86D08-F13E-4ADA-9721-72C4A98A9A9D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="KAT_4" ID="{C1AAAA07-B0D8-409B-A86B-D9571BF1E90C}">
+									<Language>SFX</Language>
+									<AudioFile>KAT_4.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="549481138"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{10F3EF0C-8615-463F-A41D-803B80BFC4F4}" ShortID="223832258">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+														<ObjectRef Name="Low_Pass_20KHz" ID="{830124FB-B9D5-4AE8-846E-E94A74652666}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+							<ActiveSourceList>
+								<ActiveSource Name="KAT_4" ID="{C1AAAA07-B0D8-409B-A86B-D9571BF1E90C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="KAT_5" ID="{906E8145-BCEA-4C35-BC23-539E121273E2}" ShortID="56738143">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{16A2F2ED-AD44-4D34-A0A7-340402A57956}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EF86D08-F13E-4ADA-9721-72C4A98A9A9D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="KAT_5" ID="{B7490671-F4C7-4934-8266-EDB5DF96D793}">
+									<Language>SFX</Language>
+									<AudioFile>KAT_5.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="698326588"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{A2CCE5BF-4A5C-494B-B9D6-F82055F48A6D}" ShortID="806763578">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+														<ObjectRef Name="Low_Pass_20KHz" ID="{830124FB-B9D5-4AE8-846E-E94A74652666}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+							<ActiveSourceList>
+								<ActiveSource Name="KAT_5" ID="{B7490671-F4C7-4934-8266-EDB5DF96D793}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="KAT_6" ID="{006CB487-E13B-4529-ACD7-BBEF13ECFBDB}" ShortID="693570903">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{16A2F2ED-AD44-4D34-A0A7-340402A57956}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EF86D08-F13E-4ADA-9721-72C4A98A9A9D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="KAT_6" ID="{BF02A029-F253-4AAC-9394-D898966854DF}">
+									<Language>SFX</Language>
+									<AudioFile>KAT_6.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="455618591"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{A7DC97CB-2BD0-4206-A268-515B7884191C}" ShortID="943902021">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+														<ObjectRef Name="Low_Pass_20KHz" ID="{830124FB-B9D5-4AE8-846E-E94A74652666}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+							<ActiveSourceList>
+								<ActiveSource Name="KAT_6" ID="{BF02A029-F253-4AAC-9394-D898966854DF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="KAT_7" ID="{276704E2-B88E-420F-933F-4BB8E4F08A81}" ShortID="311589870">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{16A2F2ED-AD44-4D34-A0A7-340402A57956}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EF86D08-F13E-4ADA-9721-72C4A98A9A9D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="KAT_7" ID="{D8500AC1-7599-47F7-A5C6-AC8C874A3448}">
+									<Language>SFX</Language>
+									<AudioFile>KAT_7.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="798664971"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{91092316-ECB1-4B85-AE4C-606A77FEBCA1}" ShortID="640308742">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+														<ObjectRef Name="Low_Pass_20KHz" ID="{830124FB-B9D5-4AE8-846E-E94A74652666}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+							<ActiveSourceList>
+								<ActiveSource Name="KAT_7" ID="{D8500AC1-7599-47F7-A5C6-AC8C874A3448}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="God" ID="{4F45D78B-441D-47CB-B941-A0EBAE23D187}" ShortID="407204798">
+					<ChildrenList>
+						<Sound Name="GOD_2" ID="{A8FBA478-1E62-4C3F-8356-6E8B07F45312}" ShortID="33320430">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{16A2F2ED-AD44-4D34-A0A7-340402A57956}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EF86D08-F13E-4ADA-9721-72C4A98A9A9D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="GOD_2" ID="{AA7787FF-653B-410E-85ED-CC2E04C9415E}">
+									<Language>SFX</Language>
+									<AudioFile>GOD_2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1050032116"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{7A6AA2FD-53B9-4EA6-A62C-CC1E6225FE06}" ShortID="344448617">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+														<ObjectRef Name="Hall_Large_Dark" ID="{0F6A7D6D-131C-4650-9561-FC05F5C7A37B}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+							<ActiveSourceList>
+								<ActiveSource Name="GOD_2" ID="{AA7787FF-653B-410E-85ED-CC2E04C9415E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="GOD_3" ID="{A386A854-DF4E-4F29-A301-35A9F3DD9753}" ShortID="68369384">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{16A2F2ED-AD44-4D34-A0A7-340402A57956}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EF86D08-F13E-4ADA-9721-72C4A98A9A9D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="GOD_3" ID="{AF5167ED-78BB-40AA-A07F-B0A5F5216690}">
+									<Language>SFX</Language>
+									<AudioFile>GOD_3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="820177833"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{022224AB-A85D-405B-AB1D-3D5B26633A1A}" ShortID="924496940">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+														<ObjectRef Name="Hall_Large_Dark" ID="{0F6A7D6D-131C-4650-9561-FC05F5C7A37B}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+							<ActiveSourceList>
+								<ActiveSource Name="GOD_3" ID="{AF5167ED-78BB-40AA-A07F-B0A5F5216690}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="GOD_4" ID="{FC9AC368-DF11-401A-AF57-49DCC70CAA29}" ShortID="773562901">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{16A2F2ED-AD44-4D34-A0A7-340402A57956}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EF86D08-F13E-4ADA-9721-72C4A98A9A9D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="GOD_4" ID="{14FFD70D-F3A4-4D56-BCDC-9C971F552492}">
+									<Language>SFX</Language>
+									<AudioFile>GOD_4.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="817699022"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{6CC016DF-C69E-42E2-A303-F5DDE230C411}" ShortID="598126678">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+														<ObjectRef Name="Hall_Large_Dark" ID="{0F6A7D6D-131C-4650-9561-FC05F5C7A37B}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+							<ActiveSourceList>
+								<ActiveSource Name="GOD_4" ID="{14FFD70D-F3A4-4D56-BCDC-9C971F552492}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="GOD_5" ID="{B1121EBE-6537-4E9C-A6B3-F88BE91CE4F0}" ShortID="1012606366">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{16A2F2ED-AD44-4D34-A0A7-340402A57956}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EF86D08-F13E-4ADA-9721-72C4A98A9A9D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="GOD_5" ID="{94095857-5F88-49E7-910A-A027DE31A00C}">
+									<Language>SFX</Language>
+									<AudioFile>GOD_5.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="115732279"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{32499214-E887-4C6C-84B2-2978DCF03324}" ShortID="34503405">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+														<ObjectRef Name="Hall_Large_Dark" ID="{0F6A7D6D-131C-4650-9561-FC05F5C7A37B}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+							<ActiveSourceList>
+								<ActiveSource Name="GOD_5" ID="{94095857-5F88-49E7-910A-A027DE31A00C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="GOD_6" ID="{8AE835F3-974B-4A2E-8605-985E5E1A5142}" ShortID="1053242633">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{16A2F2ED-AD44-4D34-A0A7-340402A57956}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EF86D08-F13E-4ADA-9721-72C4A98A9A9D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="GOD_6" ID="{12843231-0611-4C6D-89A4-717A7BEC23D6}">
+									<Language>SFX</Language>
+									<AudioFile>GOD_6.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="268985955"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{A756224A-72A5-499F-9BAF-A6729079955E}" ShortID="363516017">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+														<ObjectRef Name="Hall_Large_Dark" ID="{0F6A7D6D-131C-4650-9561-FC05F5C7A37B}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+							<ActiveSourceList>
+								<ActiveSource Name="GOD_6" ID="{12843231-0611-4C6D-89A4-717A7BEC23D6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="GOD_7" ID="{7FFC34FA-0912-49D1-BD7D-DBD6098CE0DA}" ShortID="90029228">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{16A2F2ED-AD44-4D34-A0A7-340402A57956}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EF86D08-F13E-4ADA-9721-72C4A98A9A9D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="GOD_7" ID="{AD037DDB-7713-4C28-A227-92C0A128F0CC}">
+									<Language>SFX</Language>
+									<AudioFile>GOD_7.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="422043169"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{FC4CD380-D68F-4B5E-8887-A11705A3AC01}" ShortID="7882780">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+														<ObjectRef Name="Hall_Large_Dark" ID="{0F6A7D6D-131C-4650-9561-FC05F5C7A37B}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+							<ActiveSourceList>
+								<ActiveSource Name="GOD_7" ID="{AD037DDB-7713-4C28-A227-92C0A128F0CC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="GOD_9" ID="{A2A09C14-5256-49DF-8C95-227F8253DA7E}" ShortID="801957330">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{16A2F2ED-AD44-4D34-A0A7-340402A57956}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EF86D08-F13E-4ADA-9721-72C4A98A9A9D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="GOD_9" ID="{97F2458E-5616-4381-A9CF-E5FBBFE43504}">
+									<Language>SFX</Language>
+									<AudioFile>GOD_9.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="307745733"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{1ED63311-85ED-42A5-94AC-2A59D439C580}" ShortID="85789348">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+														<ObjectRef Name="Hall_Large_Dark" ID="{0F6A7D6D-131C-4650-9561-FC05F5C7A37B}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+							<ActiveSourceList>
+								<ActiveSource Name="GOD_9" ID="{97F2458E-5616-4381-A9CF-E5FBBFE43504}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="GOD_10" ID="{D9442F15-1F7B-424D-8CF7-8A0CD16765CD}" ShortID="910743053">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{16A2F2ED-AD44-4D34-A0A7-340402A57956}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EF86D08-F13E-4ADA-9721-72C4A98A9A9D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="GOD_10" ID="{44886FF6-095D-48E6-9065-B136E56CA550}">
+									<Language>SFX</Language>
+									<AudioFile>GOD_10.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="618791030"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{E39D32DD-61B4-4363-9CBC-7107DAE912A6}" ShortID="719974163">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+														<ObjectRef Name="Hall_Large_Dark" ID="{0F6A7D6D-131C-4650-9561-FC05F5C7A37B}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+							<ActiveSourceList>
+								<ActiveSource Name="GOD_10" ID="{44886FF6-095D-48E6-9065-B136E56CA550}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="GOD_11" ID="{30D62AF0-4B3B-46CF-8F06-6CFB5ABB99B9}" ShortID="1042369496">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{16A2F2ED-AD44-4D34-A0A7-340402A57956}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EF86D08-F13E-4ADA-9721-72C4A98A9A9D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="GOD_11" ID="{C1F95998-C908-484F-8AE6-FD2AAE56AA21}">
+									<Language>SFX</Language>
+									<AudioFile>GOD_11.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="956623575"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{A56573C4-3AF4-4AE4-94CD-5076873408B5}" ShortID="374958507">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+														<ObjectRef Name="Hall_Large_Dark" ID="{0F6A7D6D-131C-4650-9561-FC05F5C7A37B}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+							<ActiveSourceList>
+								<ActiveSource Name="GOD_11" ID="{C1F95998-C908-484F-8AE6-FD2AAE56AA21}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="GOD_12" ID="{8CFDD47C-7C56-4FEA-BC67-255E584AD2F5}" ShortID="951355967">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{16A2F2ED-AD44-4D34-A0A7-340402A57956}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EF86D08-F13E-4ADA-9721-72C4A98A9A9D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="GOD_12" ID="{8FFD9A09-E43F-4BE8-B3E4-36CA9B7B31D0}">
+									<Language>SFX</Language>
+									<AudioFile>GOD_12.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="414996781"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{DEE06F00-45C0-452D-BBE8-C4F5047A92F5}" ShortID="308658665">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+														<ObjectRef Name="Hall_Large_Dark" ID="{0F6A7D6D-131C-4650-9561-FC05F5C7A37B}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+							<ActiveSourceList>
+								<ActiveSource Name="GOD_12" ID="{8FFD9A09-E43F-4BE8-B3E4-36CA9B7B31D0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="GOD_13" ID="{A99601F0-BD8E-4A62-AE74-CA2C37886F74}" ShortID="605318083">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{16A2F2ED-AD44-4D34-A0A7-340402A57956}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EF86D08-F13E-4ADA-9721-72C4A98A9A9D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="GOD_13" ID="{88E2DF58-7104-4CAB-8735-308E4B01FBC9}">
+									<Language>SFX</Language>
+									<AudioFile>GOD_13.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="221451112"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{E7F5E67A-6338-430E-9559-14502F54C1EA}" ShortID="914477855">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+														<ObjectRef Name="Hall_Large_Dark" ID="{0F6A7D6D-131C-4650-9561-FC05F5C7A37B}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+							<ActiveSourceList>
+								<ActiveSource Name="GOD_13" ID="{88E2DF58-7104-4CAB-8735-308E4B01FBC9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="GOD_14" ID="{408DA7EB-AC1A-4D5D-A32A-BFA805791BE2}" ShortID="577087888">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{16A2F2ED-AD44-4D34-A0A7-340402A57956}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EF86D08-F13E-4ADA-9721-72C4A98A9A9D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="GOD_14" ID="{7A9666E5-6B7E-4D26-9A44-90F200B6F9A1}">
+									<Language>SFX</Language>
+									<AudioFile>GOD_14.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="451163231"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{B8113F63-5735-472A-ADE8-B3C2F98D32BF}" ShortID="673965554">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+														<ObjectRef Name="Hall_Large_Dark" ID="{0F6A7D6D-131C-4650-9561-FC05F5C7A37B}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+							<ActiveSourceList>
+								<ActiveSource Name="GOD_14" ID="{7A9666E5-6B7E-4D26-9A44-90F200B6F9A1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="GOD_15" ID="{C25EDEB7-1C37-4C76-9EFA-52D2F87F1F36}" ShortID="900724541">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{16A2F2ED-AD44-4D34-A0A7-340402A57956}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EF86D08-F13E-4ADA-9721-72C4A98A9A9D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="GOD_15" ID="{CDA55271-4713-4801-BAEF-4BD81BDC1835}">
+									<Language>SFX</Language>
+									<AudioFile>GOD_15.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="167270638"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{06A77AC2-F762-485A-A962-59A3B2664430}" ShortID="670818564">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+														<ObjectRef Name="Hall_Large_Dark" ID="{0F6A7D6D-131C-4650-9561-FC05F5C7A37B}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+							<ActiveSourceList>
+								<ActiveSource Name="GOD_15" ID="{CDA55271-4713-4801-BAEF-4BD81BDC1835}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="GOD_16" ID="{70420AE0-E1B2-47E9-9029-2FB7B7F3907B}" ShortID="590803614">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{16A2F2ED-AD44-4D34-A0A7-340402A57956}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EF86D08-F13E-4ADA-9721-72C4A98A9A9D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="GOD_16" ID="{1E11BF9F-9315-40B3-83FF-CE12AEFB826E}">
+									<Language>SFX</Language>
+									<AudioFile>GOD_16.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="696512351"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{1D556F27-EC51-4DA6-B8CF-BFF92278208F}" ShortID="68950813">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+														<ObjectRef Name="Hall_Large_Dark" ID="{0F6A7D6D-131C-4650-9561-FC05F5C7A37B}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+							<ActiveSourceList>
+								<ActiveSource Name="GOD_16" ID="{1E11BF9F-9315-40B3-83FF-CE12AEFB826E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="GOD_Open_1" ID="{7E5D014C-61EE-44DC-9548-5CA29BEAF0C5}" ShortID="955523250">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{16A2F2ED-AD44-4D34-A0A7-340402A57956}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EF86D08-F13E-4ADA-9721-72C4A98A9A9D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="GOD_Open_1" ID="{F75A0D52-2D73-4F69-B425-B85A8964049D}">
+									<Language>SFX</Language>
+									<AudioFile>GOD_Open_1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="841381696"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{683CE809-295A-4DFF-AF51-7B660EE11340}" ShortID="878175569">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+														<ObjectRef Name="Hall_Large_Dark" ID="{0F6A7D6D-131C-4650-9561-FC05F5C7A37B}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+							<ActiveSourceList>
+								<ActiveSource Name="GOD_Open_1" ID="{F75A0D52-2D73-4F69-B425-B85A8964049D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Issac" ID="{7C4AC66C-639B-4C7E-BA8D-AF5488C8C811}" ShortID="511632051">
+					<ChildrenList>
+						<Sound Name="ISSAC_1" ID="{1E337198-B6B3-4761-9742-B1511ABB7535}" ShortID="218833545">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{16A2F2ED-AD44-4D34-A0A7-340402A57956}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EF86D08-F13E-4ADA-9721-72C4A98A9A9D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ISSAC_1" ID="{BD54BDBC-8268-46EB-84F8-81FC0CB02EE9}">
+									<Language>SFX</Language>
+									<AudioFile>ISSAC_1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="182681415"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ISSAC_1" ID="{BD54BDBC-8268-46EB-84F8-81FC0CB02EE9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="ISSAC_2" ID="{5871A87C-0B3B-4AE3-BC36-3D8268F6F185}" ShortID="1062737821">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{16A2F2ED-AD44-4D34-A0A7-340402A57956}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EF86D08-F13E-4ADA-9721-72C4A98A9A9D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ISSAC_2" ID="{30586286-DD05-4E19-A05C-8CA8401AE860}">
+									<Language>SFX</Language>
+									<AudioFile>ISSAC_2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="772097187"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ISSAC_2" ID="{30586286-DD05-4E19-A05C-8CA8401AE860}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="ISSAC_3" ID="{26C2C08B-2064-4134-9D66-6BF15AC5AB4C}" ShortID="918143762">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{16A2F2ED-AD44-4D34-A0A7-340402A57956}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EF86D08-F13E-4ADA-9721-72C4A98A9A9D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ISSAC_3" ID="{6F241427-154A-4E12-AE49-6D6917EC9DB1}">
+									<Language>SFX</Language>
+									<AudioFile>ISSAC_3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1023768249"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ISSAC_3" ID="{6F241427-154A-4E12-AE49-6D6917EC9DB1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="ISSAC_4" ID="{8102B849-B27B-4413-9D8C-882840D2210C}" ShortID="812443534">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{16A2F2ED-AD44-4D34-A0A7-340402A57956}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EF86D08-F13E-4ADA-9721-72C4A98A9A9D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ISSAC_4" ID="{527B8326-4157-40AB-9671-00866CFCB385}">
+									<Language>SFX</Language>
+									<AudioFile>ISSAC_4.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1035187128"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ISSAC_4" ID="{527B8326-4157-40AB-9671-00866CFCB385}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Clues" ID="{9E9E50EA-3EEE-4F7F-BDF7-AFD88B90260F}" ShortID="187724232">
+					<ChildrenList>
+						<Sound Name="1_Clue" ID="{3AC25A57-2CE0-4307-AF8E-B321FE519524}" ShortID="962676442">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{16A2F2ED-AD44-4D34-A0A7-340402A57956}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EF86D08-F13E-4ADA-9721-72C4A98A9A9D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="1_Clue" ID="{3FB48A38-4C35-405B-A12D-9DB7C06C48A7}">
+									<Language>SFX</Language>
+									<AudioFile>1_Clue.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="7200642"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="1_Clue" ID="{3FB48A38-4C35-405B-A12D-9DB7C06C48A7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="2_Clue" ID="{4C06FA8B-4908-474A-8890-D57E4CE0CC6A}" ShortID="343250191">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{16A2F2ED-AD44-4D34-A0A7-340402A57956}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EF86D08-F13E-4ADA-9721-72C4A98A9A9D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="2_Clue" ID="{8E2CE989-F221-48A2-8158-B841392F427D}">
+									<Language>SFX</Language>
+									<AudioFile>2_Clue.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="238767162"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="2_Clue" ID="{8E2CE989-F221-48A2-8158-B841392F427D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="3_Clue" ID="{F61DDC38-C647-49A8-9E07-1A7ECE0401A1}" ShortID="575784721">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{16A2F2ED-AD44-4D34-A0A7-340402A57956}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EF86D08-F13E-4ADA-9721-72C4A98A9A9D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="3_Clue" ID="{16A5554E-91DE-40DC-BE88-23A0248B06E2}">
+									<Language>SFX</Language>
+									<AudioFile>3_Clue.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1022018961"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="3_Clue" ID="{16A5554E-91DE-40DC-BE88-23A0248B06E2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
