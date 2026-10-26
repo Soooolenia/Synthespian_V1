@@ -519,7 +519,17 @@
 												</Action>
 											</ChildrenList>
 										</Event>
-										<Event Name="Third_Clue" ID="{148DF004-D82B-4055-AC46-B18341FB16A6}"/>
+										<Event Name="Third_Clue" ID="{148DF004-D82B-4055-AC46-B18341FB16A6}">
+											<ChildrenList>
+												<Action Name="" ID="{C6FF8CE1-BF0F-4D3C-B6E6-B616FC656160}" ShortID="102703281">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="3_Clue" ID="{F61DDC38-C647-49A8-9E07-1A7ECE0401A1}" WorkUnitID="{293FA52A-1892-4B71-AF01-87A9E7397E61}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
 									</ChildrenList>
 								</Folder>
 							</ChildrenList>
