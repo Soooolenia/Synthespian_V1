@@ -10,19 +10,11 @@
     "Type": "User",
     "GUID": "{3DEBBE8F-D685-4DCE-AF74-AF17BC2DDEEF}",
     "Language": "SFX",
-    "Hash": "{E2E2DA85-E2B1-0EB7-C412-FFD026B9B5CD}",
+    "Hash": "{E8B3F3F5-3320-7E0C-9E9C-9D1A5DB06B52}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Soundbank1015",
     "ShortName": "Soundbank1015",
     "Path": "Soundbank1015.bnk",
     "Media": [
-     {
-      "Id": "7200642",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "1_Clue.wav",
-      "CachePath": "F7/{F719AA67-5318-948A-D1D3-41D7258841C3}.wem"
-     },
      {
       "Id": "15939077",
       "Language": "SFX",
@@ -37,7 +29,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Amb_Inside_1.wav",
-      "CachePath": "32/{3255441B-9D82-6389-2820-3EB95439ACDE}.wem"
+      "CachePath": "31/{31BA45BA-1FA1-CF3D-0D91-ED6C59804033}.wem"
      },
      {
       "Id": "19137358",
@@ -56,6 +48,14 @@
       "CachePath": "76/{767B02B6-BAFA-1ADD-724B-8A0EC8B6A674}.wem"
      },
      {
+      "Id": "29606246",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "First_Clue_Cut_1.wav",
+      "CachePath": "E5/{E5BADEBA-F9F6-6C57-D0CF-F0680EE77C71}.wem"
+     },
+     {
       "Id": "39023249",
       "Language": "SFX",
       "Streaming": "false",
@@ -70,6 +70,14 @@
       "Location": "Memory",
       "ShortName": "FS_Stone_12.wav",
       "CachePath": "37/{371D6674-A865-421C-B92E-61833046BE45}.wem"
+     },
+     {
+      "Id": "43151559",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Second_Clue_Cut_1.wav",
+      "CachePath": "A1/{A1AC614F-BAB7-16F6-1B9D-9AB3A67CB5CD}.wem"
      },
      {
       "Id": "51205299",
@@ -141,7 +149,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Screams_1.wav",
-      "CachePath": "08/{084BA398-7390-7B62-9361-1C2FCD7F5EE1}.wem"
+      "CachePath": "C5/{C558DDB0-392D-AEEE-A7E0-89A2A24F0284}.wem"
      },
      {
       "Id": "111012835",
@@ -246,14 +254,6 @@
       "Location": "Memory",
       "ShortName": "GOD_13.wav",
       "CachePath": "87/{87300CF2-9D17-106D-1511-35C0DB7C66B5}.wem"
-     },
-     {
-      "Id": "238767162",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "2_Clue.wav",
-      "CachePath": "80/{802BD955-982E-C025-C68F-A455375785D1}.wem"
      },
      {
       "Id": "244608267",
@@ -416,6 +416,14 @@
       "CachePath": "CB/{CB3EE2BD-2EB3-822C-E0F0-E3F3E88FB1F6}.wem"
      },
      {
+      "Id": "426777647",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Third_Clue_Cut_1.wav",
+      "CachePath": "43/{432F0323-6A75-045A-EC6D-9A4EA5AA5E23}.wem"
+     },
+     {
       "Id": "437975719",
       "Language": "SFX",
       "Streaming": "false",
@@ -446,6 +454,14 @@
       "Location": "Memory",
       "ShortName": "KAT_6.wav",
       "CachePath": "2D/{2D9A64C2-9B50-4450-AB9E-1B25E5013710}.wem"
+     },
+     {
+      "Id": "458177846",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Altar_Off_1.wav",
+      "CachePath": "CB/{CB2650E5-7B78-BD82-96CE-0B4DEA873F55}.wem"
      },
      {
       "Id": "460451761",
@@ -509,7 +525,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Amb_Outside_1.wav",
-      "CachePath": "25/{25900F5F-CFBB-126C-6752-D55E398CB361}.wem"
+      "CachePath": "A4/{A4242CFA-9595-2A2B-BE1F-CD3AB4F97EB9}.wem"
      },
      {
       "Id": "516923470",
@@ -582,6 +598,14 @@
       "Location": "Memory",
       "ShortName": "Statue_Altar_1.wav",
       "CachePath": "49/{49A75816-C682-D492-5E85-E1C28FC89D41}.wem"
+     },
+     {
+      "Id": "588467120",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "GOD_OpenDX_Cut_1.wav",
+      "CachePath": "AD/{AD6A4317-53D6-3D1A-45A8-01A83CE267A4}.wem"
      },
      {
       "Id": "591244442",
@@ -669,7 +693,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Relic Call 1.wav",
-      "CachePath": "FF/{FF8EE2A2-FF5E-3393-127A-EF8290F3508E}.wem"
+      "CachePath": "FE/{FE223436-225A-F6FE-9CFB-03A6E6476026}.wem"
      },
      {
       "Id": "672593849",
@@ -952,14 +976,6 @@
       "CachePath": "EF/{EFCCB9CB-38BA-9FC5-B178-94D02A3B3F37}.wem"
      },
      {
-      "Id": "841381696",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "GOD_Open_1.wav",
-      "CachePath": "A5/{A55513C4-06FB-29C3-01FE-DCDF7F9EAB50}.wem"
-     },
-     {
       "Id": "843371405",
       "Language": "SFX",
       "Streaming": "false",
@@ -1160,14 +1176,6 @@
       "CachePath": "5A/{5A9AF0F8-5B93-10DA-8C5D-66BAE9C2FC5C}.wem"
      },
      {
-      "Id": "1022018961",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "3_Clue.wav",
-      "CachePath": "2A/{2A994EA9-C06D-BD18-DFF6-85C5520C262A}.wem"
-     },
-     {
       "Id": "1023768249",
       "Language": "SFX",
       "Streaming": "false",
@@ -1216,6 +1224,14 @@
       "CachePath": "EA/{EA6FC4A5-7A50-BF94-B314-3CEA84A1BA2A}.wem"
      },
      {
+      "Id": "1035511482",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Amb_Crypt_1.wav",
+      "CachePath": "A1/{A13C63AA-BAC2-A0CB-9CC6-695869387339}.wem"
+     },
+     {
       "Id": "1045315415",
       "Language": "SFX",
       "Streaming": "false",
@@ -1229,7 +1245,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "ALtar_OnAndLoop_1.wav",
-      "CachePath": "31/{31BC206F-5892-EC30-1FE9-EB52F0692963}.wem"
+      "CachePath": "2B/{2BC4D5E4-14FB-EFB3-E79D-EA34C79F53DC}.wem"
      },
      {
       "Id": "1048464917",
@@ -1370,10 +1386,14 @@
       "Name": "Altar_Off",
       "ObjectPath": "\\Events\\Default Work Unit\\SoundDesign\\Altar_Off",
       "GUID": "{8DF15A3F-1A0B-4403-9F96-B49945C08D3D}",
-      "MaxAttenuation": "0",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "5.366667",
+      "DurationMax": "5.366667",
+      "MediaRefs": [
+       {
+        "Id": "458177846"
+       }
+      ]
      },
      {
       "Id": "2736063483",
@@ -1412,11 +1432,11 @@
       "ObjectPath": "\\Events\\Default Work Unit\\SoundDesign\\DX\\Clues\\First_Clue",
       "GUID": "{31F25133-FC1C-431B-8542-13199CD73E3A}",
       "DurationType": "OneShot",
-      "DurationMin": "118.7",
-      "DurationMax": "118.7",
+      "DurationMin": "102.03333",
+      "DurationMax": "102.03333",
       "MediaRefs": [
        {
-        "Id": "7200642"
+        "Id": "29606246"
        }
       ]
      },
@@ -1445,20 +1465,13 @@
       "ObjectPath": "\\Events\\Default Work Unit\\SoundDesign\\DX\\God\\GOD_1",
       "GUID": "{3EAFDC8E-6912-4980-9F96-2FA67C27A952}",
       "DurationType": "OneShot",
-      "DurationMin": "83.1",
-      "DurationMax": "83.1",
+      "DurationMin": "66.166664",
+      "DurationMax": "66.166664",
       "MediaRefs": [
        {
-        "Id": "841381696"
+        "Id": "588467120"
        }
-      ],
-      "PluginRefs": {
-       "ShareSets": [
-        {
-         "Id": "3442768367"
-        }
-       ]
-      }
+      ]
      },
      {
       "Id": "4048654943",
@@ -2051,6 +2064,9 @@
        },
        {
         "Id": "515033338"
+       },
+       {
+        "Id": "1035511482"
        }
       ],
       "PluginRefs": {
@@ -2714,11 +2730,11 @@
       "ObjectPath": "\\Events\\Default Work Unit\\SoundDesign\\DX\\Clues\\Second_Clue",
       "GUID": "{18BDFF3C-7D30-43C6-988E-7E1B32D8C0FF}",
       "DurationType": "OneShot",
-      "DurationMin": "133.8",
-      "DurationMax": "133.8",
+      "DurationMin": "118.03333",
+      "DurationMax": "118.03333",
       "MediaRefs": [
        {
-        "Id": "238767162"
+        "Id": "43151559"
        }
       ]
      },
@@ -2816,11 +2832,11 @@
       "ObjectPath": "\\Events\\Default Work Unit\\SoundDesign\\DX\\Clues\\Third_Clue",
       "GUID": "{148DF004-D82B-4055-AC46-B18341FB16A6}",
       "DurationType": "OneShot",
-      "DurationMin": "77",
-      "DurationMax": "77",
+      "DurationMin": "69.73333",
+      "DurationMax": "69.73333",
       "MediaRefs": [
        {
-        "Id": "1022018961"
+        "Id": "426777647"
        }
       ]
      },
@@ -2978,6 +2994,6 @@
     ]
    }
   ],
-  "FileHash": "{7DA2BAD8-E0ED-2FAE-F306-4F2E639FE0C3}"
+  "FileHash": "{2AF17858-B4DF-8CFC-783F-C5C350D43BAD}"
  }
 }
