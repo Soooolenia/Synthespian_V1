@@ -606,6 +606,29 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Screams_Muddled" ID="{7A0865EC-2AC9-464B-ADD1-8DD96C77EDD8}">
+							<ChildrenList>
+								<Action Name="" ID="{EF8A61A2-9B3F-453A-96CF-37E3947A93AD}" ShortID="469728075">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Screams_Muffled_1" ID="{C0CBBE3D-4149-4AB8-B124-F728F455B029}" WorkUnitID="{899E3A15-29DB-465F-BB75-42C972128BD6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Tomb_Explode" ID="{1E138B9B-7399-4EF6-B981-A1427915E2ED}">
+							<ChildrenList>
+								<Action Name="" ID="{EA385F36-9ADC-4A20-B9CA-5B8F2DD28F00}" ShortID="145303809">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Tomb_Explode_1" ID="{C457DA5F-7744-42DB-AE8F-393E8A036F69}" WorkUnitID="{899E3A15-29DB-465F-BB75-42C972128BD6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Cut_To_Black" ID="{F688D3D5-8A8D-4583-B3EC-88F780F5178A}"/>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
