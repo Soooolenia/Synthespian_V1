@@ -5,7 +5,6 @@
 			<ChildrenList>
 				<SoundBank Name="Soundbank1015" ID="{3DEBBE8F-D685-4DCE-AF74-AF17BC2DDEEF}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Stop_RelicCall" ID="{CCCA799D-8EB4-4068-9B54-E7377A280E7E}" WorkUnitID="{C589E253-FFE4-4CA7-987E-0572896E4476}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Amb" ID="{62165047-DEA3-4140-9F7C-15F19E328078}" WorkUnitID="{C589E253-FFE4-4CA7-987E-0572896E4476}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_ReliqCall" ID="{6B1ADE50-A1D7-4163-A392-7CC651FAD3DD}" WorkUnitID="{C589E253-FFE4-4CA7-987E-0572896E4476}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_ReliqDestroy" ID="{5F136101-B985-4483-B565-2B1F34883130}" WorkUnitID="{C589E253-FFE4-4CA7-987E-0572896E4476}" Origin="Manual" Filter="7"/>

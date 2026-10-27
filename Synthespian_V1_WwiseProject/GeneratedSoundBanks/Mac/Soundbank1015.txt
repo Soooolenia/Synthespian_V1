@@ -8,6 +8,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1842008522	Play_StatuePickUp			\Default Work Unit\SoundDesign\Relic\Play_StatuePickUp	
 	2191790517	Play_KnifePickup			\Default Work Unit\SoundDesign\Relic\Play_KnifePickup	
 	2460397445	Play_ReliqDestroy			\Default Work Unit\SoundDesign\Play_ReliqDestroy	
+	2551268862	Player_Fall			\Default Work Unit\SoundDesign\Player\Player_Fall	
 	2959533290	Play_Amb			\Default Work Unit\SoundDesign\Amb\Play_Amb	
 	3444492808	Play_MAtAltar			\Default Work Unit\SoundDesign\Relic\Play_MAtAltar	
 	3471928368	Play_Flashlight_On			\Default Work Unit\SoundDesign\Player\Play_Flashlight_On	
@@ -26,21 +27,26 @@ Switch	ID	Name	Switch Group			Notes
 	782826392	Default	Floor_Material			
 
 Effect plug-ins	ID	Name	Type				Notes
+	2648499661	Hall_Medium_Dark	Wwise RoomVerb			
 	2849147824	Medium	Wwise RoomVerb			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	196636934	Knife pick up 1	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\91\{9152BFA3-E146-14F9-70E5-ADACBBEFC56A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Knife pick up 1		153588
 	215984914	Flash_On_1	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\F5\{F5CBB0EA-1409-E766-C37C-021EFD47CB6F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Flash_On_1		51296
-	251337789	mon pick up 1	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\80\{8043BDE6-5A12-79C9-D541-8C84FFEE2D1A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\mon pick up 1		154396
+	251337789	mon pick up 1	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\24\{24139382-309D-AA18-4350-AD7419A22E06}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\mon pick up 1		113004
+	297993441	Fall_1	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\EE\{EE28A7F2-A83B-15DE-8FAD-09FE803D2D63}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Fall_1		344948
 	473010958	Mon_Altar_1	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\B6\{B6B25D4E-F756-74BD-5D14-DE7977935576}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Mon_Altar_1		448096
-	492891621	knife put down 1	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\29\{294AD89A-72BD-D275-9C98-CCFCA3B1FF9F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\knife put down 1		78968
+	492891621	knife put down 1	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\B3\{B3773A8F-53F0-D2B9-F288-FF2A1AC84F0A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\knife put down 1		74536
 	526722614	Flash_Off_2	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\C5\{C5F7E40D-98D2-A25C-0738-0758A9AC0B17}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Flash_Off_2		91528
-	586572282	Statue_Altar_1	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\A2\{A21BE0F6-1685-B059-1396-7191D299D141}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Statue_Altar_1		473696
-	591244442	mon put down 1	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\D2\{D22BCF24-955B-F37A-3FF8-6A4AFA9B0B11}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\mon put down 1		94344
+	586572282	Statue_Altar_1	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\49\{49A75816-C682-D492-5E85-E1C28FC89D41}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Statue_Altar_1		394456
+	591244442	mon put down 1	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\27\{270B84B8-2C26-4C31-BDBB-0C0BC6AF328F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\mon put down 1		91144
 	664990670	Relic Call 1	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\FF\{FF8EE2A2-FF5E-3393-127A-EF8290F3508E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Relic Call 1		2473056
+	722469586	Relic_Destroy_1	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\42\{4235CDC5-4871-EBE4-40BC-D424097C4176}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Relic_Destroy\Relic_Destroy_1		498548
+	770827903	Relic_Destroy_2	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\75\{75215F41-91E1-F4C4-64D8-3A62C02F359D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Relic_Destroy\Relic_Destroy_2		549748
 	780178530	Flash_Off_1	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\8D\{8D352692-C392-72B5-5F3F-08CE9FA048A7}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Flash_Off_1		70496
-	869380893	Statue pick up 1	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\53\{5335A447-4A43-F6A8-6A26-86C5C4B02E78}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Statue pick up 1		51664
+	869380893	Statue pick up 1	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\49\{49C84AE9-F92A-CF75-89CA-F4FE661A0FDA}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Statue pick up 1		50328
 	881740841	Player_Dies_1	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\E3\{E3E5C2DC-76B3-9FF7-B7EF-5C2C1433D5FA}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_Dies_1		1196452
-	1018953906	Statue put down 1	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\C9\{C90750E2-5AD6-28B9-C9B1-392035501B55}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Statue put down 1		102056
+	1006622479	Relic_Destroy_3	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\35\{350470DD-B909-8A39-59BE-0BB614E489D8}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Relic_Destroy\Relic_Destroy_3		568948
+	1018953906	Statue put down 1	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\42\{423CAF54-D1B7-AB4F-645B-32E29D173300}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Statue put down 1		88084
 	1071745532	Knife_Altar_1	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\1A\{1A9E129F-73EF-0B7D-96F8-97248E7790A9}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Knife_Altar_1		428896
 
