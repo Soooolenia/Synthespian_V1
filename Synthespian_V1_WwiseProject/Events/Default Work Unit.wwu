@@ -677,6 +677,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Matthew_SFX" ID="{3A94426B-E9A4-4A4B-90A9-88CA77F02379}">
+							<ChildrenList>
+								<Action Name="" ID="{76055ED1-D66D-456D-B854-9872594DA856}" ShortID="287040581">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Music_Altar_MONO" ID="{D6C9441E-1127-4D1B-AAA6-DF88044512D8}" WorkUnitID="{899E3A15-29DB-465F-BB75-42C972128BD6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Music" ID="{745BAC97-CA2C-4017-95DB-12B51BDE9A2E}" ShortID="438414930">
