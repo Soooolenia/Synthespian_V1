@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{3DEBBE8F-D685-4DCE-AF74-AF17BC2DDEEF}",
     "Language": "SFX",
-    "Hash": "{A0BCC662-C97C-0FF5-DE89-F89B19EEB8AD}",
+    "Hash": "{39CE4AE5-EB3E-4DED-9E1F-DF6FDA94BD30}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Soundbank1015",
     "ShortName": "Soundbank1015",
     "Path": "Soundbank1015.bnk",
@@ -704,6 +704,14 @@
       "CachePath": "0A/{0AFF350F-685D-F67F-89C9-9F34B24EC9D9}.wem"
      },
      {
+      "Id": "702977673",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Music_Spawning_MONO.wav",
+      "CachePath": "8B/{8BAF38B2-D109-D16D-458D-1E51A1529448}.wem"
+     },
+     {
       "Id": "715451669",
       "Language": "SFX",
       "Streaming": "false",
@@ -790,6 +798,14 @@
       "Location": "Memory",
       "ShortName": "FS_Dirt_40.wav",
       "CachePath": "67/{6779A7AC-706A-EBD9-751A-93D8674A2D9B}.wem"
+     },
+     {
+      "Id": "775235078",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Music_Altar_MONO.wav",
+      "CachePath": "59/{59CCBA80-C07C-CDA0-20A1-BDDAE8CCEC29}.wem"
      },
      {
       "Id": "777199557",
@@ -1278,6 +1294,30 @@
     },
     "Events": [
      {
+      "Id": "1591289682",
+      "Name": "Altar_Initial_Music",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\Altar_Initial_Music",
+      "GUID": "{2FF11A30-1F24-415B-B8DB-F6480FF82E05}",
+      "DurationType": "OneShot",
+      "DurationMin": "89",
+      "DurationMax": "89",
+      "MediaRefs": [
+       {
+        "Id": "775235078"
+       }
+      ]
+     },
+     {
+      "Id": "3001801813",
+      "Name": "Altar_Initial_Stop_Music",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\Altar_Initial_Stop_Music",
+      "GUID": "{E21C32F3-9D80-4E2E-8DA8-61690FF71E32}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
       "Id": "4018808797",
       "Name": "Altar_Off",
       "ObjectPath": "\\Events\\Default Work Unit\\SoundDesign\\Altar_Off",
@@ -1648,6 +1688,36 @@
         }
        ]
       }
+     },
+     {
+      "Id": "3425384190",
+      "Name": "Inspection_Stinger_01",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\Inspection Stingers\\Inspection_Stinger_01",
+      "GUID": "{070A6C99-A69F-4D81-BA2A-9E8A61A4A0D1}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "3425384189",
+      "Name": "Inspection_Stinger_02",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\Inspection Stingers\\Inspection_Stinger_02",
+      "GUID": "{4E5D4BDB-2F6E-44F0-A5D2-92D5ABCC9F2E}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "3425384188",
+      "Name": "Inspection_Stinger_03",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\Inspection Stingers\\Inspection_Stinger_03",
+      "GUID": "{75D1C109-655C-4C12-8505-3D9DE2CA3BE4}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
      },
      {
       "Id": "3273235100",
@@ -2330,7 +2400,7 @@
       "Name": "Play_ReliqCall",
       "ObjectPath": "\\Events\\Default Work Unit\\SoundDesign\\Play_ReliqCall",
       "GUID": "{6B1ADE50-A1D7-4163-A392-7CC651FAD3DD}",
-      "MaxAttenuation": "2000",
+      "MaxAttenuation": "20000",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -2511,6 +2581,20 @@
       ]
      },
      {
+      "Id": "3456473954",
+      "Name": "Spawning_Music",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\Spawning_Music",
+      "GUID": "{8900ECBB-ADF6-47BE-A599-28CBAAED3223}",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "MediaRefs": [
+       {
+        "Id": "702977673"
+       }
+      ]
+     },
+     {
       "Id": "716444185",
       "Name": "Stop_RelicCall",
       "ObjectPath": "\\Events\\Default Work Unit\\SoundDesign\\Stop_RelicCall",
@@ -2638,6 +2722,6 @@
     ]
    }
   ],
-  "FileHash": "{D5BBBE84-CBEB-349E-D089-F0C62E743BC0}"
+  "FileHash": "{8C5D2076-4B0E-DD29-0BF5-DBA84E4E4415}"
  }
 }

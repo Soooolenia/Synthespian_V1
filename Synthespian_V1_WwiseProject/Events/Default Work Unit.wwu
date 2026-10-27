@@ -650,15 +650,11 @@
 					<ChildrenList>
 						<Event Name="Gameplay_Music" ID="{1348668C-7E44-40D4-9031-AE15430E1C6C}">
 							<ChildrenList>
-								<Action Name="" ID="{48A633DD-54C9-4723-A701-28C6AA19F550}" ShortID="161935838">
+								<Action Name="" ID="{BB6E0A53-F5C8-4A98-8439-C1011DE578C4}" ShortID="519049814">
 									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="ActionType" Type="int16" Value="3"/>
 									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Menu" ID="{E78864AE-F96A-4D32-98E4-05E15F03A1D1}" WorkUnitID="{84D04981-8520-46BB-9CE0-4D622447649E}"/>
-										</Reference>
-									</ReferenceList>
+									<ReferenceList/>
 								</Action>
 								<Action Name="" ID="{6FB72554-8AED-4F3A-9B63-CFA253D9100C}" ShortID="797069584">
 									<ReferenceList>
@@ -686,6 +682,49 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Altar_Initial_Music" ID="{2FF11A30-1F24-415B-B8DB-F6480FF82E05}">
+							<ChildrenList>
+								<Action Name="" ID="{6486BBB3-582A-4D91-992A-2CED8C767057}" ShortID="407630281">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Music_Altar_MONO" ID="{E96DE559-EFED-4194-AD56-42C5A3548976}" WorkUnitID="{84D04981-8520-46BB-9CE0-4D622447649E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Altar_Initial_Stop_Music" ID="{E21C32F3-9D80-4E2E-8DA8-61690FF71E32}">
+							<ChildrenList>
+								<Action Name="" ID="{26BB409A-9A88-4547-98AF-D8F4D0CD8605}" ShortID="449338304">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Music_Altar_MONO" ID="{E96DE559-EFED-4194-AD56-42C5A3548976}" WorkUnitID="{84D04981-8520-46BB-9CE0-4D622447649E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Spawning_Music" ID="{8900ECBB-ADF6-47BE-A599-28CBAAED3223}">
+							<ChildrenList>
+								<Action Name="" ID="{F0D7A4CC-0B41-44A5-94D4-E1EE96DCB26C}" ShortID="173817258">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Spawning" ID="{86073546-3ADD-4FFD-93AA-1E50533E537C}" WorkUnitID="{84D04981-8520-46BB-9CE0-4D622447649E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Folder Name="Inspection Stingers" ID="{432D42C5-5D93-4405-8946-B110A2A5DD83}" ShortID="463092881">
+							<ChildrenList>
+								<Event Name="Inspection_Stinger_01" ID="{070A6C99-A69F-4D81-BA2A-9E8A61A4A0D1}"/>
+								<Event Name="Inspection_Stinger_02" ID="{4E5D4BDB-2F6E-44F0-A5D2-92D5ABCC9F2E}"/>
+								<Event Name="Inspection_Stinger_03" ID="{75D1C109-655C-4C12-8505-3D9DE2CA3BE4}"/>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
