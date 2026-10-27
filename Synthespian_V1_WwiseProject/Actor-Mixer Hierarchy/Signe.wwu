@@ -2398,10 +2398,13 @@
 					<ChildrenList>
 						<AudioFileSource Name="Relic Call 1" ID="{E8EEA584-0133-45FA-9877-BFE13A268F3A}">
 							<PropertyList>
+								<Property Name="CrossfadeDuration" Type="Real64" Value="268.333"/>
 								<Property Name="FadeInDuration" Type="Real64" Value="0.0590052361263654"/>
 								<Property Name="FadeInShape" Type="int16" Value="0"/>
 								<Property Name="FadeOutDuration" Type="Real64" Value="0.0421465972331188"/>
 								<Property Name="FadeOutShape" Type="int16" Value="9"/>
+								<Property Name="LoopBegin" Type="Real64" Value="0.186847197018002"/>
+								<Property Name="LoopEnd" Type="Real64" Value="12.381740807952"/>
 								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 							</PropertyList>
 							<Language>SFX</Language>
@@ -2479,7 +2482,9 @@
 					<ChildrenList>
 						<AudioFileSource Name="Tomb_Open_1" ID="{C3156B98-7DB0-4DA4-BB3B-5453C4BD4CA8}">
 							<PropertyList>
+								<Property Name="CrossfadeDuration" Type="Real64" Value="26.259"/>
 								<Property Name="LoopBegin" Type="Real64" Value="0.770390064850075"/>
+								<Property Name="LoopEnd" Type="Real64" Value="1.94645390126261"/>
 								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 							</PropertyList>
 							<Language>SFX</Language>
@@ -2611,6 +2616,7 @@
 					<ChildrenList>
 						<AudioFileSource Name="ALtar_OnAndLoop_1" ID="{BD0CC5E9-F884-4FC7-A493-1ABE1F82EA8E}">
 							<PropertyList>
+								<Property Name="CrossfadeDuration" Type="Real64" Value="542.729"/>
 								<Property Name="LoopBegin" Type="Real64" Value="6.97044009166253"/>
 								<Property Name="LoopEnd" Type="Real64" Value="15.1166161812463"/>
 								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
@@ -3037,10 +3043,13 @@
 					<ChildrenList>
 						<AudioFileSource Name="Screams_1" ID="{DBEC0CA5-D261-4704-8745-5194653ECFC0}">
 							<PropertyList>
+								<Property Name="CrossfadeDuration" Type="Real64" Value="583.42"/>
 								<Property Name="FadeInDuration" Type="Real64" Value="0.177272728379506"/>
 								<Property Name="FadeInShape" Type="int16" Value="0"/>
 								<Property Name="FadeOutDuration" Type="Real64" Value="0.256060607659283"/>
 								<Property Name="FadeOutShape" Type="int16" Value="9"/>
+								<Property Name="LoopBegin" Type="Real64" Value="0.650000004058189"/>
+								<Property Name="LoopEnd" Type="Real64" Value="19.4803030247691"/>
 								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 							</PropertyList>
 							<Language>SFX</Language>
@@ -3069,273 +3078,6 @@
 						<ActiveSource Name="Screams_1" ID="{DBEC0CA5-D261-4704-8745-5194653ECFC0}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Folder Name="Amb" ID="{AA3014A9-F030-4AD9-9290-13D57DB82BD7}" ShortID="665081614">
-					<ChildrenList>
-						<RandomSequenceContainer Name="Crypt" ID="{CDE89009-C577-4E65-8D2C-D5F9615FCD8A}" ShortID="539410455">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{16A2F2ED-AD44-4D34-A0A7-340402A57956}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EF86D08-F13E-4ADA-9721-72C4A98A9A9D}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<Sound Name="Amb_Crypt_1" ID="{53A85CDF-4AE4-462A-8A22-670E4D763DB4}" ShortID="286692346">
-									<PropertyList>
-										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{16A2F2ED-AD44-4D34-A0A7-340402A57956}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EF86D08-F13E-4ADA-9721-72C4A98A9A9D}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Amb_Crypt_1" ID="{670E72E6-429D-4844-8724-4845E70D8DCD}">
-											<PropertyList>
-												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>Amb_Crypt_1.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="1035511482"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Amb_Crypt_1" ID="{670E72E6-429D-4844-8724-4845E70D8DCD}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-							</ChildrenList>
-							<StateInfo>
-								<StateGroupList>
-									<StateGroupInfo>
-										<StateGroupRef Name="AmbController" ID="{3D4BF6A5-8B2A-4A16-A301-449C8B0F7477}"/>
-									</StateGroupInfo>
-								</StateGroupList>
-								<CustomStateList>
-									<CustomState>
-										<StateRef Name="None" ID="{8BF33830-03EF-40FF-8885-AA6659D09426}"/>
-										<CustomState Name="" ID="{DC13EE18-5AFC-4A42-AECF-75ECF4E73132}" ShortID="9365629">
-											<PropertyList>
-												<Property Name="Volume" Type="Real64" Value="-108"/>
-											</PropertyList>
-										</CustomState>
-									</CustomState>
-									<CustomState>
-										<StateRef Name="Exterior" ID="{48A1750B-D873-479E-84FC-1719A4DB67D9}"/>
-										<CustomState Name="" ID="{0D1E18AC-3552-4A80-9ADD-11CCA9066A3C}" ShortID="106171661">
-											<PropertyList>
-												<Property Name="Volume" Type="Real64" Value="-108"/>
-											</PropertyList>
-										</CustomState>
-									</CustomState>
-									<CustomState>
-										<StateRef Name="Interior" ID="{630DAAF2-2665-48E5-AD45-2468F89B9A08}"/>
-										<CustomState Name="" ID="{4EE48439-E1DA-4B7A-801E-462F1A853A23}" ShortID="531615667">
-											<PropertyList>
-												<Property Name="Volume" Type="Real64" Value="-108"/>
-											</PropertyList>
-										</CustomState>
-									</CustomState>
-									<CustomState>
-										<StateRef Name="Crypt" ID="{8F0F0571-5D5F-4F1D-ACF9-53D18A0136E2}"/>
-										<CustomState Name="" ID="{73FEC67E-8760-4486-8972-32F72F2E416E}" ShortID="252556651"/>
-									</CustomState>
-								</CustomStateList>
-							</StateInfo>
-						</RandomSequenceContainer>
-						<RandomSequenceContainer Name="Outside_Amb" ID="{28A30B2B-21FE-4C22-8F58-90E2D7510C0A}" ShortID="291973956">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{16A2F2ED-AD44-4D34-A0A7-340402A57956}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EF86D08-F13E-4ADA-9721-72C4A98A9A9D}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<Sound Name="Amb_Outside_1" ID="{E4847FCE-08B4-497B-ACB3-72987F962C93}" ShortID="714343722">
-									<PropertyList>
-										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{16A2F2ED-AD44-4D34-A0A7-340402A57956}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EF86D08-F13E-4ADA-9721-72C4A98A9A9D}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Amb_Outside_1" ID="{E09171BB-4393-40DA-B34A-A24589C4BDC0}">
-											<Language>SFX</Language>
-											<AudioFile>Amb_Outside_1.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="515033338"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Amb_Outside_1" ID="{E09171BB-4393-40DA-B34A-A24589C4BDC0}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-							</ChildrenList>
-							<StateInfo>
-								<StateGroupList>
-									<StateGroupInfo>
-										<StateGroupRef Name="AmbController" ID="{3D4BF6A5-8B2A-4A16-A301-449C8B0F7477}"/>
-									</StateGroupInfo>
-								</StateGroupList>
-								<CustomStateList>
-									<CustomState>
-										<StateRef Name="None" ID="{8BF33830-03EF-40FF-8885-AA6659D09426}"/>
-										<CustomState Name="" ID="{772B720C-4384-4599-B21C-5F392BAE85C5}" ShortID="312425673">
-											<PropertyList>
-												<Property Name="Volume" Type="Real64" Value="-108"/>
-											</PropertyList>
-										</CustomState>
-									</CustomState>
-									<CustomState>
-										<StateRef Name="Exterior" ID="{48A1750B-D873-479E-84FC-1719A4DB67D9}"/>
-										<CustomState Name="" ID="{AB315C92-FE57-4FD5-8420-1091B261B7D4}" ShortID="545039364"/>
-									</CustomState>
-									<CustomState>
-										<StateRef Name="Interior" ID="{630DAAF2-2665-48E5-AD45-2468F89B9A08}"/>
-										<CustomState Name="" ID="{37607353-9A5C-4014-8F60-50F7AFCB1834}" ShortID="993369100">
-											<PropertyList>
-												<Property Name="Volume" Type="Real64" Value="-108"/>
-											</PropertyList>
-										</CustomState>
-									</CustomState>
-									<CustomState>
-										<StateRef Name="Crypt" ID="{8F0F0571-5D5F-4F1D-ACF9-53D18A0136E2}"/>
-										<CustomState Name="" ID="{56CB545E-F2AB-4BE9-8782-6A88E44B69BF}" ShortID="722700812">
-											<PropertyList>
-												<Property Name="Volume" Type="Real64" Value="-108"/>
-											</PropertyList>
-										</CustomState>
-									</CustomState>
-								</CustomStateList>
-							</StateInfo>
-						</RandomSequenceContainer>
-						<RandomSequenceContainer Name="Inside_Amb" ID="{29519805-2CB6-43AF-9D6C-62DD9CBC4DA1}" ShortID="768174007">
-							<PropertyList>
-								<Property Name="OverrideEffect" Type="bool" Value="True"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{16A2F2ED-AD44-4D34-A0A7-340402A57956}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EF86D08-F13E-4ADA-9721-72C4A98A9A9D}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<Sound Name="Amb_Inside_1" ID="{EFBFE617-D265-4E3B-B72A-5A9EFC8880D1}" ShortID="864477064">
-									<PropertyList>
-										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{16A2F2ED-AD44-4D34-A0A7-340402A57956}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EF86D08-F13E-4ADA-9721-72C4A98A9A9D}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Amb_Inside_1" ID="{A1C6D8C1-B1DD-4092-A6DB-95BF7269FB46}">
-											<Language>SFX</Language>
-											<AudioFile>Amb_Inside_1.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="16480298"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Amb_Inside_1" ID="{A1C6D8C1-B1DD-4092-A6DB-95BF7269FB46}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-							</ChildrenList>
-							<StateInfo>
-								<StateGroupList>
-									<StateGroupInfo>
-										<StateGroupRef Name="AmbController" ID="{3D4BF6A5-8B2A-4A16-A301-449C8B0F7477}"/>
-									</StateGroupInfo>
-								</StateGroupList>
-								<CustomStateList>
-									<CustomState>
-										<StateRef Name="None" ID="{8BF33830-03EF-40FF-8885-AA6659D09426}"/>
-										<CustomState Name="" ID="{81E14783-2FBD-4B4F-BB2A-00CA57BC0FE0}" ShortID="1032575473">
-											<PropertyList>
-												<Property Name="Volume" Type="Real64" Value="-108"/>
-											</PropertyList>
-										</CustomState>
-									</CustomState>
-									<CustomState>
-										<StateRef Name="Exterior" ID="{48A1750B-D873-479E-84FC-1719A4DB67D9}"/>
-										<CustomState Name="" ID="{C473F4F0-9778-414E-9006-F4415A54DCAD}" ShortID="262475739">
-											<PropertyList>
-												<Property Name="Volume" Type="Real64" Value="-108"/>
-											</PropertyList>
-										</CustomState>
-									</CustomState>
-									<CustomState>
-										<StateRef Name="Interior" ID="{630DAAF2-2665-48E5-AD45-2468F89B9A08}"/>
-										<CustomState Name="" ID="{F7F95401-8D41-4E11-9240-2402AD9B81CF}" ShortID="204780925"/>
-									</CustomState>
-									<CustomState>
-										<StateRef Name="Crypt" ID="{8F0F0571-5D5F-4F1D-ACF9-53D18A0136E2}"/>
-										<CustomState Name="" ID="{B387D9D1-2D85-42E8-A281-9E4952E89348}" ShortID="293608507">
-											<PropertyList>
-												<Property Name="Volume" Type="Real64" Value="-108"/>
-											</PropertyList>
-										</CustomState>
-									</CustomState>
-								</CustomStateList>
-							</StateInfo>
-							<ObjectLists>
-								<ObjectList Name="Effects">
-									<Reference>
-										<Local>
-											<EffectSlot Name="" ID="{CE5824F3-BE23-4B9D-9145-2EEF68D9C145}" ShortID="778819035">
-												<ReferenceList>
-													<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
-														<ObjectRef Name="Church_Small_Wood" ID="{940CCB47-F031-4C6A-B0E6-726CAC418C02}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
-													</Reference>
-												</ReferenceList>
-												<StateInfo>
-													<CustomStateList>
-														<CustomState>
-															<StateRef Name="None" ID="{8BF33830-03EF-40FF-8885-AA6659D09426}"/>
-															<CustomState Name="" ID="{A7F3AE2D-1211-4F3D-BDA0-801995932C26}" ShortID="236825935"/>
-														</CustomState>
-														<CustomState>
-															<StateRef Name="Exterior" ID="{48A1750B-D873-479E-84FC-1719A4DB67D9}"/>
-															<CustomState Name="" ID="{458CEE83-1DC2-4B26-B415-CE0BC0C8BB6A}" ShortID="475760294"/>
-														</CustomState>
-														<CustomState>
-															<StateRef Name="Interior" ID="{630DAAF2-2665-48E5-AD45-2468F89B9A08}"/>
-															<CustomState Name="" ID="{A0C8561D-5347-4342-B8C1-2212B1D84E5A}" ShortID="991336991"/>
-														</CustomState>
-														<CustomState>
-															<StateRef Name="Crypt" ID="{8F0F0571-5D5F-4F1D-ACF9-53D18A0136E2}"/>
-															<CustomState Name="" ID="{A8A86050-27B2-47D2-9A27-D9A163D15513}" ShortID="501246361"/>
-														</CustomState>
-													</CustomStateList>
-												</StateInfo>
-											</EffectSlot>
-										</Local>
-									</Reference>
-								</ObjectList>
-							</ObjectLists>
-						</RandomSequenceContainer>
-					</ChildrenList>
-				</Folder>
 				<Sound Name="Screams_Muffled_1" ID="{7709C3E4-1819-4DAB-94F7-9772E8641A1B}" ShortID="969086205">
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -3347,6 +3089,12 @@
 					</ReferenceList>
 					<ChildrenList>
 						<AudioFileSource Name="Screams_Muffled_1" ID="{5CE93259-A0E5-4180-BD3B-06234C4DEC06}">
+							<PropertyList>
+								<Property Name="CrossfadeDuration" Type="Real64" Value="530.382"/>
+								<Property Name="LoopBegin" Type="Real64" Value="0.512121215318573"/>
+								<Property Name="LoopEnd" Type="Real64" Value="19.7560606022484"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>Screams_Muffled_1.wav</AudioFile>
 							<MediaIDList>
@@ -3442,6 +3190,311 @@
 						<ActiveSource Name="Music_Altar_MONO" ID="{B72E501F-DD8A-4277-A1D8-43FC427EE3E0}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<SwitchContainer Name="AMB" ID="{6823D4BE-E49E-4034-8DEC-2852F3CDD1DE}" ShortID="254539820">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{16A2F2ED-AD44-4D34-A0A7-340402A57956}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EF86D08-F13E-4ADA-9721-72C4A98A9A9D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="Crypt" ID="{CDE89009-C577-4E65-8D2C-D5F9615FCD8A}" ShortID="539410455">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{16A2F2ED-AD44-4D34-A0A7-340402A57956}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EF86D08-F13E-4ADA-9721-72C4A98A9A9D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Amb_Crypt_1" ID="{53A85CDF-4AE4-462A-8A22-670E4D763DB4}" ShortID="286692346">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{16A2F2ED-AD44-4D34-A0A7-340402A57956}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EF86D08-F13E-4ADA-9721-72C4A98A9A9D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Amb_Crypt_1" ID="{670E72E6-429D-4844-8724-4845E70D8DCD}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="715.625"/>
+												<Property Name="LoopBegin" Type="Real64" Value="2.48046417531469"/>
+												<Property Name="LoopEnd" Type="Real64" Value="28.5265765930412"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="1.18117341681652"/>
+												<Property Name="TrimEnd" Type="Real64" Value="29.2045132394148"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Amb_Crypt_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1035511482"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Amb_Crypt_1" ID="{670E72E6-429D-4844-8724-4845E70D8DCD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="AmbController" ID="{3D4BF6A5-8B2A-4A16-A301-449C8B0F7477}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="None" ID="{8BF33830-03EF-40FF-8885-AA6659D09426}"/>
+										<CustomState Name="" ID="{DC13EE18-5AFC-4A42-AECF-75ECF4E73132}" ShortID="9365629">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Exterior" ID="{48A1750B-D873-479E-84FC-1719A4DB67D9}"/>
+										<CustomState Name="" ID="{0D1E18AC-3552-4A80-9ADD-11CCA9066A3C}" ShortID="106171661">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Interior" ID="{630DAAF2-2665-48E5-AD45-2468F89B9A08}"/>
+										<CustomState Name="" ID="{4EE48439-E1DA-4B7A-801E-462F1A853A23}" ShortID="531615667">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Crypt" ID="{8F0F0571-5D5F-4F1D-ACF9-53D18A0136E2}"/>
+										<CustomState Name="" ID="{73FEC67E-8760-4486-8972-32F72F2E416E}" ShortID="252556651"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Outside_Amb" ID="{28A30B2B-21FE-4C22-8F58-90E2D7510C0A}" ShortID="291973956">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{16A2F2ED-AD44-4D34-A0A7-340402A57956}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EF86D08-F13E-4ADA-9721-72C4A98A9A9D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Amb_Outside_1" ID="{E4847FCE-08B4-497B-ACB3-72987F962C93}" ShortID="714343722">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{16A2F2ED-AD44-4D34-A0A7-340402A57956}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EF86D08-F13E-4ADA-9721-72C4A98A9A9D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Amb_Outside_1" ID="{E09171BB-4393-40DA-B34A-A24589C4BDC0}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="1026.195"/>
+												<Property Name="LoopBegin" Type="Real64" Value="1.42913076817643"/>
+												<Property Name="LoopEnd" Type="Real64" Value="23.675933654549"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Amb_Outside_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="515033338"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Amb_Outside_1" ID="{E09171BB-4393-40DA-B34A-A24589C4BDC0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="AmbController" ID="{3D4BF6A5-8B2A-4A16-A301-449C8B0F7477}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="None" ID="{8BF33830-03EF-40FF-8885-AA6659D09426}"/>
+										<CustomState Name="" ID="{772B720C-4384-4599-B21C-5F392BAE85C5}" ShortID="312425673">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Exterior" ID="{48A1750B-D873-479E-84FC-1719A4DB67D9}"/>
+										<CustomState Name="" ID="{AB315C92-FE57-4FD5-8420-1091B261B7D4}" ShortID="545039364"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Interior" ID="{630DAAF2-2665-48E5-AD45-2468F89B9A08}"/>
+										<CustomState Name="" ID="{37607353-9A5C-4014-8F60-50F7AFCB1834}" ShortID="993369100">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Crypt" ID="{8F0F0571-5D5F-4F1D-ACF9-53D18A0136E2}"/>
+										<CustomState Name="" ID="{56CB545E-F2AB-4BE9-8782-6A88E44B69BF}" ShortID="722700812">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Inside_Amb" ID="{29519805-2CB6-43AF-9D6C-62DD9CBC4DA1}" ShortID="768174007">
+							<PropertyList>
+								<Property Name="OverrideEffect" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{16A2F2ED-AD44-4D34-A0A7-340402A57956}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EF86D08-F13E-4ADA-9721-72C4A98A9A9D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Amb_Inside_1" ID="{EFBFE617-D265-4E3B-B72A-5A9EFC8880D1}" ShortID="864477064">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{16A2F2ED-AD44-4D34-A0A7-340402A57956}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EF86D08-F13E-4ADA-9721-72C4A98A9A9D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Amb_Inside_1" ID="{A1C6D8C1-B1DD-4092-A6DB-95BF7269FB46}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="2917.191"/>
+												<Property Name="LoopBegin" Type="Real64" Value="3.49084933814043"/>
+												<Property Name="LoopEnd" Type="Real64" Value="57.7193873501058"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Amb_Inside_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="16480298"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Amb_Inside_1" ID="{A1C6D8C1-B1DD-4092-A6DB-95BF7269FB46}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="AmbController" ID="{3D4BF6A5-8B2A-4A16-A301-449C8B0F7477}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="None" ID="{8BF33830-03EF-40FF-8885-AA6659D09426}"/>
+										<CustomState Name="" ID="{81E14783-2FBD-4B4F-BB2A-00CA57BC0FE0}" ShortID="1032575473">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Exterior" ID="{48A1750B-D873-479E-84FC-1719A4DB67D9}"/>
+										<CustomState Name="" ID="{C473F4F0-9778-414E-9006-F4415A54DCAD}" ShortID="262475739">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Interior" ID="{630DAAF2-2665-48E5-AD45-2468F89B9A08}"/>
+										<CustomState Name="" ID="{F7F95401-8D41-4E11-9240-2402AD9B81CF}" ShortID="204780925"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Crypt" ID="{8F0F0571-5D5F-4F1D-ACF9-53D18A0136E2}"/>
+										<CustomState Name="" ID="{B387D9D1-2D85-42E8-A281-9E4952E89348}" ShortID="293608507">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{CE5824F3-BE23-4B9D-9145-2EEF68D9C145}" ShortID="778819035">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+														<ObjectRef Name="Church_Small_Wood" ID="{940CCB47-F031-4C6A-B0E6-726CAC418C02}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+													</Reference>
+												</ReferenceList>
+												<StateInfo>
+													<CustomStateList>
+														<CustomState>
+															<StateRef Name="None" ID="{8BF33830-03EF-40FF-8885-AA6659D09426}"/>
+															<CustomState Name="" ID="{A7F3AE2D-1211-4F3D-BDA0-801995932C26}" ShortID="236825935"/>
+														</CustomState>
+														<CustomState>
+															<StateRef Name="Exterior" ID="{48A1750B-D873-479E-84FC-1719A4DB67D9}"/>
+															<CustomState Name="" ID="{458CEE83-1DC2-4B26-B415-CE0BC0C8BB6A}" ShortID="475760294"/>
+														</CustomState>
+														<CustomState>
+															<StateRef Name="Interior" ID="{630DAAF2-2665-48E5-AD45-2468F89B9A08}"/>
+															<CustomState Name="" ID="{A0C8561D-5347-4342-B8C1-2212B1D84E5A}" ShortID="991336991"/>
+														</CustomState>
+														<CustomState>
+															<StateRef Name="Crypt" ID="{8F0F0571-5D5F-4F1D-ACF9-53D18A0136E2}"/>
+															<CustomState Name="" ID="{A8A86050-27B2-47D2-9A27-D9A163D15513}" ShortID="501246361"/>
+														</CustomState>
+													</CustomStateList>
+												</StateInfo>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</RandomSequenceContainer>
+					</ChildrenList>
+					<GroupingInfo>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="Inside_Amb" ID="{29519805-2CB6-43AF-9D6C-62DD9CBC4DA1}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Crypt" ID="{CDE89009-C577-4E65-8D2C-D5F9615FCD8A}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Outside_Amb" ID="{28A30B2B-21FE-4C22-8F58-90E2D7510C0A}"/>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+					</GroupingInfo>
+				</SwitchContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

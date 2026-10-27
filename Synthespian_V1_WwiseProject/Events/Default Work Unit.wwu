@@ -327,10 +327,10 @@
 									<ChildrenList>
 										<Event Name="GOD_1" ID="{3EAFDC8E-6912-4980-9F96-2FA67C27A952}">
 											<ChildrenList>
-												<Action Name="" ID="{8C0288D5-150B-49C1-BAE2-756AF6FB94C9}" ShortID="794479286">
+												<Action Name="" ID="{5B0052BE-8545-460A-AF56-25A83D5CA31A}" ShortID="264020885">
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="GOD_Open_1" ID="{7E5D014C-61EE-44DC-9548-5CA29BEAF0C5}" WorkUnitID="{293FA52A-1892-4B71-AF01-87A9E7397E61}"/>
+															<ObjectRef Name="GOD_OpenDX_Cut_1" ID="{A1492D18-7DB3-4431-A5AB-97674FB95298}" WorkUnitID="{293FA52A-1892-4B71-AF01-87A9E7397E61}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -544,10 +544,10 @@
 									<ChildrenList>
 										<Event Name="First_Clue" ID="{31F25133-FC1C-431B-8542-13199CD73E3A}">
 											<ChildrenList>
-												<Action Name="" ID="{7C933480-783A-4B64-99A9-9FB6D01311C1}" ShortID="481238390">
+												<Action Name="" ID="{8D1CF380-1B6F-43FC-8160-912B9AEAD1C6}" ShortID="419943200">
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="1_Clue" ID="{3AC25A57-2CE0-4307-AF8E-B321FE519524}" WorkUnitID="{293FA52A-1892-4B71-AF01-87A9E7397E61}"/>
+															<ObjectRef Name="First_Clue_Cut_1" ID="{8541E714-3ED7-4A68-B00E-2A0949025AA5}" WorkUnitID="{293FA52A-1892-4B71-AF01-87A9E7397E61}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -555,10 +555,10 @@
 										</Event>
 										<Event Name="Second_Clue" ID="{18BDFF3C-7D30-43C6-988E-7E1B32D8C0FF}">
 											<ChildrenList>
-												<Action Name="" ID="{A1B9673A-DFD9-4F6F-B5E8-32EEADECB0B3}" ShortID="1071048876">
+												<Action Name="" ID="{7299F47F-1EB4-47D2-A88D-68C774731E4D}" ShortID="698468214">
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="2_Clue" ID="{4C06FA8B-4908-474A-8890-D57E4CE0CC6A}" WorkUnitID="{293FA52A-1892-4B71-AF01-87A9E7397E61}"/>
+															<ObjectRef Name="Second_Clue_Cut_1" ID="{A82D1C28-B9AE-453D-B09E-625C7ECAA0CD}" WorkUnitID="{293FA52A-1892-4B71-AF01-87A9E7397E61}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -566,10 +566,10 @@
 										</Event>
 										<Event Name="Third_Clue" ID="{148DF004-D82B-4055-AC46-B18341FB16A6}">
 											<ChildrenList>
-												<Action Name="" ID="{C6FF8CE1-BF0F-4D3C-B6E6-B616FC656160}" ShortID="102703281">
+												<Action Name="" ID="{DF000B89-2DF3-466A-AB89-00AA562D5493}" ShortID="61587787">
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="3_Clue" ID="{F61DDC38-C647-49A8-9E07-1A7ECE0401A1}" WorkUnitID="{293FA52A-1892-4B71-AF01-87A9E7397E61}"/>
+															<ObjectRef Name="Third_Clue_Cut_1" ID="{639AF604-913D-4DE8-A739-EF541BC6C812}" WorkUnitID="{293FA52A-1892-4B71-AF01-87A9E7397E61}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -593,12 +593,19 @@
 						<Event Name="Altar_Off" ID="{8DF15A3F-1A0B-4403-9F96-B49945C08D3D}">
 							<ChildrenList>
 								<Action Name="" ID="{71242893-129D-4B98-9771-5E3074100BB6}" ShortID="720850060">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Altar_Off_1" ID="{3E2FCAC4-B0AB-470F-95CB-A52E95FA35D7}" WorkUnitID="{899E3A15-29DB-465F-BB75-42C972128BD6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{861FB911-4C73-4963-8963-7CCEC563EDE0}" ShortID="388489503">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="2"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Altar_Off_1" ID="{3E2FCAC4-B0AB-470F-95CB-A52E95FA35D7}" WorkUnitID="{899E3A15-29DB-465F-BB75-42C972128BD6}"/>
+											<ObjectRef Name="ALtar_OnAndLoop_1" ID="{AECEB1E1-53DA-44CC-B430-F90774622F45}" WorkUnitID="{899E3A15-29DB-465F-BB75-42C972128BD6}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
