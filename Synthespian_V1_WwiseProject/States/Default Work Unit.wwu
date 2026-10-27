@@ -8,6 +8,7 @@
 						<State Name="None" ID="{8BF33830-03EF-40FF-8885-AA6659D09426}"/>
 						<State Name="Interior" ID="{630DAAF2-2665-48E5-AD45-2468F89B9A08}"/>
 						<State Name="Exterior" ID="{48A1750B-D873-479E-84FC-1719A4DB67D9}"/>
+						<State Name="Crypt" ID="{8F0F0571-5D5F-4F1D-ACF9-53D18A0136E2}"/>
 					</ChildrenList>
 				</StateGroup>
 			</ChildrenList>

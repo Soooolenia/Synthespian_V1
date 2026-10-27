@@ -205,7 +205,31 @@
 										<Action Name="" ID="{49A565F9-441A-4006-BFCA-96ED0C2EA62D}" ShortID="580342096">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Amb" ID="{957E3079-EB94-4385-8386-732A3BC41FE4}" WorkUnitID="{899E3A15-29DB-465F-BB75-42C972128BD6}"/>
+													<ObjectRef Name="Crypt" ID="{CDE89009-C577-4E65-8D2C-D5F9615FCD8A}" WorkUnitID="{899E3A15-29DB-465F-BB75-42C972128BD6}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{F8C77B54-F673-4D5C-85DD-FC6D57020455}" ShortID="727983094">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Inside_Amb" ID="{29519805-2CB6-43AF-9D6C-62DD9CBC4DA1}" WorkUnitID="{899E3A15-29DB-465F-BB75-42C972128BD6}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{53C70EB4-08A9-4654-942D-E1469A653F6E}" ShortID="1039279492">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Outside_Amb" ID="{28A30B2B-21FE-4C22-8F58-90E2D7510C0A}" WorkUnitID="{899E3A15-29DB-465F-BB75-42C972128BD6}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{1EC9969D-30BA-4646-B1A4-AF6704E16B7E}" ShortID="350124502">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="22"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Interior" ID="{630DAAF2-2665-48E5-AD45-2468F89B9A08}" WorkUnitID="{75975FD3-7738-4CD1-8D56-F25D7D8F0F82}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -601,6 +625,62 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Screams_1" ID="{F30F94B1-D65C-46B8-AB55-EC61A406C5D9}" WorkUnitID="{899E3A15-29DB-465F-BB75-42C972128BD6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_RelicCall" ID="{4B2589A5-1A9E-4CB4-A6E2-791A282A854C}">
+							<ChildrenList>
+								<Action Name="" ID="{895E3336-D64E-4423-AA9D-1C34BF32E60A}" ShortID="967822069">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Relic Call 1" ID="{84183A02-DC3F-4309-91DE-BA80DF731487}" WorkUnitID="{899E3A15-29DB-465F-BB75-42C972128BD6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Music" ID="{745BAC97-CA2C-4017-95DB-12B51BDE9A2E}" ShortID="438414930">
+					<ChildrenList>
+						<Event Name="Gameplay_Music" ID="{1348668C-7E44-40D4-9031-AE15430E1C6C}">
+							<ChildrenList>
+								<Action Name="" ID="{48A633DD-54C9-4723-A701-28C6AA19F550}" ShortID="161935838">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Menu" ID="{E78864AE-F96A-4D32-98E4-05E15F03A1D1}" WorkUnitID="{84D04981-8520-46BB-9CE0-4D622447649E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{6FB72554-8AED-4F3A-9B63-CFA253D9100C}" ShortID="797069584">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Gameplay" ID="{5CCD3C2F-C189-4CF9-AA21-E68978F72773}" WorkUnitID="{84D04981-8520-46BB-9CE0-4D622447649E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Menu_Music" ID="{1E4284B9-D174-4319-A35F-B16EDD873685}">
+							<ChildrenList>
+								<Action Name="" ID="{C05D1397-8B63-4193-B226-452A79D32718}" ShortID="1040698185">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="3"/>
+									</PropertyList>
+									<ReferenceList/>
+								</Action>
+								<Action Name="" ID="{7BE59953-92EA-4A21-AACF-36C4A126221D}" ShortID="964626412">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Menu" ID="{E78864AE-F96A-4D32-98E4-05E15F03A1D1}" WorkUnitID="{84D04981-8520-46BB-9CE0-4D622447649E}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

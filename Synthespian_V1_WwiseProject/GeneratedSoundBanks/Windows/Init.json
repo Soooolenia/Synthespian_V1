@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{FC683996-5A91-DE41-59C2-EF038B7EC931}",
+    "Hash": "{444D4585-D855-AFB2-9A58-A1DE2CF2CA38}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -66,6 +66,12 @@
         "Name": "Exterior",
         "ObjectPath": "\\States\\Default Work Unit\\AmbController\\Exterior",
         "GUID": "{48A1750B-D873-479E-84FC-1719A4DB67D9}"
+       },
+       {
+        "Id": "2761606855",
+        "Name": "Crypt",
+        "ObjectPath": "\\States\\Default Work Unit\\AmbController\\Crypt",
+        "GUID": "{8F0F0571-5D5F-4F1D-ACF9-53D18A0136E2}"
        }
       ]
      }
@@ -94,6 +100,6 @@
     ]
    }
   ],
-  "FileHash": "{4C393B7E-945B-1163-9E38-5B5E924EE15A}"
+  "FileHash": "{07EDC6B3-BDE0-9735-719E-3D98036C1670}"
  }
 }

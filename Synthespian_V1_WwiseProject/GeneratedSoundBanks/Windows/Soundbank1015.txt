@@ -2,21 +2,57 @@ Event	ID	Name			Wwise Object Path	Notes
 	153873477	Play_ReliqCall			\Default Work Unit\SoundDesign\Play_ReliqCall	
 	318945040	Play_KnifePutDown			\Default Work Unit\SoundDesign\Relic\Play_KnifePutDown	
 	634516732	Play_PGrunt			\Default Work Unit\SoundDesign\Player\Play_PGrunt	
+	716444185	Stop_RelicCall			\Default Work Unit\SoundDesign\Stop_RelicCall	
 	753680188	Play_PTakeDamage			\Default Work Unit\SoundDesign\Player\Play_PTakeDamage	
 	1056324539	Play_StatueAtAltar			\Default Work Unit\SoundDesign\Relic\Play_StatueAtAltar	
+	1526321041	KAT_3			\Default Work Unit\SoundDesign\DX\Kat\KAT_3	
+	1526321044	KAT_6			\Default Work Unit\SoundDesign\DX\Kat\KAT_6	
+	1526321045	KAT_7			\Default Work Unit\SoundDesign\DX\Kat\KAT_7	
+	1526321046	KAT_4			\Default Work Unit\SoundDesign\DX\Kat\KAT_4	
+	1526321047	KAT_5			\Default Work Unit\SoundDesign\DX\Kat\KAT_5	
 	1542330065	Player_Die			\Default Work Unit\SoundDesign\Player\Player_Die	
+	1551306167	UI			\Default Work Unit\SoundDesign\UI\UI	
 	1842008522	Play_StatuePickUp			\Default Work Unit\SoundDesign\Relic\Play_StatuePickUp	
+	1951969926	Stop_Tomb			\Default Work Unit\SoundDesign\Stop_Tomb	
 	2191790517	Play_KnifePickup			\Default Work Unit\SoundDesign\Relic\Play_KnifePickup	
+	2265600903	First_Clue			\Default Work Unit\SoundDesign\DX\Clues\First_Clue	
+	2322231365	Gameplay_Music			\Default Work Unit\Music\Gameplay_Music	
 	2460397445	Play_ReliqDestroy			\Default Work Unit\SoundDesign\Play_ReliqDestroy	
 	2551268862	Player_Fall			\Default Work Unit\SoundDesign\Player\Player_Fall	
+	2736063483	Altat_On			\Default Work Unit\SoundDesign\Altat_On	
+	2812860249	Screams			\Default Work Unit\SoundDesign\Screams	
+	2886495632	Play_Tomb			\Default Work Unit\SoundDesign\Play_Tomb	
 	2959533290	Play_Amb			\Default Work Unit\SoundDesign\Amb\Play_Amb	
+	3273235097	ISSAC_4			\Default Work Unit\SoundDesign\DX\Issac\ISSAC_4	
+	3273235100	ISSAC_1			\Default Work Unit\SoundDesign\DX\Issac\ISSAC_1	
+	3273235102	ISSAC_3			\Default Work Unit\SoundDesign\DX\Issac\ISSAC_3	
+	3273235103	ISSAC_2			\Default Work Unit\SoundDesign\DX\Issac\ISSAC_2	
+	3369779576	Third_Clue			\Default Work Unit\SoundDesign\DX\Clues\Third_Clue	
 	3444492808	Play_MAtAltar			\Default Work Unit\SoundDesign\Relic\Play_MAtAltar	
 	3471928368	Play_Flashlight_On			\Default Work Unit\SoundDesign\Player\Play_Flashlight_On	
 	3684449182	Play_MPutDown			\Default Work Unit\SoundDesign\Relic\Play_MPutDown	
 	3854155799	Play_FootSteps			\Default Work Unit\SoundDesign\Player\Play_FootSteps	
 	3938901427	Play_MPickUp			\Default Work Unit\SoundDesign\Relic\Play_MPickUp	
 	4014971946	Play_KnifeAtAltar			\Default Work Unit\SoundDesign\Relic\Play_KnifeAtAltar	
+	4018808797	Altar_Off			\Default Work Unit\SoundDesign\Altar_Off	
+	4022572083	Second_Clue			\Default Work Unit\SoundDesign\DX\Clues\Second_Clue	
+	4048654937	GOD_16			\Default Work Unit\SoundDesign\DX\God\GOD_16	
+	4048654938	GOD_15			\Default Work Unit\SoundDesign\DX\God\GOD_15	
+	4048654939	GOD_14			\Default Work Unit\SoundDesign\DX\God\GOD_14	
+	4048654940	GOD_13			\Default Work Unit\SoundDesign\DX\God\GOD_13	
+	4048654941	GOD_12			\Default Work Unit\SoundDesign\DX\God\GOD_12	
+	4048654942	GOD_11			\Default Work Unit\SoundDesign\DX\God\GOD_11	
+	4048654943	GOD_10			\Default Work Unit\SoundDesign\DX\God\GOD_10	
+	4055567060	Menu_Music			\Default Work Unit\Music\Menu_Music	
 	4176136713	Play_StatuePutDown			\Default Work Unit\SoundDesign\Relic\Play_StatuePutDown	
+	4260177200	GOD_4			\Default Work Unit\SoundDesign\DX\God\GOD_4	
+	4260177201	GOD_5			\Default Work Unit\SoundDesign\DX\God\GOD_5	
+	4260177202	GOD_6			\Default Work Unit\SoundDesign\DX\God\GOD_6	
+	4260177203	GOD_7			\Default Work Unit\SoundDesign\DX\God\GOD_7	
+	4260177205	GOD_1			\Default Work Unit\SoundDesign\DX\God\GOD_1	
+	4260177206	GOD_2			\Default Work Unit\SoundDesign\DX\God\GOD_2	
+	4260177207	GOD_3			\Default Work Unit\SoundDesign\DX\God\GOD_3	
+	4260177213	GOD_9			\Default Work Unit\SoundDesign\DX\God\GOD_9	
 	4262288462	Play_Flashlight_Off			\Default Work Unit\SoundDesign\Player\Play_Flashlight_Off	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
@@ -26,27 +62,173 @@ Switch	ID	Name	Switch Group			Notes
 	687380132	Soil	Floor_Material			
 	782826392	Default	Floor_Material			
 
+State Group	ID	Name			Wwise Object Path	Notes
+	1717793131	AmbController			\Default Work Unit\AmbController	
+
+State	ID	Name	State Group			Notes
+	748895195	None	AmbController			
+	1132214669	Interior	AmbController			
+	2213992659	Exterior	AmbController			
+	2761606855	Crypt	AmbController			
+
 Effect plug-ins	ID	Name	Type				Notes
+	484890516	Church_Small_Wood	Wwise RoomVerb			
+	1008402193	Low_Pass_20KHz	Wwise Parametric EQ			
 	2648499661	Hall_Medium_Dark	Wwise RoomVerb			
 	2849147824	Medium	Wwise RoomVerb			
+	3164629247	Holy	Wwise RoomVerb			
+	3442768367	Hall_Large_Dark	Wwise RoomVerb			
+	3701691487	Hall_Large_Bright	Wwise RoomVerb			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	7200642	1_Clue	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\F7\{F719AA67-5318-948A-D1D3-41D7258841C3}.wem		\Actor-Mixer Hierarchy\Default Work Unit\DX_Signe\Clues\1_Clue		22790496
+	15939077	Tomb_Open_1	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\C3\{C39B1BC6-C6A4-E620-B8E2-9F953FB077DA}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Tomb_Open_1		387344
+	16480298	Amb_Inside_1	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\32\{3255441B-9D82-6389-2820-3EB95439ACDE}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Amb\Inside_Amb\Amb_Inside_1		11948912
+	19137358	FS_Dirt_7	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\D8\{D8103952-BCEA-D975-6D79-988F9FB86D23}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Dirt\FS_Dirt_7		47118
+	21170709	FS_Dirt_12	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\76\{767B02B6-BAFA-1ADD-724B-8A0EC8B6A674}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Dirt\FS_Dirt_12		45460
+	39023249	FS_Dirt_47	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\64\{64D7BEB5-56D1-60DB-C301-77F9947116F0}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Dirt\FS_Dirt_47		78588
+	39656745	FS_Stone_12	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\37\{371D6674-A865-421C-B92E-61833046BE45}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Stone\FS_Stone_12		63988
+	51205299	FS_Stone_11	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\F2\{F211EFF5-2252-F2B3-631A-98A743D451AF}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Stone\FS_Stone_11		62084
+	58520917	FS_Dirt_60	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\DA\{DABAD0FA-BB54-DED4-E38A-490D634861F3}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Dirt\FS_Dirt_60		83132
+	64896943	FS_Dirt_31	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\47\{47414B18-7F29-D242-D8E4-C3DD3AC04481}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Dirt\FS_Dirt_31		75736
+	65523071	FS_Dirt_54	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\55\{5575FBA6-4E0D-C1AC-E7E6-FD6A847B9CDD}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Dirt\FS_Dirt_54		79500
+	79032150	UI_3	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\9F\{9F231D43-6A6C-D8D0-C8E6-160EFD4E079D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\UI\UI_3		39404
+	85472684	FS_Dirt_29	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\52\{52F1146D-8F5E-D7AA-841A-76392DDB2A5F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Dirt\FS_Dirt_29		47364
+	92813469	FS_Stone_2	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\33\{33041686-172C-B034-1503-5DF413BF35B4}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Stone\FS_Stone_2		59892
+	108268580	Screams_1	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\08\{084BA398-7390-7B62-9361-1C2FCD7F5EE1}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Screams_1		3910496
+	111012835	FS_Dirt_30	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\5D\{5DDB185B-DE9E-30F3-3AEC-566952BFD0CA}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Dirt\FS_Dirt_30		48126
+	115732279	GOD_5	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\D0\{D0DC96C9-FACE-F650-56CE-140EE8D9125D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\DX_Signe\God\GOD_5		3315296
+	135326123	Music_Gameplay_1_Base	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\34\{345560C1-3020-7AA8-332A-04FB612C8EC8}.wem		\Interactive Music Hierarchy\Music\Gameplay\Music_Gameplay_Main\Music_Gameplay_1_Base		7104208
+	167270638	GOD_15	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\27\{277B68A2-15BA-A1E8-5296-775F0DB48506}.wem		\Actor-Mixer Hierarchy\Default Work Unit\DX_Signe\God\GOD_15		3977696
+	182681415	ISSAC_1	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\82\{8224EEAB-9D44-0637-D30A-220A0A06A5DA}.wem		\Actor-Mixer Hierarchy\Default Work Unit\DX_Signe\Issac\ISSAC_1		947296
+	187043433	FS_Stone_7	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\E2\{E2FC866E-9151-39F3-2549-BA1E9E361A75}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Stone\FS_Stone_7		58452
+	193057127	FS_Dirt_39	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\CD\{CD7B5D71-4619-4F79-2742-5BAB27F8CB35}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Dirt\FS_Dirt_39		91248
 	196636934	Knife pick up 1	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\91\{9152BFA3-E146-14F9-70E5-ADACBBEFC56A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Knife pick up 1		153588
+	197286183	FS_Stone_22	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\2A\{2ACF89D3-0AA9-15F4-DC58-2AFE4AC3B1F3}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Stone\FS_Stone_22		61820
+	215480449	FS_Dirt_14	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\A7\{A7520146-3D90-1C9B-2CD2-60BBDDD0BAC9}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Dirt\FS_Dirt_14		43838
 	215984914	Flash_On_1	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\F5\{F5CBB0EA-1409-E766-C37C-021EFD47CB6F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Flash_On_1		51296
+	221451112	GOD_13	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\87\{87300CF2-9D17-106D-1511-35C0DB7C66B5}.wem		\Actor-Mixer Hierarchy\Default Work Unit\DX_Signe\God\GOD_13		1964896
+	238767162	2_Clue	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\80\{802BD955-982E-C025-C68F-A455375785D1}.wem		\Actor-Mixer Hierarchy\Default Work Unit\DX_Signe\Clues\2_Clue		25689696
+	244608267	FS_Stone_18	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\43\{43688FB7-5510-D501-9E23-9E2F6467BF7B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Stone\FS_Stone_18		75092
 	251337789	mon pick up 1	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\24\{24139382-309D-AA18-4350-AD7419A22E06}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\mon pick up 1		113004
+	253086201	FS_Dirt_50	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\6B\{6BB6B1E2-2C1A-2E04-252B-72A845453581}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Dirt\FS_Dirt_50		77560
+	268985955	GOD_6	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\B6\{B6913D02-D25A-CB8F-41D8-BA6A1EC5F2AD}.wem		\Actor-Mixer Hierarchy\Default Work Unit\DX_Signe\God\GOD_6		3238496
+	279312872	FS_Dirt_48	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\7F\{7F24F0BD-1375-108A-04E3-2E5D6B4BB4BF}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Dirt\FS_Dirt_48		82464
 	297993441	Fall_1	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\EE\{EE28A7F2-A83B-15DE-8FAD-09FE803D2D63}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Fall_1		344948
+	301295090	FS_Dirt_46	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\C3\{C34EAC93-AD16-8FD1-EB62-7746323C0657}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Dirt\FS_Dirt_46		87588
+	307745733	GOD_9	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\09\{0904FB07-672E-D26C-CAC9-8CCBB6D1003D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\DX_Signe\God\GOD_9		2688096
+	313061942	FS_Dirt_4	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\CB\{CB6C5D3D-2D1E-02FD-8DB8-A2262EF5B725}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Dirt\FS_Dirt_4		44456
+	327848595	FS_Dirt_23	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\D8\{D89E3A99-A596-9503-4E63-EB10847ECB37}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Dirt\FS_Dirt_23		39000
+	343383275	FS_Dirt_55	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\FD\{FD488C4B-8E3C-D9E1-1F59-6A64A1738761}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Dirt\FS_Dirt_55		83568
+	346050454	FS_Stone_19	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\66\{6683CC88-E732-1597-B541-E3F8A2CA7FFA}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Stone\FS_Stone_19		63232
+	349035458	FS_Dirt_32	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\19\{192B549E-BFCC-0CA6-F54C-41C440C0F6AB}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Dirt\FS_Dirt_32		121056
+	354639703	FS_Stone_26	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\9A\{9ACE7359-F16A-CD98-869B-39052220D630}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Stone\FS_Stone_26		60904
+	359000975	FS_Dirt_15	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\60\{6079C30F-FA43-8E45-CAB1-8BAEA82EFBBC}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Dirt\FS_Dirt_15		39338
+	367140296	KAT_3	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\1A\{1A1CEFF8-0E0F-E735-FD4C-331CCC687E34}.wem		\Actor-Mixer Hierarchy\Default Work Unit\DX_Signe\Kat\KAT_3		4515560
+	414996781	GOD_12	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\0F\{0FB0F9E1-6E8B-6C9D-3102-8C8039C4176B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\DX_Signe\God\GOD_12		5926496
+	415553886	FS_Dirt_52	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\CF\{CFB2ACCC-748F-B93A-CE54-A88B7A2D072F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Dirt\FS_Dirt_52		111356
+	422043169	GOD_7	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\49\{490D7064-6702-2EF3-7D2F-49610C72E847}.wem		\Actor-Mixer Hierarchy\Default Work Unit\DX_Signe\God\GOD_7		13120096
+	423164673	FS_Stone_8	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\CB\{CB3EE2BD-2EB3-822C-E0F0-E3F3E88FB1F6}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Stone\FS_Stone_8		57760
+	437975719	FS_Dirt_8	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\15\{1511727B-80BA-FC0D-2538-BBC86DF8E0C2}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Dirt\FS_Dirt_8		47274
+	440080872	FS_Stone_9	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\0F\{0F12B663-D167-54E6-F642-436EBA02FCA1}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Stone\FS_Stone_9		60256
+	451163231	GOD_14	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\13\{138A12F4-5F09-508A-D893-AD740699AD39}.wem		\Actor-Mixer Hierarchy\Default Work Unit\DX_Signe\God\GOD_14		2566496
+	455618591	KAT_6	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\2D\{2D9A64C2-9B50-4450-AB9E-1B25E5013710}.wem		\Actor-Mixer Hierarchy\Default Work Unit\DX_Signe\Kat\KAT_6		1964896
+	460451761	FS_Dirt_25	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\FD\{FDD8A156-B9AA-4CC4-C1E2-F91AA1CC136F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Dirt\FS_Dirt_25		41952
 	473010958	Mon_Altar_1	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\B6\{B6B25D4E-F756-74BD-5D14-DE7977935576}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Mon_Altar_1		448096
+	475685491	FS_Stone_10	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\6B\{6B7F0AD7-8FCA-4588-C0BF-277A9A8702A5}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Stone\FS_Stone_10		56372
+	482721319	FS_Dirt_22	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\21\{216EB65E-E566-88EE-8711-594B2144FCE8}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Dirt\FS_Dirt_22		49824
 	492891621	knife put down 1	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\B3\{B3773A8F-53F0-D2B9-F288-FF2A1AC84F0A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\knife put down 1		74536
+	505001910	Music_Gameplay_2	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\C8\{C8E77CAF-E6A5-C856-2EF5-5DC10A33EA31}.wem		\Interactive Music Hierarchy\Music\Gameplay\Music_Gameplay_Main\Music_Gameplay_2		7104208
+	515033338	Amb_Outside_1	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\25\{25900F5F-CFBB-126C-6752-D55E398CB361}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Amb\Outside_Amb\Amb_Outside_1		4728804
+	516923470	FS_Dirt_59	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\6C\{6C9C620A-D115-8760-52E3-87751298DC82}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Dirt\FS_Dirt_59		85552
 	526722614	Flash_Off_2	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\C5\{C5F7E40D-98D2-A25C-0738-0758A9AC0B17}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Flash_Off_2		91528
+	533454119	FS_Dirt_6	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\A6\{A64FAB43-6FF0-0C83-3839-B7DD78106351}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Dirt\FS_Dirt_6		48402
+	539237366	FS_Stone_5	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\F3\{F30F5FA0-28BE-A4A0-4D73-E9454F7A6C2C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Stone\FS_Stone_5		57040
+	545673347	FS_Stone_13	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\23\{23F79FFB-058E-B9F4-C5A1-32EA7379348A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Stone\FS_Stone_13		60064
+	549481138	KAT_4	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\5E\{5E650D3F-E0FF-DB0C-CE80-8AE8ED7698E1}.wem		\Actor-Mixer Hierarchy\Default Work Unit\DX_Signe\Kat\KAT_4		3417696
+	549987658	UI_8	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\87\{876FFE3D-A849-267E-084F-5629F6623D86}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\UI\UI_8		39400
+	554306997	FS_Stone_25	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\F9\{F92FBEC9-2B49-6D73-415C-7A600796BA67}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Stone\FS_Stone_25		57692
 	586572282	Statue_Altar_1	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\49\{49A75816-C682-D492-5E85-E1C28FC89D41}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Statue_Altar_1		394456
 	591244442	mon put down 1	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\27\{270B84B8-2C26-4C31-BDBB-0C0BC6AF328F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\mon put down 1		91144
+	610480016	FS_Dirt_11	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\30\{30921B6E-A520-FDAD-5324-18F987544FBE}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Dirt\FS_Dirt_11		43914
+	612204934	FS_Dirt_42	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\32\{329B7975-9552-AC36-933C-4D1EBB86E7F7}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Dirt\FS_Dirt_42		106068
+	613318294	UI_7	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\A4\{A4429F60-2FD4-0C26-319D-9FC3925FA010}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\UI\UI_7		38572
+	618791030	GOD_10	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\30\{30D57191-40FA-3074-42F7-106F2231B926}.wem		\Actor-Mixer Hierarchy\Default Work Unit\DX_Signe\God\GOD_10		2604896
+	623164520	UI_6	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\0D\{0DBFA108-1163-FC3D-0946-E0F9FBBFC8DB}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\UI\UI_6		38460
+	625188972	Music_Gameplay_3	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\8A\{8AD562AF-F8B2-1FD9-8E97-513C27E015BD}.wem		\Interactive Music Hierarchy\Music\Gameplay\Music_Gameplay_Main\Music_Gameplay_3		7104208
+	629952568	FS_Dirt_56	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\81\{81024D30-9D3B-C6F5-06C1-A45CEB9F7EAD}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Dirt\FS_Dirt_56		99552
+	644688333	UI_2	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\A1\{A14138B8-50C1-8DD4-535A-C15CB325BC85}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\UI\UI_2		39404
+	650355707	Music_Gameplay_4	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\79\{79B5D7FB-B2CE-D13D-8387-1CBE219EEE60}.wem		\Interactive Music Hierarchy\Music\Gameplay\Music_Gameplay_Main\Music_Gameplay_4		7104208
 	664990670	Relic Call 1	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\FF\{FF8EE2A2-FF5E-3393-127A-EF8290F3508E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Relic Call 1		2473056
+	672593849	FS_Dirt_58	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\BE\{BEBD97C5-36B3-5F8F-869A-20527FD3A87C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Dirt\FS_Dirt_58		85576
+	678223639	FS_Dirt_49	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\09\{090278A4-E148-0607-E65F-439DF0856AFE}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Dirt\FS_Dirt_49		77076
+	681851203	FS_Stone_17	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\7F\{7FE9F675-923F-0CA6-0F2D-9A0D9EE576CD}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Stone\FS_Stone_17		59780
+	685918171	FS_Stone_20	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\45\{457AF4B7-9335-88AB-D12F-A33917D3818E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Stone\FS_Stone_20		68988
+	696512351	GOD_16	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\FF\{FF1A87FD-98C1-9E4B-AB13-90BA2319EBC1}.wem		\Actor-Mixer Hierarchy\Default Work Unit\DX_Signe\God\GOD_16		2786016
+	698326588	KAT_5	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\B3\{B3E642A3-1E53-75FD-9C3D-AD3E9ADD88A6}.wem		\Actor-Mixer Hierarchy\Default Work Unit\DX_Signe\Kat\KAT_5		1817696
+	699845373	FS_Dirt_16	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\0A\{0AFF350F-685D-F67F-89C9-9F34B24EC9D9}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Dirt\FS_Dirt_16		41276
+	715451669	UI_4	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\24\{24AC6EC9-06D1-9631-DC8C-4FDEAA3B83D1}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\UI\UI_4		38988
+	719455958	FS_Dirt_3	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\4E\{4EFAD201-6091-13D0-F584-FF746A5F74DE}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Dirt\FS_Dirt_3		41530
 	722469586	Relic_Destroy_1	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\42\{4235CDC5-4871-EBE4-40BC-D424097C4176}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Relic_Destroy\Relic_Destroy_1		498548
+	730638421	FS_Dirt_44	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\AD\{ADF8D2FF-BAB9-2357-212E-432662B9691B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Dirt\FS_Dirt_44		90832
+	731185599	FS_Dirt_27	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\84\{84BA0554-C1A1-78C9-54C6-F540D0A0628E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Dirt\FS_Dirt_27		50132
+	752610048	FS_Dirt_18	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\2E\{2EC3318E-1B79-140B-2F95-4DBA69BD0B6E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Dirt\FS_Dirt_18		38824
+	758064770	FS_Dirt_38	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\EA\{EA48C695-6020-89F6-CA9D-665179C1376C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Dirt\FS_Dirt_38		101080
+	759023912	FS_Dirt_41	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\0A\{0A86E1B9-A6E6-57F8-CA02-B573173E24FB}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Dirt\FS_Dirt_41		77620
 	770827903	Relic_Destroy_2	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\75\{75215F41-91E1-F4C4-64D8-3A62C02F359D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Relic_Destroy\Relic_Destroy_2		549748
+	772097187	ISSAC_2	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\4C\{4C0DB791-24E5-69DB-DB41-C89472130679}.wem		\Actor-Mixer Hierarchy\Default Work Unit\DX_Signe\Issac\ISSAC_2		1420896
+	774123330	FS_Dirt_40	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\67\{6779A7AC-706A-EBD9-751A-93D8674A2D9B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Dirt\FS_Dirt_40		95456
+	777199557	FS_Stone_4	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\47\{472B78C3-1EE7-C45F-FCA5-7A97D859B910}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Stone\FS_Stone_4		58256
 	780178530	Flash_Off_1	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\8D\{8D352692-C392-72B5-5F3F-08CE9FA048A7}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Flash_Off_1		70496
+	787373453	Music_Menu	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\BB\{BBC4F63A-3F49-4A21-A131-710E3FA2F9E8}.wem		\Interactive Music Hierarchy\Music\Menu\Music_Menu\Music_Menu		6528208
+	793746286	FS_Dirt_26	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\1F\{1F205DAD-AF99-85D8-D181-3D15DD5D1768}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Dirt\FS_Dirt_26		41610
+	798664971	KAT_7	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\AB\{AB775289-7232-1DD0-7A42-B154655E193A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\DX_Signe\Kat\KAT_7		1574496
+	811756821	FS_Dirt_37	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\FD\{FD3C04F3-1700-B7A6-891E-1450C9C00D15}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Dirt\FS_Dirt_37		94140
+	817699022	GOD_4	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\AB\{AB8FA5D3-9086-A890-2142-770E931E1913}.wem		\Actor-Mixer Hierarchy\Default Work Unit\DX_Signe\God\GOD_4		1606496
+	820177833	GOD_3	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\FC\{FCEA0308-7942-1C41-3C07-8D2EA8A64E99}.wem		\Actor-Mixer Hierarchy\Default Work Unit\DX_Signe\God\GOD_3		2438496
+	823667477	FS_Stone_24	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\71\{710F74D1-B11F-DDD0-1539-E62452A563AA}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Stone\FS_Stone_24		61812
+	830745429	FS_Stone_15	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\74\{74E39028-9DBF-E4F8-CC1B-A9F8EEFA0735}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Stone\FS_Stone_15		65596
+	836561404	FS_Dirt_1	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\08\{08FC37C2-4437-6F7A-FD48-3D1C28040EDD}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Dirt\FS_Dirt_1		37582
+	839714582	FS_Dirt_34	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\EF\{EFCCB9CB-38BA-9FC5-B178-94D02A3B3F37}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Dirt\FS_Dirt_34		89816
+	841381696	GOD_Open_1	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\A5\{A55513C4-06FB-29C3-01FE-DCDF7F9EAB50}.wem		\Actor-Mixer Hierarchy\Default Work Unit\DX_Signe\God\GOD_Open_1		15955296
+	843371405	FS_Dirt_13	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\4A\{4A20A82C-0F45-FB2F-1B10-5ABA54C1ED31}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Dirt\FS_Dirt_13		50582
+	859534438	FS_Dirt_5	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\70\{708A7991-AB2C-420A-ACAB-50200BCFC0A6}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Dirt\FS_Dirt_5		42058
+	860122676	FS_Dirt_45	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\B9\{B9E7571F-8F50-C921-7510-EBB5454DBF03}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Dirt\FS_Dirt_45		101068
 	869380893	Statue pick up 1	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\49\{49C84AE9-F92A-CF75-89CA-F4FE661A0FDA}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Statue pick up 1		50328
+	877493250	FS_Dirt_51	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\F9\{F9C7FE02-C82D-DF26-B040-DF05FE9F57C7}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Dirt\FS_Dirt_51		90992
 	881740841	Player_Dies_1	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\E3\{E3E5C2DC-76B3-9FF7-B7EF-5C2C1433D5FA}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_Dies_1		1196452
+	883749804	FS_Dirt_35	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\6F\{6F458159-EF5F-1097-1836-92870DB76534}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Dirt\FS_Dirt_35		85216
+	885478245	FS_Dirt_9	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\ED\{EDBA0B1E-25A1-0598-40E9-D8B242FFC7B3}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Dirt\FS_Dirt_9		38854
+	888531817	FS_Dirt_2	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\6A\{6A40C527-C140-87FF-EE61-3119376ACE87}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Dirt\FS_Dirt_2		60084
+	908198910	FS_Dirt_57	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\60\{6033BA5D-AF38-B0CC-573B-9592EA3A8E1B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Dirt\FS_Dirt_57		78924
+	909023987	FS_Stone_21	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\46\{4668BDE3-D1EA-D976-DB82-3607F73C3F27}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Stone\FS_Stone_21		59872
+	914356700	FS_Dirt_28	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\8B\{8B0BA0E1-1ABB-1625-550D-42329A3D53B1}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Dirt\FS_Dirt_28		39280
+	938340395	FS_Stone_23	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\2F\{2F73EE4A-273F-974A-570D-665728998837}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Stone\FS_Stone_23		57428
+	947278219	FS_Stone_6	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\EB\{EB9500BC-FC33-AFA6-28E3-A4F576FE3FFF}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Stone\FS_Stone_6		60948
+	956623575	GOD_11	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\63\{63B479BD-B342-322C-4977-6FC65CC54B83}.wem		\Actor-Mixer Hierarchy\Default Work Unit\DX_Signe\God\GOD_11		5548896
+	961972462	FS_Stone_14	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\82\{8260CD87-59A3-5A56-2CC2-0232AD159E53}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Stone\FS_Stone_14		57704
+	966789192	FS_Dirt_24	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\72\{72B8DCB8-F109-D94C-778A-F7B6A5A46945}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Dirt\FS_Dirt_24		42124
+	989623085	FS_Dirt_17	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\E2\{E2EECFC3-4908-9B56-AE4D-59DF1A5D409C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Dirt\FS_Dirt_17		38582
+	1002895748	FS_Dirt_43	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\88\{884CA32F-0C3B-C91D-E9B8-239546EEC26F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Dirt\FS_Dirt_43		89176
+	1006345478	FS_Dirt_10	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\16\{16C3D38F-7FC1-C1ED-E28C-4E554E0DF7D1}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Dirt\FS_Dirt_10		53082
 	1006622479	Relic_Destroy_3	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\35\{350470DD-B909-8A39-59BE-0BB614E489D8}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Relic_Destroy\Relic_Destroy_3		568948
+	1009750120	UI_1	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\BC\{BCD39A00-B06D-C68D-B2D9-D55E81B18EB0}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\UI\UI_1		38380
+	1016552433	UI_5	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\D7\{D7AD9DED-9A85-380E-AEBB-D9C513BB71B0}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\UI\UI_5		39404
 	1018953906	Statue put down 1	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\42\{423CAF54-D1B7-AB4F-645B-32E29D173300}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Statue put down 1		88084
+	1020788861	FS_Stone_3	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\5A\{5A9AF0F8-5B93-10DA-8C5D-66BAE9C2FC5C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Stone\FS_Stone_3		61804
+	1022018961	3_Clue	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\2A\{2A994EA9-C06D-BD18-DFF6-85C5520C262A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\DX_Signe\Clues\3_Clue		14784096
+	1023768249	ISSAC_3	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\FC\{FC8C85BE-BB7F-05D5-66B5-019C2560A86E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\DX_Signe\Issac\ISSAC_3		364896
+	1028859070	FS_Dirt_20	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\82\{82B4B03D-BBAC-7C1B-96EA-B117649AB82A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Dirt\FS_Dirt_20		39794
+	1031430549	FS_Stone_16	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\D3\{D3CCD8CB-C338-E6AB-9982-37F3AB75887C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Stone\FS_Stone_16		62892
+	1031886118	FS_Dirt_36	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\C6\{C67CADF8-F0D1-0C11-38AD-0D24A9EF63EC}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Dirt\FS_Dirt_36		96708
+	1032166533	FS_Dirt_33	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\8A\{8AC36882-5346-8623-36ED-D191B496702C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Dirt\FS_Dirt_33		82964
+	1035187128	ISSAC_4	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\EA\{EA6FC4A5-7A50-BF94-B314-3CEA84A1BA2A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\DX_Signe\Issac\ISSAC_4		460896
+	1035511482	Amb_Crypt_1	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\6F\{6F864C3E-7E14-88E7-9290-5B7842C532D1}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Amb\Crypt\Amb_Crypt_1		5862496
+	1045315415	FS_Dirt_21	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\85\{85C35BFC-F8FF-028B-7026-A986D213240C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Dirt\FS_Dirt_21		41832
+	1046196941	ALtar_OnAndLoop_1	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\31\{31BC206F-5892-EC30-1FE9-EB52F0692963}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\ALtar_OnAndLoop_1		3334668
+	1048464917	FS_Stone_1	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\F2\{F254F5B6-8715-05B6-B4CB-6F600A2F4170}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Stone\FS_Stone_1		59032
+	1050032116	GOD_2	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\8E\{8E9A04DC-CB74-2E01-EB62-F2DA9BAB513F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\DX_Signe\God\GOD_2		1202016
+	1061602591	FS_Dirt_53	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\6B\{6B8C0ECF-F859-AAF7-CE0A-79858554A7A4}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Dirt\FS_Dirt_53		96156
+	1068656770	FS_Dirt_19	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\7D\{7DBDC206-2D10-A9B1-6B71-9C4A6B33A4DB}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Dirt\FS_Dirt_19		45544
 	1071745532	Knife_Altar_1	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\1A\{1A9E129F-73EF-0B7D-96F8-97248E7790A9}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Knife_Altar_1		428896
 
