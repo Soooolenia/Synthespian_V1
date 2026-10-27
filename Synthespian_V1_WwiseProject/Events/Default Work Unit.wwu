@@ -831,6 +831,21 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Folder Name="Main Music Loops" ID="{1B6DB816-E33C-445E-AAD8-982C6906E08F}" ShortID="485155150">
+							<ChildrenList>
+								<Event Name="Main_Music_Loops" ID="{E40DE7A8-087C-45BC-BCE2-C43C5DB18844}">
+									<ChildrenList>
+										<Action Name="" ID="{2E4CCF8B-565A-445F-B79C-E93B2C03C7D6}" ShortID="943748171">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Remains_Music" ID="{A9C356C0-B8C7-4C6D-BB6C-1FCEBE4B75F9}" WorkUnitID="{84D04981-8520-46BB-9CE0-4D622447649E}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

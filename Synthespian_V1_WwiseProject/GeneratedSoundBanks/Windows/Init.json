@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{444D4585-D855-AFB2-9A58-A1DE2CF2CA38}",
+    "Hash": "{0B718A3B-A791-25AB-DF1A-B8ADFD956390}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -40,6 +40,14 @@
       "Name": "Master Audio Bus",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "2687416881",
+      "Name": "Ending_Items",
+      "ObjectPath": "\\Game Parameters\\Music\\Ending_Items",
+      "GUID": "{D5BBC6F9-9959-48B9-9D23-18BB9D3C25FF}"
      }
     ],
     "StateGroups": [
@@ -74,6 +82,38 @@
         "GUID": "{8F0F0571-5D5F-4F1D-ACF9-53D18A0136E2}"
        }
       ]
+     },
+     {
+      "Id": "3826569560",
+      "Name": "Music_State",
+      "ObjectPath": "\\States\\Music\\Music_State",
+      "GUID": "{FB2A956C-9D02-401B-A2CF-9F25066480AE}",
+      "States": [
+       {
+        "Id": "89505537",
+        "Name": "Gameplay",
+        "ObjectPath": "\\States\\Music\\Music_State\\Gameplay",
+        "GUID": "{230AAA17-ECAF-4CDF-A704-EEC91CAF1DED}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Music\\Music_State\\None",
+        "GUID": "{BF00D311-99F9-48DF-AD1D-840030649CDF}"
+       },
+       {
+        "Id": "2607556080",
+        "Name": "Menu",
+        "ObjectPath": "\\States\\Music\\Music_State\\Menu",
+        "GUID": "{32931385-2CC7-47B2-89FE-9AAF23446E84}"
+       },
+       {
+        "Id": "3966194980",
+        "Name": "Ending",
+        "ObjectPath": "\\States\\Music\\Music_State\\Ending",
+        "GUID": "{3DB325EA-508A-4C84-ABDC-BECB7F05EE33}"
+       }
+      ]
      }
     ],
     "SwitchGroups": [
@@ -100,6 +140,6 @@
     ]
    }
   ],
-  "FileHash": "{07EDC6B3-BDE0-9735-719E-3D98036C1670}"
+  "FileHash": "{A85D51BC-4BBF-5D4D-A24C-7AF51048F343}"
  }
 }
