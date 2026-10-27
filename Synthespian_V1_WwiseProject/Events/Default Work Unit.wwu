@@ -628,7 +628,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Cut_To_Black" ID="{F688D3D5-8A8D-4583-B3EC-88F780F5178A}"/>
+						<Event Name="Cut_To_Black" ID="{F688D3D5-8A8D-4583-B3EC-88F780F5178A}">
+							<ChildrenList>
+								<Action Name="" ID="{8BD00C09-3EBF-4135-A70A-819625CEBD2B}" ShortID="727188999">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Whooshj__CutToBlack_1" ID="{948AF9BB-684C-49A3-8AA0-8238A71559A7}" WorkUnitID="{899E3A15-29DB-465F-BB75-42C972128BD6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
