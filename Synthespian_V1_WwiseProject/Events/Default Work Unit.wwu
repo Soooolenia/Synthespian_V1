@@ -5,7 +5,17 @@
 			<ChildrenList>
 				<Folder Name="SoundDesign" ID="{534F03E9-9127-4C20-A273-C3007CE8BC3F}" ShortID="854590298">
 					<ChildrenList>
-						<Event Name="Play_ReliqDestroy" ID="{5F136101-B985-4483-B565-2B1F34883130}"/>
+						<Event Name="Play_ReliqDestroy" ID="{5F136101-B985-4483-B565-2B1F34883130}">
+							<ChildrenList>
+								<Action Name="" ID="{64DCA89B-D19A-46B4-8599-5C2158FFB8E1}" ShortID="556468480">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Relic_Destroy" ID="{D1783309-0BBA-4E3B-A81E-64162A4CF318}" WorkUnitID="{899E3A15-29DB-465F-BB75-42C972128BD6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 						<Event Name="Play_ReliqCall" ID="{6B1ADE50-A1D7-4163-A392-7CC651FAD3DD}">
 							<ChildrenList>
 								<Action Name="" ID="{46557AE7-63AF-4E08-968D-7144924B84DB}" ShortID="701075705">
@@ -67,6 +77,17 @@
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="Player_Dies_1" ID="{7482502C-0BEB-4630-9595-EC0E71C87B98}" WorkUnitID="{899E3A15-29DB-465F-BB75-42C972128BD6}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Player_Fall" ID="{40EF76C5-753D-4C8C-BEC0-2A405C176C06}">
+									<ChildrenList>
+										<Action Name="" ID="{A34CB1E9-0EDC-4989-8F2E-7AF19C9D6E4F}" ShortID="937313776">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Fall_1" ID="{07E016D8-2B2E-46E0-96F5-64CC2CB0B745}" WorkUnitID="{899E3A15-29DB-465F-BB75-42C972128BD6}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -574,6 +595,17 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
+						<Event Name="Screams" ID="{C640B237-2E44-45D3-8283-6233CBADBF5A}">
+							<ChildrenList>
+								<Action Name="" ID="{AAF218B7-57A6-48F0-9D36-6703C2F7F548}" ShortID="1001446879">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Screams_1" ID="{F30F94B1-D65C-46B8-AB55-EC61A406C5D9}" WorkUnitID="{899E3A15-29DB-465F-BB75-42C972128BD6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
