@@ -602,6 +602,7 @@
 								<Action Name="" ID="{861FB911-4C73-4963-8963-7CCEC563EDE0}" ShortID="388489503">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
@@ -628,6 +629,17 @@
 						</Folder>
 						<Event Name="Screams" ID="{C640B237-2E44-45D3-8283-6233CBADBF5A}">
 							<ChildrenList>
+								<Action Name="" ID="{6BD68347-DFC4-43E5-B273-2956C61C7887}" ShortID="973796951">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Screams_Muffled_1" ID="{7709C3E4-1819-4DAB-94F7-9772E8641A1B}" WorkUnitID="{899E3A15-29DB-465F-BB75-42C972128BD6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 								<Action Name="" ID="{AAF218B7-57A6-48F0-9D36-6703C2F7F548}" ShortID="1001446879">
 									<ReferenceList>
 										<Reference Name="Target">
@@ -642,6 +654,7 @@
 								<Action Name="" ID="{895E3336-D64E-4423-AA9D-1C34BF32E60A}" ShortID="967822069">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
@@ -690,6 +703,21 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Music_Altar_MONO" ID="{D6C9441E-1127-4D1B-AAA6-DF88044512D8}" WorkUnitID="{899E3A15-29DB-465F-BB75-42C972128BD6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Screams_Muffled_Off_Test" ID="{29BAC61F-44C8-4112-B544-D7F9FB0BDFBF}">
+							<ChildrenList>
+								<Action Name="" ID="{1AB41833-EE1A-4D94-A4DF-02D0B3E64439}" ShortID="806891179">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Screams_Muffled_1" ID="{7709C3E4-1819-4DAB-94F7-9772E8641A1B}" WorkUnitID="{899E3A15-29DB-465F-BB75-42C972128BD6}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

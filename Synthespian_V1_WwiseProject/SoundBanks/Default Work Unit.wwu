@@ -6,19 +6,7 @@
 				<SoundBank Name="Soundbank1015" ID="{3DEBBE8F-D685-4DCE-AF74-AF17BC2DDEEF}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Music" ID="{745BAC97-CA2C-4017-95DB-12B51BDE9A2E}" WorkUnitID="{C589E253-FFE4-4CA7-987E-0572896E4476}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Amb" ID="{62165047-DEA3-4140-9F7C-15F19E328078}" WorkUnitID="{C589E253-FFE4-4CA7-987E-0572896E4476}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_ReliqCall" ID="{6B1ADE50-A1D7-4163-A392-7CC651FAD3DD}" WorkUnitID="{C589E253-FFE4-4CA7-987E-0572896E4476}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Tomb" ID="{5A4018C1-6613-4331-93EF-A03E154274E1}" WorkUnitID="{C589E253-FFE4-4CA7-987E-0572896E4476}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Altar_Off" ID="{8DF15A3F-1A0B-4403-9F96-B49945C08D3D}" WorkUnitID="{C589E253-FFE4-4CA7-987E-0572896E4476}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="DX" ID="{98158288-9E27-445C-A510-F3FA7642AC55}" WorkUnitID="{C589E253-FFE4-4CA7-987E-0572896E4476}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_ReliqDestroy" ID="{5F136101-B985-4483-B565-2B1F34883130}" WorkUnitID="{C589E253-FFE4-4CA7-987E-0572896E4476}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Screams" ID="{C640B237-2E44-45D3-8283-6233CBADBF5A}" WorkUnitID="{C589E253-FFE4-4CA7-987E-0572896E4476}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Player" ID="{62591F72-B69F-4676-9E44-6A03E0799E8E}" WorkUnitID="{C589E253-FFE4-4CA7-987E-0572896E4476}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Altat_On" ID="{A8506179-B46C-4B14-B7D8-A659291AE113}" WorkUnitID="{C589E253-FFE4-4CA7-987E-0572896E4476}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Stop_Tomb" ID="{F6C9CAFF-2166-4C25-9763-A621FB3A79A7}" WorkUnitID="{C589E253-FFE4-4CA7-987E-0572896E4476}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Stop_RelicCall" ID="{4B2589A5-1A9E-4CB4-A6E2-791A282A854C}" WorkUnitID="{C589E253-FFE4-4CA7-987E-0572896E4476}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Relic" ID="{41C81D5D-221A-4CDB-BA69-6253353D0F84}" WorkUnitID="{C589E253-FFE4-4CA7-987E-0572896E4476}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="UI" ID="{BBDE7FF5-129C-4FFB-A7F0-2EA25A077FE3}" WorkUnitID="{C589E253-FFE4-4CA7-987E-0572896E4476}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SoundDesign" ID="{534F03E9-9127-4C20-A273-C3007CE8BC3F}" WorkUnitID="{C589E253-FFE4-4CA7-987E-0572896E4476}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

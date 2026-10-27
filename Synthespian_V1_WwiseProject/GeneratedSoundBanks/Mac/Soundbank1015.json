@@ -10,11 +10,19 @@
     "Type": "User",
     "GUID": "{3DEBBE8F-D685-4DCE-AF74-AF17BC2DDEEF}",
     "Language": "SFX",
-    "Hash": "{E8B3F3F5-3320-7E0C-9E9C-9D1A5DB06B52}",
+    "Hash": "{03B07041-21ED-DA55-4517-FDFFE204421C}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Soundbank1015",
     "ShortName": "Soundbank1015",
     "Path": "Soundbank1015.bnk",
     "Media": [
+     {
+      "Id": "8880252",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Screams_Muffled_1.wav",
+      "CachePath": "3F/{3FDE389E-D29D-2FFC-8D92-E70F0211FEF0}.wem"
+     },
      {
       "Id": "15939077",
       "Language": "SFX",
@@ -672,6 +680,14 @@
       "CachePath": "81/{81024D30-9D3B-C6F5-06C1-A45CEB9F7EAD}.wem"
      },
      {
+      "Id": "640448044",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Tomb_Explode_1.wav",
+      "CachePath": "B5/{B509F06D-CC3A-6A02-8204-1F89B734842B}.wem"
+     },
+     {
       "Id": "644688333",
       "Language": "SFX",
       "Streaming": "false",
@@ -1104,6 +1120,14 @@
       "CachePath": "82/{8260CD87-59A3-5A56-2CC2-0232AD159E53}.wem"
      },
      {
+      "Id": "964391268",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Whooshj__CutToBlack_1.wav",
+      "CachePath": "E0/{E0CB2F25-2014-2C7B-8A0E-B847126867FD}.wem"
+     },
+     {
       "Id": "966789192",
       "Language": "SFX",
       "Streaming": "false",
@@ -1386,6 +1410,7 @@
       "Name": "Altar_Off",
       "ObjectPath": "\\Events\\Default Work Unit\\SoundDesign\\Altar_Off",
       "GUID": "{8DF15A3F-1A0B-4403-9F96-B49945C08D3D}",
+      "MaxAttenuation": "10000",
       "DurationType": "OneShot",
       "DurationMin": "5.366667",
       "DurationMax": "5.366667",
@@ -1400,10 +1425,25 @@
       "Name": "Altat_On",
       "ObjectPath": "\\Events\\Default Work Unit\\SoundDesign\\Altat_On",
       "GUID": "{A8506179-B46C-4B14-B7D8-A659291AE113}",
+      "MaxAttenuation": "10000",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
         "Id": "1046196941"
+       }
+      ]
+     },
+     {
+      "Id": "4128973965",
+      "Name": "Cut_To_Black",
+      "ObjectPath": "\\Events\\Default Work Unit\\SoundDesign\\Cut_To_Black",
+      "GUID": "{3A63FFEE-7C1D-4AF7-86DD-50C3EDB1CBB3}",
+      "DurationType": "OneShot",
+      "DurationMin": "5.5627294",
+      "DurationMax": "5.5627294",
+      "MediaRefs": [
+       {
+        "Id": "964391268"
        }
       ]
      },
@@ -2030,6 +2070,18 @@
           "Id": "787373453"
          }
         ]
+       }
+      ]
+     },
+     {
+      "Id": "657098097",
+      "Name": "Matthew_SFX",
+      "ObjectPath": "\\Events\\Default Work Unit\\SoundDesign\\Matthew_SFX",
+      "GUID": "{3A94426B-E9A4-4A4B-90A9-88CA77F02379}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "773682812"
        }
       ]
      },
@@ -2725,6 +2777,29 @@
       }
      },
      {
+      "Id": "891465309",
+      "Name": "Screams_Muffled",
+      "ObjectPath": "\\Events\\Default Work Unit\\SoundDesign\\Screams_Muffled",
+      "GUID": "{EBA84DA3-32DA-434E-8A71-81AA760D288A}",
+      "MaxAttenuation": "30000",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "8880252"
+       }
+      ]
+     },
+     {
+      "Id": "624121994",
+      "Name": "Screams_Muffled_Off_Test",
+      "ObjectPath": "\\Events\\Default Work Unit\\SoundDesign\\Screams_Muffled_Off_Test",
+      "GUID": "{29BAC61F-44C8-4112-B544-D7F9FB0BDFBF}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
       "Id": "4022572083",
       "Name": "Second_Clue",
       "ObjectPath": "\\Events\\Default Work Unit\\SoundDesign\\DX\\Clues\\Second_Clue",
@@ -2841,13 +2916,34 @@
       ]
      },
      {
+      "Id": "2911740113",
+      "Name": "Tomb_Explode",
+      "ObjectPath": "\\Events\\Default Work Unit\\SoundDesign\\Tomb_Explode",
+      "GUID": "{47CA76AC-B19B-42B5-988D-9362A5438670}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.9",
+      "DurationMax": "1.9",
+      "MediaRefs": [
+       {
+        "Id": "640448044"
+       }
+      ],
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "2849147824"
+        }
+       ]
+      }
+     },
+     {
       "Id": "1551306167",
       "Name": "UI",
       "ObjectPath": "\\Events\\Default Work Unit\\SoundDesign\\UI\\UI",
       "GUID": "{9D002283-186B-4EB3-A824-B7DFF05F7C26}",
       "DurationType": "OneShot",
-      "DurationMin": "0.19939584",
-      "DurationMax": "0.20472917",
+      "DurationMin": "0.20523858",
+      "DurationMax": "0.2107282",
       "MediaRefs": [
        {
         "Id": "79032150"
@@ -2994,6 +3090,6 @@
     ]
    }
   ],
-  "FileHash": "{587EC1DF-4622-9006-FC33-6064B4296763}"
+  "FileHash": "{6B2EAFF5-34E8-3890-1108-8FC1931DDA09}"
  }
 }
