@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{3DEBBE8F-D685-4DCE-AF74-AF17BC2DDEEF}",
     "Language": "SFX",
-    "Hash": "{03B07041-21ED-DA55-4517-FDFFE204421C}",
+    "Hash": "{8A032001-AF06-01D9-81EB-581C9C4F6E5D}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Soundbank1015",
     "ShortName": "Soundbank1015",
     "Path": "Soundbank1015.bnk",
@@ -797,7 +797,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Relic_Destroy_1.wav",
-      "CachePath": "42/{4235CDC5-4871-EBE4-40BC-D424097C4176}.wem"
+      "CachePath": "23/{239F5E23-52B6-347B-A864-2A33B38456C2}.wem"
      },
      {
       "Id": "730638421",
@@ -845,7 +845,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Relic_Destroy_2.wav",
-      "CachePath": "75/{75215F41-91E1-F4C4-64D8-3A62C02F359D}.wem"
+      "CachePath": "F0/{F0304CBC-BE52-8E18-B3D7-441F502776DC}.wem"
      },
      {
       "Id": "772097187",
@@ -1165,7 +1165,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Relic_Destroy_3.wav",
-      "CachePath": "35/{350470DD-B909-8A39-59BE-0BB614E489D8}.wem"
+      "CachePath": "C0/{C0C249A4-1071-5057-6879-6CE874CC8A9D}.wem"
      },
      {
       "Id": "1009750120",
@@ -2631,8 +2631,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\SoundDesign\\Play_ReliqDestroy",
       "GUID": "{5F136101-B985-4483-B565-2B1F34883130}",
       "DurationType": "OneShot",
-      "DurationMin": "2.5961041",
-      "DurationMax": "2.962771",
+      "DurationMin": "1.6951399",
+      "DurationMax": "1.8560383",
       "MediaRefs": [
        {
         "Id": "722469586"
@@ -3090,6 +3090,6 @@
     ]
    }
   ],
-  "FileHash": "{6B2EAFF5-34E8-3890-1108-8FC1931DDA09}"
+  "FileHash": "{EA239331-25FD-1F6E-3BDD-7ACF14BB2C68}"
  }
 }

@@ -2302,7 +2302,7 @@
 						<Property Name="OverridePositioning" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>12</Value>
+								<Value>15</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -2323,8 +2323,27 @@
 													<PointList>
 														<Point>
 															<XPos>0</XPos>
-															<YPos>0</YPos>
+															<YPos>-200</YPos>
 															<Flags>5</Flags>
+															<SegmentShape>Log2</SegmentShape>
+														</Point>
+														<Point>
+															<XPos>2631.57894</XPos>
+															<YPos>-8.39555</YPos>
+															<Flags>0</Flags>
+															<SegmentShape>SCurve</SegmentShape>
+														</Point>
+														<Point>
+															<XPos>8144.04432</XPos>
+															<YPos>-2.97609</YPos>
+															<Flags>0</Flags>
+															<SegmentShape>SCurve</SegmentShape>
+														</Point>
+														<Point>
+															<XPos>15069.25208</XPos>
+															<YPos>-6.30622</YPos>
+															<Flags>0</Flags>
+															<SegmentShape>SCurve</SegmentShape>
 														</Point>
 														<Point>
 															<XPos>20000</XPos>
@@ -3218,8 +3237,10 @@
 							<ChildrenList>
 								<AudioFileSource Name="Relic_Destroy_1" ID="{D0C192CF-FC42-459F-91F0-161EF33319E7}">
 									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0247993860009809"/>
 										<Property Name="LoopBegin" Type="Real64" Value="0.744580538733284"/>
 										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.740065887502955"/>
 									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Relic_Destroy_1.wav</AudioFile>
@@ -3244,8 +3265,9 @@
 							<ChildrenList>
 								<AudioFileSource Name="Relic_Destroy_2" ID="{C6AB3D60-BBCA-4689-A817-8D60AE4A2348}">
 									<PropertyList>
-										<Property Name="LoopBegin" Type="Real64" Value="1.06920566370413"/>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0316646342423766"/>
 										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="1.06940105645845"/>
 									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Relic_Destroy_2.wav</AudioFile>
@@ -3270,8 +3292,10 @@
 							<ChildrenList>
 								<AudioFileSource Name="Relic_Destroy_3" ID="{84B84765-D935-4D93-B35E-7BBCC1A47291}">
 									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0372394507347249"/>
 										<Property Name="LoopBegin" Type="Real64" Value="1.26894959254657"/>
 										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="1.26763090301003"/>
 									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Relic_Destroy_3.wav</AudioFile>
