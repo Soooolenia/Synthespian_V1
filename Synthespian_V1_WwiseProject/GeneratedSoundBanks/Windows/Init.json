@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{0B718A3B-A791-25AB-DF1A-B8ADFD956390}",
+    "Hash": "{BF7909E0-4CD2-1B3C-7098-4D0F9850A5DD}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -36,6 +36,30 @@
     },
     "Busses": [
      {
+      "Id": "1207363161",
+      "Name": "Ambient Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Ambient Bus",
+      "GUID": "{40E1C27B-7305-4BCA-B590-D76C222AA24B}"
+     },
+     {
+      "Id": "1502772432",
+      "Name": "SFX Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX Bus",
+      "GUID": "{337254C6-478F-4562-9FB4-EC0E9D77FE98}"
+     },
+     {
+      "Id": "3127962312",
+      "Name": "Music Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Music Bus",
+      "GUID": "{D02328B7-F8C8-40E4-AF7C-EB03191D4AD1}"
+     },
+     {
+      "Id": "3714968413",
+      "Name": "Dialogue Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Dialogue Bus",
+      "GUID": "{4B76C874-CBD5-4BEF-AF26-ABED27ADA83B}"
+     },
+     {
       "Id": "3803692087",
       "Name": "Master Audio Bus",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
@@ -44,10 +68,40 @@
     ],
     "GameParameters": [
      {
+      "Id": "725232568",
+      "Name": "Dialogue_Volume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Dialogue_Volume",
+      "GUID": "{F1B0D456-A4ED-4459-96A4-8C360ABB4DC0}"
+     },
+     {
+      "Id": "1006694123",
+      "Name": "Music_Volume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Music_Volume",
+      "GUID": "{7D88A760-A6EC-4A07-A7FE-95949F7135C7}"
+     },
+     {
+      "Id": "1564184899",
+      "Name": "SFX_Volume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\SFX_Volume",
+      "GUID": "{72D0AE6F-1CF4-4660-A24D-7409CDB277A5}"
+     },
+     {
+      "Id": "2364768092",
+      "Name": "Ambient_Volume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Ambient_Volume",
+      "GUID": "{5670E28A-3F19-4896-90DB-6A55ED8A6528}"
+     },
+     {
       "Id": "2687416881",
       "Name": "Ending_Items",
       "ObjectPath": "\\Game Parameters\\Music\\Ending_Items",
       "GUID": "{D5BBC6F9-9959-48B9-9D23-18BB9D3C25FF}"
+     },
+     {
+      "Id": "4179668880",
+      "Name": "Master_Volume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Master_Volume",
+      "GUID": "{467FC4F1-07FB-4965-A5C4-178C067DC0BE}"
      }
     ],
     "StateGroups": [
@@ -140,6 +194,6 @@
     ]
    }
   ],
-  "FileHash": "{A85D51BC-4BBF-5D4D-A24C-7AF51048F343}"
+  "FileHash": "{9C34322B-59D7-4850-7B5F-D65DDB14E941}"
  }
 }
