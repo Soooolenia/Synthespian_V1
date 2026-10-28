@@ -785,6 +785,8 @@
 								<Action Name="" ID="{26BB409A-9A88-4547-98AF-D8F4D0CD8605}" ShortID="449338304">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
@@ -883,6 +885,24 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
+						<Event Name="Altar_Initial_Lower_Music" ID="{CB33141C-E31A-48D3-95D2-A35EF99F0287}">
+							<ChildrenList>
+								<Action Name="" ID="{118837F4-88B2-4792-B6B8-9DF75EC17A09}" ShortID="530908653">
+									<PropertyList>
+										<Property Name="AbsoluteOrRelative" Type="int16" Value="1"/>
+										<Property Name="ActionType" Type="int16" Value="12"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+										<Property Name="Volume" Type="Real64" Value="-15"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Music_Altar_MONO" ID="{E96DE559-EFED-4194-AD56-42C5A3548976}" WorkUnitID="{84D04981-8520-46BB-9CE0-4D622447649E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{3DEBBE8F-D685-4DCE-AF74-AF17BC2DDEEF}",
     "Language": "SFX",
-    "Hash": "{8A032001-AF06-01D9-81EB-581C9C4F6E5D}",
+    "Hash": "{F304560B-C08F-5A1B-BACB-CA7935BC909C}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Soundbank1015",
     "ShortName": "Soundbank1015",
     "Path": "Soundbank1015.bnk",
@@ -1382,10 +1382,21 @@
     },
     "Events": [
      {
+      "Id": "2778680140",
+      "Name": "Altar_Initial_Lower_Music",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\Altar_Initial_Lower_Music",
+      "GUID": "{CB33141C-E31A-48D3-95D2-A35EF99F0287}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
       "Id": "1591289682",
       "Name": "Altar_Initial_Music",
       "ObjectPath": "\\Events\\Default Work Unit\\Music\\Altar_Initial_Music",
       "GUID": "{2FF11A30-1F24-415B-B8DB-F6480FF82E05}",
+      "MaxAttenuation": "20000",
       "DurationType": "OneShot",
       "DurationMin": "89",
       "DurationMax": "89",
@@ -2819,8 +2830,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Music\\Spawning_Music",
       "GUID": "{8900ECBB-ADF6-47BE-A599-28CBAAED3223}",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0",
+      "DurationMin": "20",
+      "DurationMax": "20",
       "MediaRefs": [
        {
         "Id": "702977673"
@@ -3090,6 +3101,6 @@
     ]
    }
   ],
-  "FileHash": "{FC73D8A9-E08D-3230-92A7-96102BC09EEF}"
+  "FileHash": "{507BADF5-9325-59C1-63FA-224E1CE45E66}"
  }
 }
