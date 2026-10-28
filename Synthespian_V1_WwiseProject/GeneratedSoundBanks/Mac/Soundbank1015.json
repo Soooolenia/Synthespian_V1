@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{3DEBBE8F-D685-4DCE-AF74-AF17BC2DDEEF}",
     "Language": "SFX",
-    "Hash": "{5C1388FD-973A-9A41-B2F0-B61A8109BF23}",
+    "Hash": "{57F346D6-0975-2C85-8791-31D946EA9987}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Soundbank1015",
     "ShortName": "Soundbank1015",
     "Path": "Soundbank1015.bnk",
@@ -797,7 +797,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Relic_Destroy_1.wav",
-      "CachePath": "23/{239F5E23-52B6-347B-A864-2A33B38456C2}.wem"
+      "CachePath": "DB/{DBA38831-F5CB-54B7-C8CD-B3F355CAA5F3}.wem"
      },
      {
       "Id": "730638421",
@@ -845,7 +845,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Relic_Destroy_2.wav",
-      "CachePath": "F0/{F0304CBC-BE52-8E18-B3D7-441F502776DC}.wem"
+      "CachePath": "56/{5621B2B3-0518-96E4-EDB6-0EE8ECD5D5FF}.wem"
      },
      {
       "Id": "772097187",
@@ -1165,7 +1165,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Relic_Destroy_3.wav",
-      "CachePath": "C0/{C0C249A4-1071-5057-6879-6CE874CC8A9D}.wem"
+      "CachePath": "79/{79AF7610-2433-664B-872B-D2E8FA0D9038}.wem"
      },
      {
       "Id": "1009750120",
@@ -3099,6 +3099,6 @@
     ]
    }
   ],
-  "FileHash": "{F3EBA454-25B2-C51E-06D1-C4DD0CE49AFC}"
+  "FileHash": "{0D73255F-7208-BDB1-F336-6B7ECC985C47}"
  }
 }
