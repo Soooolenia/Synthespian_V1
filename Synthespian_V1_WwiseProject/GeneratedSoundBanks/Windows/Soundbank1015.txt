@@ -26,6 +26,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2322231365	Gameplay_Music			\Default Work Unit\Music\Gameplay_Music	
 	2460397445	Play_ReliqDestroy			\Default Work Unit\SoundDesign\Play_ReliqDestroy	
 	2551268862	Player_Fall			\Default Work Unit\SoundDesign\Player\Player_Fall	
+	2624702390	Main_Music_Loop_Stop			\Default Work Unit\Music\Main Music Loops\Main_Music_Loop_Stop	
 	2736063483	Altat_On			\Default Work Unit\SoundDesign\Altat_On	
 	2778680140	Altar_Initial_Lower_Music			\Default Work Unit\Music\Altar_Initial_Lower_Music	
 	2812860249	Screams			\Default Work Unit\SoundDesign\Screams	

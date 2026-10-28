@@ -312,6 +312,16 @@
 										</Event>
 										<Event Name="KAT_7" ID="{1A861512-0944-4A35-A7AA-CAF205E7ADCE}">
 											<ChildrenList>
+												<Action Name="" ID="{53DFB123-9322-43DD-A24C-DC35F58D949C}" ShortID="470373957">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="KAT_3" ID="{6FACFEFE-7CE9-4CE5-A0E8-BDB5EAE66917}" WorkUnitID="{293FA52A-1892-4B71-AF01-87A9E7397E61}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
 												<Action Name="" ID="{7AAA35D0-2FA9-462B-9878-984570E60EA2}" ShortID="706417398">
 													<ReferenceList>
 														<Reference Name="Target">
@@ -415,6 +425,16 @@
 										</Event>
 										<Event Name="GOD_10" ID="{11CFDCE2-336C-428F-8FC9-68F396876271}">
 											<ChildrenList>
+												<Action Name="" ID="{31AA0868-6BD8-423E-A2A0-4A4156BAC689}" ShortID="399469288">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="GOD_9" ID="{A2A09C14-5256-49DF-8C95-227F8253DA7E}" WorkUnitID="{293FA52A-1892-4B71-AF01-87A9E7397E61}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
 												<Action Name="" ID="{160A9D51-BA27-442B-8EE0-09F9B0DC99D5}" ShortID="394116359">
 													<ReferenceList>
 														<Reference Name="Target">
@@ -529,6 +549,16 @@
 										</Event>
 										<Event Name="ISSAC_4" ID="{C8E7FB87-F79F-4323-9488-ECA17DFDA17A}">
 											<ChildrenList>
+												<Action Name="" ID="{110BCA14-DE23-4A79-A442-E8BAA30E4E13}" ShortID="646266438">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="ISSAC_1" ID="{1E337198-B6B3-4761-9742-B1511ABB7535}" WorkUnitID="{293FA52A-1892-4B71-AF01-87A9E7397E61}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
 												<Action Name="" ID="{5FAEF467-A633-4501-91A7-C23BED06F797}" ShortID="1053324019">
 													<ReferenceList>
 														<Reference Name="Target">
@@ -724,6 +754,16 @@
 						</Event>
 						<Event Name="Tomb_Explode" ID="{47CA76AC-B19B-42B5-988D-9362A5438670}">
 							<ChildrenList>
+								<Action Name="" ID="{9954709F-D276-4AEC-9BA4-21D1A4CE95C9}" ShortID="92281419">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Third_Clue_Cut_1" ID="{639AF604-913D-4DE8-A739-EF541BC6C812}" WorkUnitID="{293FA52A-1892-4B71-AF01-87A9E7397E61}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 								<Action Name="" ID="{B1B5DDE1-1518-4B8E-BD49-2A170F4F3597}" ShortID="735817189">
 									<ReferenceList>
 										<Reference Name="Target">
@@ -934,6 +974,20 @@
 								<Event Name="Main_Music_Loops" ID="{E40DE7A8-087C-45BC-BCE2-C43C5DB18844}">
 									<ChildrenList>
 										<Action Name="" ID="{2E4CCF8B-565A-445F-B79C-E93B2C03C7D6}" ShortID="943748171">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Remains_Music" ID="{A9C356C0-B8C7-4C6D-BB6C-1FCEBE4B75F9}" WorkUnitID="{84D04981-8520-46BB-9CE0-4D622447649E}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Main_Music_Loop_Stop" ID="{857F2A1B-75B6-4704-BF9B-F9097E3E4851}">
+									<ChildrenList>
+										<Action Name="" ID="{316C1448-C593-4858-8116-2F28E52524FB}" ShortID="678666604">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="Remains_Music" ID="{A9C356C0-B8C7-4C6D-BB6C-1FCEBE4B75F9}" WorkUnitID="{84D04981-8520-46BB-9CE0-4D622447649E}"/>

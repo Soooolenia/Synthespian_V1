@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{3DEBBE8F-D685-4DCE-AF74-AF17BC2DDEEF}",
     "Language": "SFX",
-    "Hash": "{0A0F7CC5-C311-06B3-694E-FDB75717D993}",
+    "Hash": "{5C1388FD-973A-9A41-B2F0-B61A8109BF23}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Soundbank1015",
     "ShortName": "Soundbank1015",
     "Path": "Soundbank1015.bnk",
@@ -2032,6 +2032,16 @@
       }
      },
      {
+      "Id": "2624702390",
+      "Name": "Main_Music_Loop_Stop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\Main Music Loops\\Main_Music_Loop_Stop",
+      "GUID": "{857F2A1B-75B6-4704-BF9B-F9097E3E4851}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
       "Id": "2905168114",
       "Name": "Main_Music_Loops",
       "ObjectPath": "\\Events\\Default Work Unit\\Music\\Main Music Loops\\Main_Music_Loops",
@@ -3089,6 +3099,6 @@
     ]
    }
   ],
-  "FileHash": "{DC56E3BB-4195-3789-D0BF-F46F832AF2D0}"
+  "FileHash": "{F3EBA454-25B2-C51E-06D1-C4DD0CE49AFC}"
  }
 }
