@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{3DEBBE8F-D685-4DCE-AF74-AF17BC2DDEEF}",
     "Language": "SFX",
-    "Hash": "{F304560B-C08F-5A1B-BACB-CA7935BC909C}",
+    "Hash": "{0A0F7CC5-C311-06B3-694E-FDB75717D993}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Soundbank1015",
     "ShortName": "Soundbank1015",
     "Path": "Soundbank1015.bnk",
@@ -1492,6 +1492,16 @@
       ]
      },
      {
+      "Id": "1884562818",
+      "Name": "First_Clue_Stop",
+      "ObjectPath": "\\Events\\Default Work Unit\\SoundDesign\\DX\\Clues\\First_Clue_Stop",
+      "GUID": "{8C943FA9-85E1-41DE-9275-3792934A5099}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
       "Id": "2322231365",
       "Name": "Gameplay_Music",
       "ObjectPath": "\\Events\\Default Work Unit\\Music\\Gameplay_Music",
@@ -1823,30 +1833,42 @@
       "Name": "Inspection_Stinger_01",
       "ObjectPath": "\\Events\\Default Work Unit\\Music\\Inspection Stingers\\Inspection_Stinger_01",
       "GUID": "{070A6C99-A69F-4D81-BA2A-9E8A61A4A0D1}",
-      "MaxAttenuation": "0",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "16.25",
+      "DurationMax": "16.25",
+      "MediaRefs": [
+       {
+        "Id": "824384642"
+       }
+      ]
      },
      {
       "Id": "3425384189",
       "Name": "Inspection_Stinger_02",
       "ObjectPath": "\\Events\\Default Work Unit\\Music\\Inspection Stingers\\Inspection_Stinger_02",
       "GUID": "{4E5D4BDB-2F6E-44F0-A5D2-92D5ABCC9F2E}",
-      "MaxAttenuation": "0",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "16.25",
+      "DurationMax": "16.25",
+      "MediaRefs": [
+       {
+        "Id": "1071808692"
+       }
+      ]
      },
      {
       "Id": "3425384188",
       "Name": "Inspection_Stinger_03",
       "ObjectPath": "\\Events\\Default Work Unit\\Music\\Inspection Stingers\\Inspection_Stinger_03",
       "GUID": "{75D1C109-655C-4C12-8505-3D9DE2CA3BE4}",
-      "MaxAttenuation": "0",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "16.25",
+      "DurationMax": "16.25",
+      "MediaRefs": [
+       {
+        "Id": "88895304"
+       }
+      ]
      },
      {
       "Id": "3273235100",
@@ -2825,6 +2847,16 @@
       ]
      },
      {
+      "Id": "822259518",
+      "Name": "Second_Clue_Stop",
+      "ObjectPath": "\\Events\\Default Work Unit\\SoundDesign\\DX\\Clues\\Second_Clue_Stop",
+      "GUID": "{A545EBED-73B0-4E96-971E-93546D9442BE}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
       "Id": "3456473954",
       "Name": "Spawning_Music",
       "ObjectPath": "\\Events\\Default Work Unit\\Music\\Spawning_Music",
@@ -2835,60 +2867,6 @@
       "MediaRefs": [
        {
         "Id": "702977673"
-       }
-      ]
-     },
-     {
-      "Id": "1999150977",
-      "Name": "Stinger_1",
-      "ObjectPath": "\\Events\\Default Work Unit\\Music\\Stinger_1",
-      "GUID": "{18A78854-18C3-4A34-A7D5-EE8F371ED8CB}",
-      "MaxAttenuation": "0",
-      "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0",
-      "ActionTrigger": [
-       {
-        "Id": "1999150977",
-        "Name": "Stinger_1",
-        "ObjectPath": "\\Triggers\\Music\\Stinger_1",
-        "GUID": "{7DCBDC19-5268-4BC7-8797-30A22BB622E9}"
-       }
-      ]
-     },
-     {
-      "Id": "1999150978",
-      "Name": "Stinger_2",
-      "ObjectPath": "\\Events\\Default Work Unit\\Music\\Stinger_2",
-      "GUID": "{F77ADAB5-60B3-4DBA-9508-13227ACA0F60}",
-      "MaxAttenuation": "0",
-      "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0",
-      "ActionTrigger": [
-       {
-        "Id": "1999150978",
-        "Name": "Stinger_2",
-        "ObjectPath": "\\Triggers\\Music\\Stinger_2",
-        "GUID": "{1A42F0BD-9A3C-4915-BB58-6F28EA3B75F5}"
-       }
-      ]
-     },
-     {
-      "Id": "1999150979",
-      "Name": "Stinger_3",
-      "ObjectPath": "\\Events\\Default Work Unit\\Music\\Stinger_3",
-      "GUID": "{5514FBDD-FAFC-43A8-A052-820E744861B2}",
-      "MaxAttenuation": "0",
-      "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0",
-      "ActionTrigger": [
-       {
-        "Id": "1999150979",
-        "Name": "Stinger_3",
-        "ObjectPath": "\\Triggers\\Music\\Stinger_3",
-        "GUID": "{5DA5D001-78E9-4341-A46A-6F3821580F42}"
        }
       ]
      },
@@ -2925,6 +2903,16 @@
         "Id": "426777647"
        }
       ]
+     },
+     {
+      "Id": "568926647",
+      "Name": "Third_Clue_Stop",
+      "ObjectPath": "\\Events\\Default Work Unit\\SoundDesign\\DX\\Clues\\Third_Clue_Stop",
+      "GUID": "{6DAA0797-DB91-4302-AC8C-79C88A8BD08B}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
      },
      {
       "Id": "2911740113",
@@ -3101,6 +3089,6 @@
     ]
    }
   ],
-  "FileHash": "{507BADF5-9325-59C1-63FA-224E1CE45E66}"
+  "FileHash": "{DE25013D-B5B9-78EA-BC60-C6775D2905E8}"
  }
 }

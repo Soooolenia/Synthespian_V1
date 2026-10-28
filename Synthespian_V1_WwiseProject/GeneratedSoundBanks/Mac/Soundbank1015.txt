@@ -1,11 +1,13 @@
 Event	ID	Name			Wwise Object Path	Notes
 	153873477	Play_ReliqCall			\Default Work Unit\SoundDesign\Play_ReliqCall	
 	318945040	Play_KnifePutDown			\Default Work Unit\SoundDesign\Relic\Play_KnifePutDown	
+	568926647	Third_Clue_Stop			\Default Work Unit\SoundDesign\DX\Clues\Third_Clue_Stop	
 	624121994	Screams_Muffled_Off_Test			\Default Work Unit\SoundDesign\Screams_Muffled_Off_Test	
 	634516732	Play_PGrunt			\Default Work Unit\SoundDesign\Player\Play_PGrunt	
 	657098097	Matthew_SFX			\Default Work Unit\SoundDesign\Matthew_SFX	
 	716444185	Stop_RelicCall			\Default Work Unit\SoundDesign\Stop_RelicCall	
 	753680188	Play_PTakeDamage			\Default Work Unit\SoundDesign\Player\Play_PTakeDamage	
+	822259518	Second_Clue_Stop			\Default Work Unit\SoundDesign\DX\Clues\Second_Clue_Stop	
 	891465309	Screams_Muffled			\Default Work Unit\SoundDesign\Screams_Muffled	
 	1056324539	Play_StatueAtAltar			\Default Work Unit\SoundDesign\Relic\Play_StatueAtAltar	
 	1526321041	KAT_3			\Default Work Unit\SoundDesign\DX\Kat\KAT_3	
@@ -17,10 +19,8 @@ Event	ID	Name			Wwise Object Path	Notes
 	1551306167	UI			\Default Work Unit\SoundDesign\UI\UI	
 	1591289682	Altar_Initial_Music			\Default Work Unit\Music\Altar_Initial_Music	
 	1842008522	Play_StatuePickUp			\Default Work Unit\SoundDesign\Relic\Play_StatuePickUp	
+	1884562818	First_Clue_Stop			\Default Work Unit\SoundDesign\DX\Clues\First_Clue_Stop	
 	1951969926	Stop_Tomb			\Default Work Unit\SoundDesign\Stop_Tomb	
-	1999150977	Stinger_1			\Default Work Unit\Music\Stinger_1	
-	1999150978	Stinger_2			\Default Work Unit\Music\Stinger_2	
-	1999150979	Stinger_3			\Default Work Unit\Music\Stinger_3	
 	2191790517	Play_KnifePickup			\Default Work Unit\SoundDesign\Relic\Play_KnifePickup	
 	2265600903	First_Clue			\Default Work Unit\SoundDesign\DX\Clues\First_Clue	
 	2322231365	Gameplay_Music			\Default Work Unit\Music\Gameplay_Music	
