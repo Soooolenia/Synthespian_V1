@@ -1,8 +1,14 @@
 State Group	ID	Name			Wwise Object Path	Notes
+	21150177	Relics			\Music\Relics	
 	1717793131	AmbController			\Default Work Unit\AmbController	
 	3826569560	Music_State			\Music\Music_State	
 
 State	ID	Name	State Group			Notes
+	748895195	None	Relics			
+	2651470388	Relic02	Relics			
+	2651470389	Relic03	Relics			
+	2651470390	Relic00	Relics			
+	2651470391	Relic01	Relics			
 	748895195	None	AmbController			
 	1132214669	Interior	AmbController			
 	2213992659	Exterior	AmbController			

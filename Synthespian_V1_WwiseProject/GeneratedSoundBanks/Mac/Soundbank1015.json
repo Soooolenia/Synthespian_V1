@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{3DEBBE8F-D685-4DCE-AF74-AF17BC2DDEEF}",
     "Language": "SFX",
-    "Hash": "{FF346BA7-AEE1-AD20-8472-C7F88385D228}",
+    "Hash": "{C114EDDB-7693-1F28-CAF1-C0280B70A33E}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Soundbank1015",
     "ShortName": "Soundbank1015",
     "Path": "Soundbank1015.bnk",
@@ -2801,6 +2801,82 @@
       ]
      },
      {
+      "Id": "2651470390",
+      "Name": "Relic00",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\Relic00",
+      "GUID": "{5749B2AA-67A5-4C42-9332-E37D80E3E59A}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "ActionSetState": [
+       {
+        "GroupId": "21150177",
+        "Id": "2651470390",
+        "Name": "Relic00",
+        "ObjectPath": "\\States\\Music\\Relics\\Relic00",
+        "GUID": "{B28112E3-9F79-4131-BCDF-5347F57A5106}"
+       }
+      ]
+     },
+     {
+      "Id": "2651470391",
+      "Name": "Relic01",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\Relic01",
+      "GUID": "{E80FB8A2-39C6-4B49-AD2A-F9EF98174BA0}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "ActionSetState": [
+       {
+        "GroupId": "21150177",
+        "Id": "2651470391",
+        "Name": "Relic01",
+        "ObjectPath": "\\States\\Music\\Relics\\Relic01",
+        "GUID": "{A9B70D13-C96A-4AEE-AF0B-5A5F6C163622}"
+       }
+      ]
+     },
+     {
+      "Id": "2651470388",
+      "Name": "Relic02",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\Relic02",
+      "GUID": "{9353F42C-5FEC-48FB-B7A2-485F56A19CEE}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "ActionSetState": [
+       {
+        "GroupId": "21150177",
+        "Id": "2651470388",
+        "Name": "Relic02",
+        "ObjectPath": "\\States\\Music\\Relics\\Relic02",
+        "GUID": "{2F8EF6BA-9DC7-47C9-A1F1-F1DC4CEA0968}"
+       }
+      ]
+     },
+     {
+      "Id": "2651470389",
+      "Name": "Relic03",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\Relic03",
+      "GUID": "{62EA6ECC-F38E-474A-A071-4A325141C356}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "ActionSetState": [
+       {
+        "GroupId": "21150177",
+        "Id": "2651470389",
+        "Name": "Relic03",
+        "ObjectPath": "\\States\\Music\\Relics\\Relic03",
+        "GUID": "{B4DC3DCB-9167-4A28-A50F-C56599EFE6FD}"
+       }
+      ]
+     },
+     {
       "Id": "2812860249",
       "Name": "Screams",
       "ObjectPath": "\\Events\\Default Work Unit\\SoundDesign\\Screams",
@@ -2991,6 +3067,44 @@
     ],
     "StateGroups": [
      {
+      "Id": "21150177",
+      "Name": "Relics",
+      "ObjectPath": "\\States\\Music\\Relics",
+      "GUID": "{03D9C2E6-229A-4411-B318-4D351E97993D}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Music\\Relics\\None",
+        "GUID": "{05D793C5-50CA-447D-B01F-D0C61DA34A9D}"
+       },
+       {
+        "Id": "2651470388",
+        "Name": "Relic02",
+        "ObjectPath": "\\States\\Music\\Relics\\Relic02",
+        "GUID": "{2F8EF6BA-9DC7-47C9-A1F1-F1DC4CEA0968}"
+       },
+       {
+        "Id": "2651470389",
+        "Name": "Relic03",
+        "ObjectPath": "\\States\\Music\\Relics\\Relic03",
+        "GUID": "{B4DC3DCB-9167-4A28-A50F-C56599EFE6FD}"
+       },
+       {
+        "Id": "2651470390",
+        "Name": "Relic00",
+        "ObjectPath": "\\States\\Music\\Relics\\Relic00",
+        "GUID": "{B28112E3-9F79-4131-BCDF-5347F57A5106}"
+       },
+       {
+        "Id": "2651470391",
+        "Name": "Relic01",
+        "ObjectPath": "\\States\\Music\\Relics\\Relic01",
+        "GUID": "{A9B70D13-C96A-4AEE-AF0B-5A5F6C163622}"
+       }
+      ]
+     },
+     {
       "Id": "1717793131",
       "Name": "AmbController",
       "ObjectPath": "\\States\\Default Work Unit\\AmbController",
@@ -3099,6 +3213,6 @@
     ]
    }
   ],
-  "FileHash": "{3D61B7C9-BC3C-AFE4-7E9E-1D91EF07F788}"
+  "FileHash": "{246F20DB-671B-78F6-1DE9-B0924767AA9F}"
  }
 }

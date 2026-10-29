@@ -1016,6 +1016,62 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Relic01" ID="{E80FB8A2-39C6-4B49-AD2A-F9EF98174BA0}">
+							<ChildrenList>
+								<Action Name="" ID="{FBCC2437-3C70-4DAF-97B3-6CA044759DEC}" ShortID="422112254">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Relic01" ID="{A9B70D13-C96A-4AEE-AF0B-5A5F6C163622}" WorkUnitID="{EB84EFD7-7984-4AEA-805F-2853D579DECA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Relic02" ID="{9353F42C-5FEC-48FB-B7A2-485F56A19CEE}">
+							<ChildrenList>
+								<Action Name="" ID="{8B6EAB66-CB8D-4285-B3F0-E6D996A2EF85}" ShortID="665739234">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Relic02" ID="{2F8EF6BA-9DC7-47C9-A1F1-F1DC4CEA0968}" WorkUnitID="{EB84EFD7-7984-4AEA-805F-2853D579DECA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Relic03" ID="{62EA6ECC-F38E-474A-A071-4A325141C356}">
+							<ChildrenList>
+								<Action Name="" ID="{9FBF1199-4395-434D-A4D8-F1E4B770A787}" ShortID="547739127">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Relic03" ID="{B4DC3DCB-9167-4A28-A50F-C56599EFE6FD}" WorkUnitID="{EB84EFD7-7984-4AEA-805F-2853D579DECA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Relic00" ID="{5749B2AA-67A5-4C42-9332-E37D80E3E59A}">
+							<ChildrenList>
+								<Action Name="" ID="{9DF9AF64-5281-49E8-AB9B-7B1544C63D6B}" ShortID="61468578">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Relic00" ID="{B28112E3-9F79-4131-BCDF-5347F57A5106}" WorkUnitID="{EB84EFD7-7984-4AEA-805F-2853D579DECA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

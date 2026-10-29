@@ -11,6 +11,15 @@
 						<State Name="Menu" ID="{32931385-2CC7-47B2-89FE-9AAF23446E84}"/>
 					</ChildrenList>
 				</StateGroup>
+				<StateGroup Name="Relics" ID="{03D9C2E6-229A-4411-B318-4D351E97993D}">
+					<ChildrenList>
+						<State Name="None" ID="{05D793C5-50CA-447D-B01F-D0C61DA34A9D}"/>
+						<State Name="Relic01" ID="{A9B70D13-C96A-4AEE-AF0B-5A5F6C163622}"/>
+						<State Name="Relic02" ID="{2F8EF6BA-9DC7-47C9-A1F1-F1DC4CEA0968}"/>
+						<State Name="Relic03" ID="{B4DC3DCB-9167-4A28-A50F-C56599EFE6FD}"/>
+						<State Name="Relic00" ID="{B28112E3-9F79-4131-BCDF-5347F57A5106}"/>
+					</ChildrenList>
+				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</States>

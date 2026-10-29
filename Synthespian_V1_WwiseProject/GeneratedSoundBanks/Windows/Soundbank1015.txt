@@ -27,6 +27,10 @@ Event	ID	Name			Wwise Object Path	Notes
 	2460397445	Play_ReliqDestroy			\Default Work Unit\SoundDesign\Play_ReliqDestroy	
 	2551268862	Player_Fall			\Default Work Unit\SoundDesign\Player\Player_Fall	
 	2624702390	Main_Music_Loop_Stop			\Default Work Unit\Music\Main Music Loops\Main_Music_Loop_Stop	
+	2651470388	Relic02			\Default Work Unit\Music\Relic02	
+	2651470389	Relic03			\Default Work Unit\Music\Relic03	
+	2651470390	Relic00			\Default Work Unit\Music\Relic00	
+	2651470391	Relic01			\Default Work Unit\Music\Relic01	
 	2736063483	Altat_On			\Default Work Unit\SoundDesign\Altat_On	
 	2778680140	Altar_Initial_Lower_Music			\Default Work Unit\Music\Altar_Initial_Lower_Music	
 	2812860249	Screams			\Default Work Unit\SoundDesign\Screams	
@@ -175,7 +179,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	475685491	FS_Stone_10	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\6B\{6B7F0AD7-8FCA-4588-C0BF-277A9A8702A5}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Stone\FS_Stone_10		56372
 	482721319	FS_Dirt_22	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\21\{216EB65E-E566-88EE-8711-594B2144FCE8}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Dirt\FS_Dirt_22		49824
 	492891621	knife put down 1	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\B3\{B3773A8F-53F0-D2B9-F288-FF2A1AC84F0A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\knife put down 1		74536
-	505001910	Music_Gameplay_2	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\C8\{C8E77CAF-E6A5-C856-2EF5-5DC10A33EA31}.wem		\Interactive Music Hierarchy\Music\Remains_Music\Gameplay\Music_Gameplay_Main\Music_Gameplay_2		7104208
+	505001910	Music_Gameplay_1_Base	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\C8\{C8E77CAF-E6A5-C856-2EF5-5DC10A33EA31}.wem		\Interactive Music Hierarchy\Music\Remains_Music\Gameplay\Music_Gameplay_Main\Music_Gameplay_1_Base		7104208
 	515033338	Amb_Outside_1	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\A4\{A4242CFA-9595-2A2B-BE1F-CD3AB4F97EB9}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\AMB\Outside_Amb\Amb_Outside_1		4728852
 	516923470	FS_Dirt_59	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\6C\{6C9C620A-D115-8760-52E3-87751298DC82}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Dirt\FS_Dirt_59		85552
 	526722614	Flash_Off_2	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\C5\{C5F7E40D-98D2-A25C-0738-0758A9AC0B17}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Flash_Off_2		91528
@@ -193,11 +197,11 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	613318294	UI_7	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\A4\{A4429F60-2FD4-0C26-319D-9FC3925FA010}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\UI\UI_7		38572
 	618791030	GOD_10	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\30\{30D57191-40FA-3074-42F7-106F2231B926}.wem		\Actor-Mixer Hierarchy\Default Work Unit\DX_Signe\God\GOD_10		2604896
 	623164520	UI_6	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\0D\{0DBFA108-1163-FC3D-0946-E0F9FBBFC8DB}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\UI\UI_6		38460
-	625188972	Music_Gameplay_3	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\8A\{8AD562AF-F8B2-1FD9-8E97-513C27E015BD}.wem		\Interactive Music Hierarchy\Music\Remains_Music\Gameplay\Music_Gameplay_Main\Music_Gameplay_3		7104208
+	625188972	Music_Gameplay_1_Base	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\8A\{8AD562AF-F8B2-1FD9-8E97-513C27E015BD}.wem		\Interactive Music Hierarchy\Music\Remains_Music\Gameplay\Music_Gameplay_Main\Music_Gameplay_1_Base		7104208
 	629952568	FS_Dirt_56	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\81\{81024D30-9D3B-C6F5-06C1-A45CEB9F7EAD}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Dirt\FS_Dirt_56		99552
 	640448044	Tomb_Explode_1	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\B5\{B509F06D-CC3A-6A02-8204-1F89B734842B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Tomb_Explode_1		364896
 	644688333	UI_2	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\A1\{A14138B8-50C1-8DD4-535A-C15CB325BC85}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\UI\UI_2		39404
-	650355707	Music_Gameplay_4	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\79\{79B5D7FB-B2CE-D13D-8387-1CBE219EEE60}.wem		\Interactive Music Hierarchy\Music\Remains_Music\Gameplay\Music_Gameplay_Main\Music_Gameplay_4		7104208
+	650355707	Music_Gameplay_1_Base	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\79\{79B5D7FB-B2CE-D13D-8387-1CBE219EEE60}.wem		\Interactive Music Hierarchy\Music\Remains_Music\Gameplay\Music_Gameplay_Main\Music_Gameplay_1_Base		7104208
 	664990670	Relic Call 1	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\FE\{FE223436-225A-F6FE-9CFB-03A6E6476026}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Relic Call 1		2473104
 	672593849	FS_Dirt_58	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\BE\{BEBD97C5-36B3-5F8F-869A-20527FD3A87C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Dirt\FS_Dirt_58		85576
 	678223639	FS_Dirt_49	C:\Users\sam.tsai\Documents\GitHub\Synthespian_V1\Synthespian_V1_WwiseProject\.cache\09\{090278A4-E148-0607-E65F-439DF0856AFE}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signe\Player_FootSteps\FootSteps_Dirt\FS_Dirt_49		77076
