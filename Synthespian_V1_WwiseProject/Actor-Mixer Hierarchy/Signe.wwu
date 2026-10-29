@@ -2620,11 +2620,6 @@
 				<Sound Name="Altar_Off_1" ID="{3E2FCAC4-B0AB-470F-95CB-A52E95FA35D7}" ShortID="523629537">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="2"/>
-						<Property Name="Volume" Type="Real64">
-							<ValueList>
-								<Value>8</Value>
-							</ValueList>
-						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
@@ -2774,11 +2769,6 @@
 						<Property Name="3DSpatialization" Type="int16" Value="2"/>
 						<Property Name="HoldEmitterPositionOrientation" Type="bool" Value="True"/>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-						<Property Name="Volume" Type="Real64">
-							<ValueList>
-								<Value>8</Value>
-							</ValueList>
-						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
@@ -3605,7 +3595,7 @@
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>5</Value>
+								<Value>7.5</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
