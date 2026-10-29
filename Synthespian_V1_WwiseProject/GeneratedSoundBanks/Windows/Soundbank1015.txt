@@ -18,6 +18,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1542330065	Player_Die			\Default Work Unit\SoundDesign\Player\Player_Die	
 	1551306167	UI			\Default Work Unit\SoundDesign\UI\UI	
 	1591289682	Altar_Initial_Music			\Default Work Unit\Music\Altar_Initial_Music	
+	1802103209	GOD_15_Stop			\Default Work Unit\SoundDesign\DX\God\GOD_15_Stop	
 	1842008522	Play_StatuePickUp			\Default Work Unit\SoundDesign\Relic\Play_StatuePickUp	
 	1884562818	First_Clue_Stop			\Default Work Unit\SoundDesign\DX\Clues\First_Clue_Stop	
 	1951969926	Stop_Tomb			\Default Work Unit\SoundDesign\Stop_Tomb	
@@ -50,6 +51,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	3444492808	Play_MAtAltar			\Default Work Unit\SoundDesign\Relic\Play_MAtAltar	
 	3456473954	Spawning_Music			\Default Work Unit\Music\Spawning_Music	
 	3471928368	Play_Flashlight_On			\Default Work Unit\SoundDesign\Player\Play_Flashlight_On	
+	3545035820	Screams_Stop			\Default Work Unit\SoundDesign\Screams_Stop	
 	3684449182	Play_MPutDown			\Default Work Unit\SoundDesign\Relic\Play_MPutDown	
 	3854155799	Play_FootSteps			\Default Work Unit\SoundDesign\Player\Play_FootSteps	
 	3938901427	Play_MPickUp			\Default Work Unit\SoundDesign\Relic\Play_MPickUp	

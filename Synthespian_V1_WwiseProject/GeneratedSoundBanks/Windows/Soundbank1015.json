@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{3DEBBE8F-D685-4DCE-AF74-AF17BC2DDEEF}",
     "Language": "SFX",
-    "Hash": "{C114EDDB-7693-1F28-CAF1-C0280B70A33E}",
+    "Hash": "{B3656D14-3058-140D-1E54-89EA98309388}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Soundbank1015",
     "ShortName": "Soundbank1015",
     "Path": "Soundbank1015.bnk",
@@ -1661,6 +1661,16 @@
       }
      },
      {
+      "Id": "1802103209",
+      "Name": "GOD_15_Stop",
+      "ObjectPath": "\\Events\\Default Work Unit\\SoundDesign\\DX\\God\\GOD_15_Stop",
+      "GUID": "{41AC5FB3-400A-4C25-9914-0EC25DA84B31}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
       "Id": "4048654937",
       "Name": "GOD_16",
       "ObjectPath": "\\Events\\Default Work Unit\\SoundDesign\\DX\\God\\GOD_16",
@@ -2919,6 +2929,16 @@
       "DurationMax": "0"
      },
      {
+      "Id": "3545035820",
+      "Name": "Screams_Stop",
+      "ObjectPath": "\\Events\\Default Work Unit\\SoundDesign\\Screams_Stop",
+      "GUID": "{FC8053B9-A4F5-42F1-B3A3-D42BEC77B039}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
       "Id": "4022572083",
       "Name": "Second_Clue",
       "ObjectPath": "\\Events\\Default Work Unit\\SoundDesign\\DX\\Clues\\Second_Clue",
@@ -3213,6 +3233,6 @@
     ]
    }
   ],
-  "FileHash": "{1D7EE4C9-B867-A3A8-EDA6-88D411FF2D64}"
+  "FileHash": "{84892EA0-85F3-247E-27EC-15DCDE69AEB0}"
  }
 }

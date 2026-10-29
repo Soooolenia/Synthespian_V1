@@ -510,6 +510,22 @@
 												</Action>
 											</ChildrenList>
 										</Event>
+										<Event Name="GOD_15_Stop" ID="{41AC5FB3-400A-4C25-9914-0EC25DA84B31}">
+											<ChildrenList>
+												<Action Name="" ID="{D87F0A32-D84C-490F-ADA8-A09AC6E3B456}" ShortID="931566931">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+														<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+														<Property Name="FadeTime" Type="Real64" Value="3"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="GOD_15" ID="{C25EDEB7-1C37-4C76-9EFA-52D2F87F1F36}" WorkUnitID="{293FA52A-1892-4B71-AF01-87A9E7397E61}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
 									</ChildrenList>
 								</Folder>
 								<Folder Name="Issac" ID="{425DA8E8-18BF-487B-93FF-4F9963763F52}" ShortID="541311744">
@@ -805,6 +821,22 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Screams_Muffled_1" ID="{7709C3E4-1819-4DAB-94F7-9772E8641A1B}" WorkUnitID="{899E3A15-29DB-465F-BB75-42C972128BD6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Screams_Stop" ID="{FC8053B9-A4F5-42F1-B3A3-D42BEC77B039}">
+							<ChildrenList>
+								<Action Name="" ID="{378A3397-3F45-4336-AC22-EA989DB87BCF}" ShortID="31029293">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Screams_1" ID="{F30F94B1-D65C-46B8-AB55-EC61A406C5D9}" WorkUnitID="{899E3A15-29DB-465F-BB75-42C972128BD6}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
