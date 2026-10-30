@@ -392,6 +392,16 @@
 										</Event>
 										<Event Name="GOD_6" ID="{7BB2C1F7-7030-4ACC-92AC-F2E46F95938D}">
 											<ChildrenList>
+												<Action Name="" ID="{A8CE6CCF-F24A-4309-B366-83E32FC9D1B5}" ShortID="727043547">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="GOD_12" ID="{8CFDD47C-7C56-4FEA-BC67-255E584AD2F5}" WorkUnitID="{293FA52A-1892-4B71-AF01-87A9E7397E61}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
 												<Action Name="" ID="{9FAB83CA-8165-4DD5-989E-C5822505C39D}" ShortID="305388543">
 													<ReferenceList>
 														<Reference Name="Target">
@@ -521,6 +531,20 @@
 													<ReferenceList>
 														<Reference Name="Target">
 															<ObjectRef Name="GOD_15" ID="{C25EDEB7-1C37-4C76-9EFA-52D2F87F1F36}" WorkUnitID="{293FA52A-1892-4B71-AF01-87A9E7397E61}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="GOD_12_Stop" ID="{339F8993-E136-4BCB-9182-628AE0981425}">
+											<ChildrenList>
+												<Action Name="" ID="{EB655AD9-BB71-4598-9213-81FC16823561}" ShortID="235340719">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="GOD_12" ID="{8CFDD47C-7C56-4FEA-BC67-255E584AD2F5}" WorkUnitID="{293FA52A-1892-4B71-AF01-87A9E7397E61}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>

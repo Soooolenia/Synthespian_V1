@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{3DEBBE8F-D685-4DCE-AF74-AF17BC2DDEEF}",
     "Language": "SFX",
-    "Hash": "{18ACD855-05B5-BF0B-1107-D4C8B5A8DC7C}",
+    "Hash": "{708D4870-E2B5-02EE-08E8-F92F89A72736}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Soundbank1015",
     "ShortName": "Soundbank1015",
     "Path": "Soundbank1015.bnk",
@@ -1596,6 +1596,16 @@
         }
        ]
       }
+     },
+     {
+      "Id": "4061986928",
+      "Name": "GOD_12_Stop",
+      "ObjectPath": "\\Events\\Default Work Unit\\SoundDesign\\DX\\God\\GOD_12_Stop",
+      "GUID": "{339F8993-E136-4BCB-9182-628AE0981425}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
      },
      {
       "Id": "4048654940",
@@ -3233,6 +3243,6 @@
     ]
    }
   ],
-  "FileHash": "{7CBB8420-A226-F2B0-AEDC-5A96E49E8057}"
+  "FileHash": "{8FBD6ACC-A50E-EB58-7C81-BBCDE9D1C4BB}"
  }
 }

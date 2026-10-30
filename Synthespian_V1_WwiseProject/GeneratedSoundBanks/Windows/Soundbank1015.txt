@@ -67,6 +67,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	4048654942	GOD_11			\Default Work Unit\SoundDesign\DX\God\GOD_11	
 	4048654943	GOD_10			\Default Work Unit\SoundDesign\DX\God\GOD_10	
 	4055567060	Menu_Music			\Default Work Unit\Music\Menu_Music	
+	4061986928	GOD_12_Stop			\Default Work Unit\SoundDesign\DX\God\GOD_12_Stop	
 	4128973965	Cut_To_Black			\Default Work Unit\SoundDesign\Cut_To_Black	
 	4176136713	Play_StatuePutDown			\Default Work Unit\SoundDesign\Relic\Play_StatuePutDown	
 	4260177200	GOD_4			\Default Work Unit\SoundDesign\DX\God\GOD_4	
